@@ -5,6 +5,9 @@
     "version": "0.1.0",
     "private": true,
     "main": "colors.js",
+    "scripts": {
+        "postinstall": "npm run postinstall.js"
+    },
     "repository": {
         "type": "git",
         "url": "git+ssh://git@bitbucket.org/stremio/stremio-colors.git"
