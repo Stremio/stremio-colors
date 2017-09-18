@@ -6,7 +6,7 @@
     "private": true,
     "main": "colors.js",
     "scripts": {
-        "postinstall": "npm run postinstall.js"
+        "postinstall": "node postinstall.js"
     },
     "repository": {
         "type": "git",
