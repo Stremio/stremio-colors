@@ -1,0 +1,12 @@
+{
+    "name": "stremio-colors",
+    "publisher": "Smart Code Ltd.",
+    "website": "http://www.strem.io",
+    "version": "0.1.0",
+    "private": true,
+    "main": "colors.js",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@bitbucket.org/stremio/stremio-colors.git"
+    }
+}
