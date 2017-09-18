@@ -1,5 +1,5 @@
 var fs = require('fs');
-var colors = require('./colors.js');
+var colors = require('./colors.json');
 
 var STYL_FILE_PATH = './colors.styl';
 
