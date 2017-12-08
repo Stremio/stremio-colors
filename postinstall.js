@@ -22,7 +22,7 @@ function getAndroidColorsContent() {
             const red = parseInt(colorValues[0]).toString(16);
             const green = parseInt(colorValues[1]).toString(16);
             const blue = parseInt(colorValues[2]).toString(16);
-            const alpha = Math.ceil(parseFloat(colorValues[3]) * 255);
+            const alpha = Math.ceil(parseFloat(colorValues[3]) * 255).toString(16);
             const sanitizedColorName = colorName.replace(/-/g, '');
             return `\t<item name="${sanitizedColorName}" type="color">#${alpha}${red}${green}${blue}</item>`
         })
