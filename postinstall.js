@@ -19,10 +19,10 @@ function getAndroidColorsContent() {
     return Object.keys(colors)
         .map((colorName) => {
             const colorValues = colors[colorName].split(',');
-            const red = parseInt(colorValues[0]).toString(16);
-            const green = parseInt(colorValues[1]).toString(16);
-            const blue = parseInt(colorValues[2]).toString(16);
-            const alpha = Math.ceil(parseFloat(colorValues[3]) * 255).toString(16);
+            const red = ('0' + parseInt(colorValues[0]).toString(16)).slice(-2);
+            const green = ('0' + parseInt(colorValues[1]).toString(16)).slice(-2);
+            const blue = ('0' + parseInt(colorValues[2]).toString(16)).slice(-2);
+            const alpha = ('0' + Math.ceil(parseFloat(colorValues[3]) * 255).toString(16)).slice(-2);
             const sanitizedColorName = colorName.replace(/-/g, '');
             return `\t<item name="${sanitizedColorName}" type="color">#${alpha}${red}${green}${blue}</item>`
         })
