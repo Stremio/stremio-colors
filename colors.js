@@ -13,16 +13,19 @@ Object.keys(stremioColors).forEach((colorName) => {
     colors[`${sanitizedColorName}`] = `rgba(${stremioColors[colorName]},1)`;
     colors[`${sanitizedColorName}20`] = `rgba(${stremioColors[colorName]},0.2)`;
     colors[`${sanitizedColorName}40`] = `rgba(${stremioColors[colorName]},0.4)`;
+    colors[`${sanitizedColorName}60`] = `rgba(${stremioColors[colorName]},0.6)`;
     colors[`${sanitizedColorName}80`] = `rgba(${stremioColors[colorName]},0.8)`;
 
     colors.rgba[`${sanitizedColorName}`] = colors[`${sanitizedColorName}`];
     colors.rgba[`${sanitizedColorName}20`] = colors[`${sanitizedColorName}20`];
     colors.rgba[`${sanitizedColorName}40`] = colors[`${sanitizedColorName}40`];
+    colors.rgba[`${sanitizedColorName}60`] = colors[`${sanitizedColorName}60`];
     colors.rgba[`${sanitizedColorName}80`] = colors[`${sanitizedColorName}80`];
 
     colors.argbHex[`${sanitizedColorName}`] = `#ff${rgbHex}`;
     colors.argbHex[`${sanitizedColorName}20`] = `#33${rgbHex}`;
     colors.argbHex[`${sanitizedColorName}40`] = `#66${rgbHex}`;
+    colors.argbHex[`${sanitizedColorName}60`] = `#99${rgbHex}`;
     colors.argbHex[`${sanitizedColorName}80`] = `#cc${rgbHex}`;
 });
 
