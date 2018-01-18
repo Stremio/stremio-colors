@@ -1,7 +1,8 @@
 const stremioColors = require('./colors.json');
 
 const colors = {
-    argbHex: {}
+    argbHex: {},
+    rgba: {}
 };
 Object.keys(stremioColors).forEach((colorName) => {
     const sanitizedColorName = colorName.replace(/color-/g, '');
@@ -13,6 +14,11 @@ Object.keys(stremioColors).forEach((colorName) => {
     colors[`${sanitizedColorName}20`] = `rgba(${stremioColors[colorName]},0.2)`;
     colors[`${sanitizedColorName}40`] = `rgba(${stremioColors[colorName]},0.4)`;
     colors[`${sanitizedColorName}80`] = `rgba(${stremioColors[colorName]},0.8)`;
+
+    colors.rgba[`${sanitizedColorName}`] = colors[`${sanitizedColorName}`];
+    colors.rgba[`${sanitizedColorName}20`] = colors[`${sanitizedColorName}20`];
+    colors.rgba[`${sanitizedColorName}40`] = colors[`${sanitizedColorName}40`];
+    colors.rgba[`${sanitizedColorName}80`] = colors[`${sanitizedColorName}80`];
 
     colors.argbHex[`${sanitizedColorName}`] = `#ff${rgbHex}`;
     colors.argbHex[`${sanitizedColorName}20`] = `#33${rgbHex}`;
