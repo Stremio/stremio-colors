@@ -24,6 +24,7 @@ function getPreviewContent() {
                 flex: 1;
                 align-items: center;
                 justify-content: center;
+                text-align: center;
             }
         </style>
     </head>
@@ -40,7 +41,7 @@ function getPreviewContent() {
                     colorElement.className = "color-element";
     
                     var colorNameElement = document.createElement('div');
-                    colorNameElement.innerText = colorName;
+                    colorNameElement.innerText = colorName + '\\n' + colorValue;;
     
                     var colorRect = document.createElement('div');
                     colorRect.style = "background: " + colorValue;
