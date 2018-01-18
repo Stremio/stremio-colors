@@ -1,7 +1,7 @@
-var fs = require('fs');
-var colors = require('./colors.json');
+const fs = require('fs');
+const colors = require('./colors.js');
 
-var PREVIEW_FILE_PATH = './preview.html';
+const PREVIEW_FILE_PATH = './preview.html';
 
 fs.writeFileSync(PREVIEW_FILE_PATH, getPreviewContent());
 
@@ -28,7 +28,7 @@ function getPreviewContent() {
     <body>
         <div id="content"></div>
         <script>
-            var colors = ${JSON.stringify(colors)};
+            var colors = ${JSON.stringify(colors.rgba)};
     
             Object.keys(colors)
                 .forEach(function(colorName) {
@@ -41,7 +41,7 @@ function getPreviewContent() {
                     colorNameElement.innerText = colorName;
     
                     var colorRect = document.createElement('div');
-                    colorRect.style = "background: rgba(" + colorValue + ");";
+                    colorRect.style = "background: " + colorValue;
     
                     colorElement.appendChild(colorNameElement);
                     colorElement.appendChild(colorRect);
@@ -51,9 +51,4 @@ function getPreviewContent() {
     </body>
     </html>
     `;
-    return Object.keys(colors)
-        .map(function(colorName) {
-            return '$' + colorName + ' = rgba(' + colors[colorName] +')';
-        })
-        .join('\n');
 }
