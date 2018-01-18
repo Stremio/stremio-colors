@@ -8,7 +8,7 @@ Object.keys(stremioColors).forEach((colorName) => {
     const sanitizedColorName = colorName.replace(/-/g, '').replace(/color/g, '');
     const rgbHex = stremioColors[colorName]
         .split(',')
-        .reduce((result, value, index) => result + Math.round(value).toString(16), '');
+        .reduce((result, value, index) => result + ('0' + Math.round(value).toString(16)).slice(-2), '');
 
     colors[`${sanitizedColorName}`] = `rgba(${stremioColors[colorName]},1)`;
     colors[`${sanitizedColorName}20`] = `rgba(${stremioColors[colorName]},0.2)`;
