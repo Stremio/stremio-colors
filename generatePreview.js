@@ -5,7 +5,7 @@ const PREVIEW_FILE_PATH = './preview.html';
 const README_FILE_PATH = './readme.md';
 
 fs.writeFileSync(PREVIEW_FILE_PATH, getPreviewContent());
-fs.writeFileSync(README_FILE_PATH, getPreviewContent());
+fs.writeFileSync(README_FILE_PATH, getReadmeContent());
 
 function getPreviewContent() {
     return `
@@ -53,4 +53,13 @@ function getPreviewContent() {
     </body>
     </html>
     `;
+}
+
+function getReadmeContent() {
+    return Object.keys(colors.argbHex)
+        .map((colorName) => {
+            const rgbHex = colors.argbHex[colorName].substring(3);
+            return `- ![${colorName}](https://placehold.it/40/${rgbHex}/000000?text=+) ${colorName}`
+        })
+        .join('\n');
 }
