@@ -2,8 +2,10 @@ const fs = require('fs');
 const colors = require('./colors.js');
 
 const PREVIEW_FILE_PATH = './preview.html';
+const README_FILE_PATH = './readme.md';
 
 fs.writeFileSync(PREVIEW_FILE_PATH, getPreviewContent());
+fs.writeFileSync(README_FILE_PATH, getPreviewContent());
 
 function getPreviewContent() {
     return `
