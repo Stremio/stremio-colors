@@ -9,7 +9,7 @@ fs.writeFileSync(ANDROID_COLOR_PATH, getAndroidColorsContent());
 
 function getStylContent() {
     return Object.keys(colors.rgba)
-        .map((colorName) => `$${colorName} = ${colors.rgba[colorName]}`)
+        .map((colorName) => `$color${colorName} = ${colors.rgba[colorName]}`)
         .join('\n');
 }
 
