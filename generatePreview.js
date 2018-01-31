@@ -31,6 +31,7 @@ function getPreviewContent() {
     <body>
         <div id="content"></div>
         <script>
+            var content = document.getElementById('content');
             var colors = ${JSON.stringify(colors.rgba)};
     
             Object.keys(colors)
