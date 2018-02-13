@@ -98,3 +98,4 @@
 - ![signal440](https://placehold.it/40/19fbb8/000000?text=+) signal440
 - ![signal460](https://placehold.it/40/19fbb8/000000?text=+) signal460
 - ![signal480](https://placehold.it/40/19fbb8/000000?text=+) signal480
+- ![transparent](https://placehold.it/40/000000/000000?text=+) transparent
