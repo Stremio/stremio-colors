@@ -29,4 +29,8 @@ Object.keys(stremioColors).forEach((colorName) => {
         colors.argbHex[`${sanitizedColorName}80`] = `#cc${rgbHex}`;
 });
 
+colors.transparent = `rgba(0,0,0,0)`;
+colors.rgba.transparent = `rgba(0,0,0,0)`;
+colors.argbHex.transparent = `#00000000`;
+
 module.exports = colors;
