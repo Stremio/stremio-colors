@@ -98,4 +98,9 @@
 - ![signal440](https://placehold.it/40/19fbb8/000000?text=+) signal440
 - ![signal460](https://placehold.it/40/19fbb8/000000?text=+) signal460
 - ![signal480](https://placehold.it/40/19fbb8/000000?text=+) signal480
+- ![signal5](https://placehold.it/40/22b467/000000?text=+) signal5
+- ![signal520](https://placehold.it/40/22b467/000000?text=+) signal520
+- ![signal540](https://placehold.it/40/22b467/000000?text=+) signal540
+- ![signal560](https://placehold.it/40/22b467/000000?text=+) signal560
+- ![signal580](https://placehold.it/40/22b467/000000?text=+) signal580
 - ![transparent](https://placehold.it/40/000000/000000?text=+) transparent
