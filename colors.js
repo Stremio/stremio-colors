@@ -2,6 +2,7 @@ const stremioColors = require('./colors.json');
 
 const colors = {
     argbHex: {},
+    rgbaHex: {},
     rgba: {}
 };
 Object.keys(stremioColors).forEach((colorName) => {
