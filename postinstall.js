@@ -1,7 +1,7 @@
 const fs = require('fs');
 const colors = require('./colors.js');
 
-const LESS_FILE_PATH = './colors.less';
+const LESS_FILE_PATH = './stremio-colors.less';
 const ANDROID_COLOR_PATH = './android/src/main/res/values/colors.xml';
 
 fs.writeFileSync(LESS_FILE_PATH, getLessContent());
