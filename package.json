@@ -3,7 +3,6 @@
     "publisher": "Smart Code Ltd.",
     "website": "http://www.stremio.com",
     "version": "1.0.0",
-    "private": true,
     "main": "colors.js",
     "scripts": {
         "postinstall": "node postinstall.js"
