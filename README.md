@@ -8,7 +8,7 @@
 |![secondary](https://placehold.it/80/3a497d/000000?text=+)|secondary|3a497d|58,73,125|
 |![secondarylight](https://placehold.it/80/4c5e9b/000000?text=+)|secondarylight|4c5e9b|76,94,155|
 |![fb](https://placehold.it/80/2c3e79/000000?text=+)|fb|2c3e79|44,62,121|
-|![gplus](https://placehold.it/80/dd4b39/000000?text=+)|gplus|dd4b39|221, 75, 57|
+|![gplus](https://placehold.it/80/dd4b39/000000?text=+)|gplus|dd4b39|221,75,57|
 |![bgmain](https://placehold.it/80/201f32/000000?text=+)|bgmain|201f32|32,31,50|
 |![glass](https://placehold.it/80/2b2c43/000000?text=+)|glass|2b2c43|43,44,67|
 |![darkest](https://placehold.it/80/181726/000000?text=+)|darkest|181726|24,23,38|
