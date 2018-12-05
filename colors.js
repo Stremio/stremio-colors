@@ -1,15 +1,15 @@
-const stremioColors = require('./colors.json');
+var stremioColors = require('./colors.json');
 
-const colors = {
+var colors = {
     argbHex: {},
     rgbaHex: {},
     rgba: {}
 };
-Object.keys(stremioColors).forEach((colorName) => {
-    const sanitizedColorName = colorName.replace(/-/g, '');
-    const rgbHex = stremioColors[colorName]
-        .split(',')
-        .reduce((result, value, index) => result + ('0' + Math.round(value).toString(16)).slice(-2), '');
+Object.keys(stremioColors).forEach(function(colorName) {
+    var sanitizedColorName = colorName.replace(/-/g, '');
+    var rgbHex = stremioColors[colorName].split(',').reduce(function(result, value) {
+        return result + ('0' + Math.round(value).toString(16)).slice(-2);
+    }, '');
 
     colors[`${sanitizedColorName}`] = `rgba(${stremioColors[colorName]},1)`;
     colors[`${sanitizedColorName}20`] = `rgba(${stremioColors[colorName]},0.2)`;
