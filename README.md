@@ -16,10 +16,10 @@
 |![backgrounddark](https://placehold.it/80/1d1e3c/000000?text=+)|backgrounddark|1d1e3c|29,30,60|
 |![backgrounddarker](https://placehold.it/80/0f112d/000000?text=+)|backgrounddarker|0f112d|15,17,45|
 |![surfacelighter](https://placehold.it/80/ffffff/000000?text=+)|surfacelighter|ffffff|255,255,255|
-|![surfacelight](https://placehold.it/80/d4d4d4/000000?text=+)|surfacelight|d4d4d4|212,212,212|
-|![surface](https://placehold.it/80/a8a8a8/000000?text=+)|surface|a8a8a8|168,168,168|
-|![surfacedark](https://placehold.it/80/7c7c7c/000000?text=+)|surfacedark|7c7c7c|124,124,124|
-|![surfacedarker](https://placehold.it/80/484848/000000?text=+)|surfacedarker|484848|72,72,72|
+|![surfacelight](https://placehold.it/80/e1e1e1/000000?text=+)|surfacelight|e1e1e1|225,225,225|
+|![surface](https://placehold.it/80/b4b4b4/000000?text=+)|surface|b4b4b4|180,180,180|
+|![surfacedark](https://placehold.it/80/898989/000000?text=+)|surfacedark|898989|137,137,137|
+|![surfacedarker](https://placehold.it/80/585858/000000?text=+)|surfacedarker|585858|88,88,88|
 |![signal1](https://placehold.it/80/fbb919/000000?text=+)|signal1|fbb919|251,185,25|
 |![signal2](https://placehold.it/80/fb5e19/000000?text=+)|signal2|fb5e19|251,94,25|
 |![signal3](https://placehold.it/80/c7962c/000000?text=+)|signal3|c7962c|199,150,44|
