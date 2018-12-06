@@ -2,7 +2,7 @@
     "name": "stremio-colors",
     "publisher": "Smart Code Ltd.",
     "website": "http://www.stremio.com",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "main": "colors.js",
     "scripts": {
         "postinstall": "node postinstall.js"
