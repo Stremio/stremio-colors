@@ -10,11 +10,11 @@
 |![secondary](https://placehold.it/80/4c5e9b/000000?text=+)|secondary|4c5e9b|76,94,155|
 |![secondarydark](https://placehold.it/80/334685/000000?text=+)|secondarydark|334685|51,70,133|
 |![secondarydarker](https://placehold.it/80/1e306d/000000?text=+)|secondarydarker|1e306d|30,48,109|
-|![backgroundlighter](https://placehold.it/80/636482/000000?text=+)|backgroundlighter|636482|99,100,130|
-|![backgroundlight](https://placehold.it/80/464866/000000?text=+)|backgroundlight|464866|70,72,102|
-|![background](https://placehold.it/80/2b2c43/000000?text=+)|background|2b2c43|43,44,67|
-|![backgrounddark](https://placehold.it/80/1d1e3c/000000?text=+)|backgrounddark|1d1e3c|29,30,60|
-|![backgrounddarker](https://placehold.it/80/0f112d/000000?text=+)|backgrounddarker|0f112d|15,17,45|
+|![backgroundlighter](https://placehold.it/80/292b44/000000?text=+)|backgroundlighter|292b44|41,43,68|
+|![backgroundlight](https://placehold.it/80/191a35/000000?text=+)|backgroundlight|191a35|25,26,53|
+|![background](https://placehold.it/80/0d0e25/000000?text=+)|background|0d0e25|13,14,37|
+|![backgrounddark](https://placehold.it/80/050616/000000?text=+)|backgrounddark|050616|5,6,22|
+|![backgrounddarker](https://placehold.it/80/000000/000000?text=+)|backgrounddarker|000000|0,0,0|
 |![surfacelighter](https://placehold.it/80/ffffff/000000?text=+)|surfacelighter|ffffff|255,255,255|
 |![surfacelight](https://placehold.it/80/e1e1e1/000000?text=+)|surfacelight|e1e1e1|225,225,225|
 |![surface](https://placehold.it/80/b4b4b4/000000?text=+)|surface|b4b4b4|180,180,180|
