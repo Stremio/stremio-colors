@@ -25,5 +25,3 @@
 |![signal3](https://placehold.it/80/c7962c/000000?text=+)|signal3|c7962c|199,150,44|
 |![signal4](https://placehold.it/80/19fbb8/000000?text=+)|signal4|19fbb8|25,251,184|
 |![signal5](https://placehold.it/80/22b467/000000?text=+)|signal5|22b467|34,180,103|
-|![facebook](https://placehold.it/80/4267b2/000000?text=+)|facebook|4267b2|66,103,178|
-|![twitter](https://placehold.it/80/1da1f2/000000?text=+)|twitter|1da1f2|29,161,242|
