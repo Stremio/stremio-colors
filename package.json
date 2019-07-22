@@ -5,7 +5,8 @@
     "version": "2.0.3",
     "main": "colors.js",
     "scripts": {
-        "postinstall": "node postinstall.js"
+        "update-readme": "node ./scripts/updateReadme.js",
+        "update-colors": "node ./scripts/updateColors.js"
     },
     "repository": {
         "type": "git",

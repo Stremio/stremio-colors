@@ -1,20 +1,21 @@
 const fs = require('fs');
-const colors = require('./colors.js');
+const path = require('path');
+const colors = require('../colors.js');
 
-const CSS_FILE_PATH = './stremio-colors.css';
-const LESS_FILE_PATH = './stremio-colors.less';
-const ANDROID_COLOR_PATH = './android/src/main/res/values/colors.xml';
+const CSS_FILE_PATH = path.join(__dirname, '../css/stremio-colors.css');
+const LESS_FILE_PATH = path.join(__dirname, '../less/stremio-colors.less');
+const ANDROID_COLOR_PATH = path.join(__dirname, '../android/src/main/res/values/colors.xml');
 
 fs.writeFileSync(CSS_FILE_PATH, getCssContent());
 fs.writeFileSync(LESS_FILE_PATH, getLessContent());
 fs.writeFileSync(ANDROID_COLOR_PATH, getAndroidColorsContent());
 
 function getCssContent() {
-    return `:root {
-${Object.keys(colors.rgba)
-            .map((colorName) => `--color-${colorName}: ${colors.rgba[colorName]};`)
-            .join('\n')}
-}`;
+    return Object.keys(colors.rgba)
+        .map((colorName) => `--color-${colorName}: ${colors.rgba[colorName]};`)
+        .join('\n')
+        .replace(/^/, ':root {\n')
+        .concat('\n}');
 }
 
 function getLessContent() {
