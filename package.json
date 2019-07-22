@@ -1,7 +1,7 @@
 {
     "name": "stremio-colors",
     "publisher": "Smart Code Ltd.",
-    "website": "http://www.stremio.com",
+    "website": "www.stremio.com",
     "version": "2.0.3",
     "main": "colors.js",
     "scripts": {
