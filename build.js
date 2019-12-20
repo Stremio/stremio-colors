@@ -60,6 +60,10 @@ const css = shades_with_alpha
     .replace(/^/, ':root {\n')
     .concat('\n}');
 
+const less = shades_with_alpha
+    .map(({ name, color: [h, s, l, a] }) => `@color-${name}: hsla(${h}, ${s}%, ${l}%, ${a});`)
+    .join('\n');
+
 const android = shades_with_alpha
     .map(({ name, color: [h, s, l, a] }) => {
         const hex = convert.hsl.hex([h, s, l]);
@@ -79,5 +83,6 @@ const readme = shades
     .replace(/^/, '|PREVIEW|NAME|HSL|HEX|\n|:---:|:---:|:---:|:---:|\n');
 
 fs.writeFileSync('./dist/css/stremio-colors.css', css);
+fs.writeFileSync('./dist/less/stremio-colors.less', less);
 fs.writeFileSync('./dist/android/src/main/res/values/colors.xml', android);
 fs.writeFileSync('./README.MD', readme);
