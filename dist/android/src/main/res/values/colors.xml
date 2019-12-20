@@ -55,6 +55,61 @@
 	<item type="color" name="primary_dark5_60">#9923162C</item>
 	<item type="color" name="primary_dark5_80">#CC23162C</item>
 	<item type="color" name="primary_dark5">#FF23162C</item>
+	<item type="color" name="primaryvariant1_light5_20">#33E1CEEE</item>
+	<item type="color" name="primaryvariant1_light5_40">#66E1CEEE</item>
+	<item type="color" name="primaryvariant1_light5_60">#99E1CEEE</item>
+	<item type="color" name="primaryvariant1_light5_80">#CCE1CEEE</item>
+	<item type="color" name="primaryvariant1_light5">#FFE1CEEE</item>
+	<item type="color" name="primaryvariant1_light4_20">#33D6BBE7</item>
+	<item type="color" name="primaryvariant1_light4_40">#66D6BBE7</item>
+	<item type="color" name="primaryvariant1_light4_60">#99D6BBE7</item>
+	<item type="color" name="primaryvariant1_light4_80">#CCD6BBE7</item>
+	<item type="color" name="primaryvariant1_light4">#FFD6BBE7</item>
+	<item type="color" name="primaryvariant1_light3_20">#33CBA8E1</item>
+	<item type="color" name="primaryvariant1_light3_40">#66CBA8E1</item>
+	<item type="color" name="primaryvariant1_light3_60">#99CBA8E1</item>
+	<item type="color" name="primaryvariant1_light3_80">#CCCBA8E1</item>
+	<item type="color" name="primaryvariant1_light3">#FFCBA8E1</item>
+	<item type="color" name="primaryvariant1_light2_20">#33BF95DA</item>
+	<item type="color" name="primaryvariant1_light2_40">#66BF95DA</item>
+	<item type="color" name="primaryvariant1_light2_60">#99BF95DA</item>
+	<item type="color" name="primaryvariant1_light2_80">#CCBF95DA</item>
+	<item type="color" name="primaryvariant1_light2">#FFBF95DA</item>
+	<item type="color" name="primaryvariant1_light1_20">#33B482D3</item>
+	<item type="color" name="primaryvariant1_light1_40">#66B482D3</item>
+	<item type="color" name="primaryvariant1_light1_60">#99B482D3</item>
+	<item type="color" name="primaryvariant1_light1_80">#CCB482D3</item>
+	<item type="color" name="primaryvariant1_light1">#FFB482D3</item>
+	<item type="color" name="primaryvariant1_20">#33A970CD</item>
+	<item type="color" name="primaryvariant1_40">#66A970CD</item>
+	<item type="color" name="primaryvariant1_60">#99A970CD</item>
+	<item type="color" name="primaryvariant1_80">#CCA970CD</item>
+	<item type="color" name="primaryvariant1">#FFA970CD</item>
+	<item type="color" name="primaryvariant1_dark1_20">#339D5DC6</item>
+	<item type="color" name="primaryvariant1_dark1_40">#669D5DC6</item>
+	<item type="color" name="primaryvariant1_dark1_60">#999D5DC6</item>
+	<item type="color" name="primaryvariant1_dark1_80">#CC9D5DC6</item>
+	<item type="color" name="primaryvariant1_dark1">#FF9D5DC6</item>
+	<item type="color" name="primaryvariant1_dark2_20">#33924ABF</item>
+	<item type="color" name="primaryvariant1_dark2_40">#66924ABF</item>
+	<item type="color" name="primaryvariant1_dark2_60">#99924ABF</item>
+	<item type="color" name="primaryvariant1_dark2_80">#CC924ABF</item>
+	<item type="color" name="primaryvariant1_dark2">#FF924ABF</item>
+	<item type="color" name="primaryvariant1_dark3_20">#33853EB1</item>
+	<item type="color" name="primaryvariant1_dark3_40">#66853EB1</item>
+	<item type="color" name="primaryvariant1_dark3_60">#99853EB1</item>
+	<item type="color" name="primaryvariant1_dark3_80">#CC853EB1</item>
+	<item type="color" name="primaryvariant1_dark3">#FF853EB1</item>
+	<item type="color" name="primaryvariant1_dark4_20">#3377389F</item>
+	<item type="color" name="primaryvariant1_dark4_40">#6677389F</item>
+	<item type="color" name="primaryvariant1_dark4_60">#9977389F</item>
+	<item type="color" name="primaryvariant1_dark4_80">#CC77389F</item>
+	<item type="color" name="primaryvariant1_dark4">#FF77389F</item>
+	<item type="color" name="primaryvariant1_dark5_20">#3369318C</item>
+	<item type="color" name="primaryvariant1_dark5_40">#6669318C</item>
+	<item type="color" name="primaryvariant1_dark5_60">#9969318C</item>
+	<item type="color" name="primaryvariant1_dark5_80">#CC69318C</item>
+	<item type="color" name="primaryvariant1_dark5">#FF69318C</item>
 	<item type="color" name="secondary_light5_20">#337A8AC2</item>
 	<item type="color" name="secondary_light5_40">#667A8AC2</item>
 	<item type="color" name="secondary_light5_60">#997A8AC2</item>
@@ -110,61 +165,6 @@
 	<item type="color" name="secondary_dark5_60">#9913182A</item>
 	<item type="color" name="secondary_dark5_80">#CC13182A</item>
 	<item type="color" name="secondary_dark5">#FF13182A</item>
-	<item type="color" name="primaryvariant_light5_20">#33E1CEEE</item>
-	<item type="color" name="primaryvariant_light5_40">#66E1CEEE</item>
-	<item type="color" name="primaryvariant_light5_60">#99E1CEEE</item>
-	<item type="color" name="primaryvariant_light5_80">#CCE1CEEE</item>
-	<item type="color" name="primaryvariant_light5">#FFE1CEEE</item>
-	<item type="color" name="primaryvariant_light4_20">#33D6BBE7</item>
-	<item type="color" name="primaryvariant_light4_40">#66D6BBE7</item>
-	<item type="color" name="primaryvariant_light4_60">#99D6BBE7</item>
-	<item type="color" name="primaryvariant_light4_80">#CCD6BBE7</item>
-	<item type="color" name="primaryvariant_light4">#FFD6BBE7</item>
-	<item type="color" name="primaryvariant_light3_20">#33CBA8E1</item>
-	<item type="color" name="primaryvariant_light3_40">#66CBA8E1</item>
-	<item type="color" name="primaryvariant_light3_60">#99CBA8E1</item>
-	<item type="color" name="primaryvariant_light3_80">#CCCBA8E1</item>
-	<item type="color" name="primaryvariant_light3">#FFCBA8E1</item>
-	<item type="color" name="primaryvariant_light2_20">#33BF95DA</item>
-	<item type="color" name="primaryvariant_light2_40">#66BF95DA</item>
-	<item type="color" name="primaryvariant_light2_60">#99BF95DA</item>
-	<item type="color" name="primaryvariant_light2_80">#CCBF95DA</item>
-	<item type="color" name="primaryvariant_light2">#FFBF95DA</item>
-	<item type="color" name="primaryvariant_light1_20">#33B482D3</item>
-	<item type="color" name="primaryvariant_light1_40">#66B482D3</item>
-	<item type="color" name="primaryvariant_light1_60">#99B482D3</item>
-	<item type="color" name="primaryvariant_light1_80">#CCB482D3</item>
-	<item type="color" name="primaryvariant_light1">#FFB482D3</item>
-	<item type="color" name="primaryvariant_20">#33A970CD</item>
-	<item type="color" name="primaryvariant_40">#66A970CD</item>
-	<item type="color" name="primaryvariant_60">#99A970CD</item>
-	<item type="color" name="primaryvariant_80">#CCA970CD</item>
-	<item type="color" name="primaryvariant">#FFA970CD</item>
-	<item type="color" name="primaryvariant_dark1_20">#339D5DC6</item>
-	<item type="color" name="primaryvariant_dark1_40">#669D5DC6</item>
-	<item type="color" name="primaryvariant_dark1_60">#999D5DC6</item>
-	<item type="color" name="primaryvariant_dark1_80">#CC9D5DC6</item>
-	<item type="color" name="primaryvariant_dark1">#FF9D5DC6</item>
-	<item type="color" name="primaryvariant_dark2_20">#33924ABF</item>
-	<item type="color" name="primaryvariant_dark2_40">#66924ABF</item>
-	<item type="color" name="primaryvariant_dark2_60">#99924ABF</item>
-	<item type="color" name="primaryvariant_dark2_80">#CC924ABF</item>
-	<item type="color" name="primaryvariant_dark2">#FF924ABF</item>
-	<item type="color" name="primaryvariant_dark3_20">#33853EB1</item>
-	<item type="color" name="primaryvariant_dark3_40">#66853EB1</item>
-	<item type="color" name="primaryvariant_dark3_60">#99853EB1</item>
-	<item type="color" name="primaryvariant_dark3_80">#CC853EB1</item>
-	<item type="color" name="primaryvariant_dark3">#FF853EB1</item>
-	<item type="color" name="primaryvariant_dark4_20">#3377389F</item>
-	<item type="color" name="primaryvariant_dark4_40">#6677389F</item>
-	<item type="color" name="primaryvariant_dark4_60">#9977389F</item>
-	<item type="color" name="primaryvariant_dark4_80">#CC77389F</item>
-	<item type="color" name="primaryvariant_dark4">#FF77389F</item>
-	<item type="color" name="primaryvariant_dark5_20">#3369318C</item>
-	<item type="color" name="primaryvariant_dark5_40">#6669318C</item>
-	<item type="color" name="primaryvariant_dark5_60">#9969318C</item>
-	<item type="color" name="primaryvariant_dark5_80">#CC69318C</item>
-	<item type="color" name="primaryvariant_dark5">#FF69318C</item>
 	<item type="color" name="background_light5_20">#33524F82</item>
 	<item type="color" name="background_light5_40">#66524F82</item>
 	<item type="color" name="background_light5_60">#99524F82</item>
