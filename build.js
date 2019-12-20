@@ -13,7 +13,7 @@ const shades = Object.keys(colors)
         ...Array(LIGHTNESS_SHADES_COUNT)
             .fill(null)
             .map((_, index) => ({
-                name: `${name}light${index + 1}`,
+                name: `${name}-light${index + 1}`,
                 color: [h, s, Number((l + (index + 1) * LIGHTNESS_STEP).toFixed(10))]
             }))
             .reverse(),
@@ -24,7 +24,7 @@ const shades = Object.keys(colors)
         ...Array(LIGHTNESS_SHADES_COUNT)
             .fill(null)
             .map((_, index) => ({
-                name: `${name}dark${index + 1}`,
+                name: `${name}-dark${index + 1}`,
                 color: [h, s, Number((l + (index + 1) * LIGHTNESS_STEP * -1).toFixed(10))]
             }))
     ]))
@@ -34,10 +34,13 @@ const shades_with_alpha = shades
     .map(({ name, color: [h, s, l] }) => ([
         ...Array(ALPHA_SHADES_COUNT)
             .fill(null)
-            .map((_, index) => ({
-                name,
-                color: [h, s, l, Number(((index + 1) * ALPHA_STEP).toFixed(10))]
-            })),
+            .map((_, index) => {
+                const a = Number(((index + 1) * ALPHA_STEP).toFixed(10));
+                return {
+                    name: `${name}-${a * 100}`,
+                    color: [h, s, l, a]
+                };
+            }),
         {
             name,
             color: [h, s, l, 1]
@@ -46,7 +49,7 @@ const shades_with_alpha = shades
     .reduce((colors, shades) => colors.concat(shades), []);
 
 const css = shades_with_alpha
-    .map(({ name, color: [h, s, l, a] }) => `\t--color-${name}${a !== 1 ? `-${a * 100}` : ''}: hsla(${h}, ${s}%, ${l}%, ${a});`)
+    .map(({ name, color: [h, s, l, a] }) => `\t--color-${name}: hsla(${h}, ${s}%, ${l}%, ${a});`)
     .join('\n')
     .replace(/^/, ':root {\n')
     .concat('\n}');
@@ -55,7 +58,7 @@ const android = shades_with_alpha
     .map(({ name, color: [h, s, l, a] }) => {
         const hex = convert.hsl.hex([h, s, l]);
         const alpha = Math.floor(a * 255).toString(16).toUpperCase();
-        return `\t<item type="color" name="${name}${a !== 1 ? `_${a * 100}` : ''}">#${alpha}${hex}</item>`
+        return `\t<item type="color" name="${name.replace(/-/g, '_')}">#${alpha}${hex}</item>`
     })
     .join('\n')
     .replace(/^/, '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n')
