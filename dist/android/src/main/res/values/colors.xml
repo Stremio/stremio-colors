@@ -220,6 +220,61 @@
 	<item type="color" name="background_dark5_60">#99000000</item>
 	<item type="color" name="background_dark5_80">#CC000000</item>
 	<item type="color" name="background_dark5">#FF000000</item>
+	<item type="color" name="surface_light5_20">#33FFFFFF</item>
+	<item type="color" name="surface_light5_40">#66FFFFFF</item>
+	<item type="color" name="surface_light5_60">#99FFFFFF</item>
+	<item type="color" name="surface_light5_80">#CCFFFFFF</item>
+	<item type="color" name="surface_light5">#FFFFFFFF</item>
+	<item type="color" name="surface_light4_20">#33FFFFFF</item>
+	<item type="color" name="surface_light4_40">#66FFFFFF</item>
+	<item type="color" name="surface_light4_60">#99FFFFFF</item>
+	<item type="color" name="surface_light4_80">#CCFFFFFF</item>
+	<item type="color" name="surface_light4">#FFFFFFFF</item>
+	<item type="color" name="surface_light3_20">#33FFFFFF</item>
+	<item type="color" name="surface_light3_40">#66FFFFFF</item>
+	<item type="color" name="surface_light3_60">#99FFFFFF</item>
+	<item type="color" name="surface_light3_80">#CCFFFFFF</item>
+	<item type="color" name="surface_light3">#FFFFFFFF</item>
+	<item type="color" name="surface_light2_20">#33FFFFFF</item>
+	<item type="color" name="surface_light2_40">#66FFFFFF</item>
+	<item type="color" name="surface_light2_60">#99FFFFFF</item>
+	<item type="color" name="surface_light2_80">#CCFFFFFF</item>
+	<item type="color" name="surface_light2">#FFFFFFFF</item>
+	<item type="color" name="surface_light1_20">#33FFFFFF</item>
+	<item type="color" name="surface_light1_40">#66FFFFFF</item>
+	<item type="color" name="surface_light1_60">#99FFFFFF</item>
+	<item type="color" name="surface_light1_80">#CCFFFFFF</item>
+	<item type="color" name="surface_light1">#FFFFFFFF</item>
+	<item type="color" name="surface_20">#33FFFFFF</item>
+	<item type="color" name="surface_40">#66FFFFFF</item>
+	<item type="color" name="surface_60">#99FFFFFF</item>
+	<item type="color" name="surface_80">#CCFFFFFF</item>
+	<item type="color" name="surface">#FFFFFFFF</item>
+	<item type="color" name="surface_dark1_20">#33F2F2F2</item>
+	<item type="color" name="surface_dark1_40">#66F2F2F2</item>
+	<item type="color" name="surface_dark1_60">#99F2F2F2</item>
+	<item type="color" name="surface_dark1_80">#CCF2F2F2</item>
+	<item type="color" name="surface_dark1">#FFF2F2F2</item>
+	<item type="color" name="surface_dark2_20">#33E6E6E6</item>
+	<item type="color" name="surface_dark2_40">#66E6E6E6</item>
+	<item type="color" name="surface_dark2_60">#99E6E6E6</item>
+	<item type="color" name="surface_dark2_80">#CCE6E6E6</item>
+	<item type="color" name="surface_dark2">#FFE6E6E6</item>
+	<item type="color" name="surface_dark3_20">#33D9D9D9</item>
+	<item type="color" name="surface_dark3_40">#66D9D9D9</item>
+	<item type="color" name="surface_dark3_60">#99D9D9D9</item>
+	<item type="color" name="surface_dark3_80">#CCD9D9D9</item>
+	<item type="color" name="surface_dark3">#FFD9D9D9</item>
+	<item type="color" name="surface_dark4_20">#33CCCCCC</item>
+	<item type="color" name="surface_dark4_40">#66CCCCCC</item>
+	<item type="color" name="surface_dark4_60">#99CCCCCC</item>
+	<item type="color" name="surface_dark4_80">#CCCCCCCC</item>
+	<item type="color" name="surface_dark4">#FFCCCCCC</item>
+	<item type="color" name="surface_dark5_20">#33BFBFBF</item>
+	<item type="color" name="surface_dark5_40">#66BFBFBF</item>
+	<item type="color" name="surface_dark5_60">#99BFBFBF</item>
+	<item type="color" name="surface_dark5_80">#CCBFBFBF</item>
+	<item type="color" name="surface_dark5">#FFBFBFBF</item>
 	<item type="color" name="accent1_light5_20">#33FFF0F0</item>
 	<item type="color" name="accent1_light5_40">#66FFF0F0</item>
 	<item type="color" name="accent1_light5_60">#99FFF0F0</item>
