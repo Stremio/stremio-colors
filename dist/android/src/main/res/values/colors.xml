@@ -165,6 +165,61 @@
 	<item type="color" name="primaryvariant_dark5_60">#9969318C</item>
 	<item type="color" name="primaryvariant_dark5_80">#CC69318C</item>
 	<item type="color" name="primaryvariant_dark5">#FF69318C</item>
+	<item type="color" name="background_light5_20">#33524F82</item>
+	<item type="color" name="background_light5_40">#66524F82</item>
+	<item type="color" name="background_light5_60">#99524F82</item>
+	<item type="color" name="background_light5_80">#CC524F82</item>
+	<item type="color" name="background_light5">#FF524F82</item>
+	<item type="color" name="background_light4_20">#33484572</item>
+	<item type="color" name="background_light4_40">#66484572</item>
+	<item type="color" name="background_light4_60">#99484572</item>
+	<item type="color" name="background_light4_80">#CC484572</item>
+	<item type="color" name="background_light4">#FF484572</item>
+	<item type="color" name="background_light3_20">#333E3C62</item>
+	<item type="color" name="background_light3_40">#663E3C62</item>
+	<item type="color" name="background_light3_60">#993E3C62</item>
+	<item type="color" name="background_light3_80">#CC3E3C62</item>
+	<item type="color" name="background_light3">#FF3E3C62</item>
+	<item type="color" name="background_light2_20">#33343252</item>
+	<item type="color" name="background_light2_40">#66343252</item>
+	<item type="color" name="background_light2_60">#99343252</item>
+	<item type="color" name="background_light2_80">#CC343252</item>
+	<item type="color" name="background_light2">#FF343252</item>
+	<item type="color" name="background_light1_20">#332A2843</item>
+	<item type="color" name="background_light1_40">#662A2843</item>
+	<item type="color" name="background_light1_60">#992A2843</item>
+	<item type="color" name="background_light1_80">#CC2A2843</item>
+	<item type="color" name="background_light1">#FF2A2843</item>
+	<item type="color" name="background_20">#33201F33</item>
+	<item type="color" name="background_40">#66201F33</item>
+	<item type="color" name="background_60">#99201F33</item>
+	<item type="color" name="background_80">#CC201F33</item>
+	<item type="color" name="background">#FF201F33</item>
+	<item type="color" name="background_dark1_20">#33161523</item>
+	<item type="color" name="background_dark1_40">#66161523</item>
+	<item type="color" name="background_dark1_60">#99161523</item>
+	<item type="color" name="background_dark1_80">#CC161523</item>
+	<item type="color" name="background_dark1">#FF161523</item>
+	<item type="color" name="background_dark2_20">#330C0C13</item>
+	<item type="color" name="background_dark2_40">#660C0C13</item>
+	<item type="color" name="background_dark2_60">#990C0C13</item>
+	<item type="color" name="background_dark2_80">#CC0C0C13</item>
+	<item type="color" name="background_dark2">#FF0C0C13</item>
+	<item type="color" name="background_dark3_20">#33020203</item>
+	<item type="color" name="background_dark3_40">#66020203</item>
+	<item type="color" name="background_dark3_60">#99020203</item>
+	<item type="color" name="background_dark3_80">#CC020203</item>
+	<item type="color" name="background_dark3">#FF020203</item>
+	<item type="color" name="background_dark4_20">#33000000</item>
+	<item type="color" name="background_dark4_40">#66000000</item>
+	<item type="color" name="background_dark4_60">#99000000</item>
+	<item type="color" name="background_dark4_80">#CC000000</item>
+	<item type="color" name="background_dark4">#FF000000</item>
+	<item type="color" name="background_dark5_20">#33000000</item>
+	<item type="color" name="background_dark5_40">#66000000</item>
+	<item type="color" name="background_dark5_60">#99000000</item>
+	<item type="color" name="background_dark5_80">#CC000000</item>
+	<item type="color" name="background_dark5">#FF000000</item>
 	<item type="color" name="accent1_light5_20">#33FFF0F0</item>
 	<item type="color" name="accent1_light5_40">#66FFF0F0</item>
 	<item type="color" name="accent1_light5_60">#99FFF0F0</item>
