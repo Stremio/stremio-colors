@@ -1,15 +1,13 @@
 {
     "name": "stremio-colors",
+    "version": "2.0.4",
     "publisher": "Smart Code Ltd.",
     "website": "www.stremio.com",
-    "version": "2.0.4",
-    "main": "colors.js",
+    "license": "MIT",
     "scripts": {
-        "update-readme": "node ./scripts/updateReadme.js",
-        "update-colors": "node ./scripts/updateColors.js"
+        "build": "node build.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/Stremio/stremio-colors.git"
+    "devDependencies": {
+        "color-convert": "2.0.1"
     }
 }
