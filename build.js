@@ -4,8 +4,8 @@ const colors = require('./colors.json');
 
 const LIGHTNESS_SHADES_COUNT = 5;
 const LIGHTNESS_STEP = 5;
-const ALPHA_SHADES_COUNT = 4;
-const ALPHA_STEP = 0.2;
+const ALPHA_SHADES_COUNT = 9;
+const ALPHA_STEP = 0.1;
 
 const shades = Object.keys(colors)
     .map((name) => ({ name, color: colors[name] }))
