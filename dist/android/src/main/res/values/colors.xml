@@ -1,663 +1,1323 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<item type="color" name="primary_light5_10">#19A682C0</item>
 	<item type="color" name="primary_light5_20">#33A682C0</item>
+	<item type="color" name="primary_light5_30">#4CA682C0</item>
 	<item type="color" name="primary_light5_40">#66A682C0</item>
+	<item type="color" name="primary_light5_50">#7FA682C0</item>
 	<item type="color" name="primary_light5_60">#99A682C0</item>
+	<item type="color" name="primary_light5_70">#B2A682C0</item>
 	<item type="color" name="primary_light5_80">#CCA682C0</item>
+	<item type="color" name="primary_light5_90">#E5A682C0</item>
 	<item type="color" name="primary_light5">#FFA682C0</item>
+	<item type="color" name="primary_light4_10">#199A71B7</item>
 	<item type="color" name="primary_light4_20">#339A71B7</item>
+	<item type="color" name="primary_light4_30">#4C9A71B7</item>
 	<item type="color" name="primary_light4_40">#669A71B7</item>
+	<item type="color" name="primary_light4_50">#7F9A71B7</item>
 	<item type="color" name="primary_light4_60">#999A71B7</item>
+	<item type="color" name="primary_light4_70">#B29A71B7</item>
 	<item type="color" name="primary_light4_80">#CC9A71B7</item>
+	<item type="color" name="primary_light4_90">#E59A71B7</item>
 	<item type="color" name="primary_light4">#FF9A71B7</item>
+	<item type="color" name="primary_light3_10">#198E60AF</item>
 	<item type="color" name="primary_light3_20">#338E60AF</item>
+	<item type="color" name="primary_light3_30">#4C8E60AF</item>
 	<item type="color" name="primary_light3_40">#668E60AF</item>
+	<item type="color" name="primary_light3_50">#7F8E60AF</item>
 	<item type="color" name="primary_light3_60">#998E60AF</item>
+	<item type="color" name="primary_light3_70">#B28E60AF</item>
 	<item type="color" name="primary_light3_80">#CC8E60AF</item>
+	<item type="color" name="primary_light3_90">#E58E60AF</item>
 	<item type="color" name="primary_light3">#FF8E60AF</item>
+	<item type="color" name="primary_light2_10">#198152A3</item>
 	<item type="color" name="primary_light2_20">#338152A3</item>
+	<item type="color" name="primary_light2_30">#4C8152A3</item>
 	<item type="color" name="primary_light2_40">#668152A3</item>
+	<item type="color" name="primary_light2_50">#7F8152A3</item>
 	<item type="color" name="primary_light2_60">#998152A3</item>
+	<item type="color" name="primary_light2_70">#B28152A3</item>
 	<item type="color" name="primary_light2_80">#CC8152A3</item>
+	<item type="color" name="primary_light2_90">#E58152A3</item>
 	<item type="color" name="primary_light2">#FF8152A3</item>
+	<item type="color" name="primary_light1_10">#19744992</item>
 	<item type="color" name="primary_light1_20">#33744992</item>
+	<item type="color" name="primary_light1_30">#4C744992</item>
 	<item type="color" name="primary_light1_40">#66744992</item>
+	<item type="color" name="primary_light1_50">#7F744992</item>
 	<item type="color" name="primary_light1_60">#99744992</item>
+	<item type="color" name="primary_light1_70">#B2744992</item>
 	<item type="color" name="primary_light1_80">#CC744992</item>
+	<item type="color" name="primary_light1_90">#E5744992</item>
 	<item type="color" name="primary_light1">#FF744992</item>
+	<item type="color" name="primary_10">#19664181</item>
 	<item type="color" name="primary_20">#33664181</item>
+	<item type="color" name="primary_30">#4C664181</item>
 	<item type="color" name="primary_40">#66664181</item>
+	<item type="color" name="primary_50">#7F664181</item>
 	<item type="color" name="primary_60">#99664181</item>
+	<item type="color" name="primary_70">#B2664181</item>
 	<item type="color" name="primary_80">#CC664181</item>
+	<item type="color" name="primary_90">#E5664181</item>
 	<item type="color" name="primary">#FF664181</item>
+	<item type="color" name="primary_dark1_10">#19593870</item>
 	<item type="color" name="primary_dark1_20">#33593870</item>
+	<item type="color" name="primary_dark1_30">#4C593870</item>
 	<item type="color" name="primary_dark1_40">#66593870</item>
+	<item type="color" name="primary_dark1_50">#7F593870</item>
 	<item type="color" name="primary_dark1_60">#99593870</item>
+	<item type="color" name="primary_dark1_70">#B2593870</item>
 	<item type="color" name="primary_dark1_80">#CC593870</item>
+	<item type="color" name="primary_dark1_90">#E5593870</item>
 	<item type="color" name="primary_dark1">#FF593870</item>
+	<item type="color" name="primary_dark2_10">#194B305F</item>
 	<item type="color" name="primary_dark2_20">#334B305F</item>
+	<item type="color" name="primary_dark2_30">#4C4B305F</item>
 	<item type="color" name="primary_dark2_40">#664B305F</item>
+	<item type="color" name="primary_dark2_50">#7F4B305F</item>
 	<item type="color" name="primary_dark2_60">#994B305F</item>
+	<item type="color" name="primary_dark2_70">#B24B305F</item>
 	<item type="color" name="primary_dark2_80">#CC4B305F</item>
+	<item type="color" name="primary_dark2_90">#E54B305F</item>
 	<item type="color" name="primary_dark2">#FF4B305F</item>
+	<item type="color" name="primary_dark3_10">#193E274E</item>
 	<item type="color" name="primary_dark3_20">#333E274E</item>
+	<item type="color" name="primary_dark3_30">#4C3E274E</item>
 	<item type="color" name="primary_dark3_40">#663E274E</item>
+	<item type="color" name="primary_dark3_50">#7F3E274E</item>
 	<item type="color" name="primary_dark3_60">#993E274E</item>
+	<item type="color" name="primary_dark3_70">#B23E274E</item>
 	<item type="color" name="primary_dark3_80">#CC3E274E</item>
+	<item type="color" name="primary_dark3_90">#E53E274E</item>
 	<item type="color" name="primary_dark3">#FF3E274E</item>
+	<item type="color" name="primary_dark4_10">#19301F3D</item>
 	<item type="color" name="primary_dark4_20">#33301F3D</item>
+	<item type="color" name="primary_dark4_30">#4C301F3D</item>
 	<item type="color" name="primary_dark4_40">#66301F3D</item>
+	<item type="color" name="primary_dark4_50">#7F301F3D</item>
 	<item type="color" name="primary_dark4_60">#99301F3D</item>
+	<item type="color" name="primary_dark4_70">#B2301F3D</item>
 	<item type="color" name="primary_dark4_80">#CC301F3D</item>
+	<item type="color" name="primary_dark4_90">#E5301F3D</item>
 	<item type="color" name="primary_dark4">#FF301F3D</item>
+	<item type="color" name="primary_dark5_10">#1923162C</item>
 	<item type="color" name="primary_dark5_20">#3323162C</item>
+	<item type="color" name="primary_dark5_30">#4C23162C</item>
 	<item type="color" name="primary_dark5_40">#6623162C</item>
+	<item type="color" name="primary_dark5_50">#7F23162C</item>
 	<item type="color" name="primary_dark5_60">#9923162C</item>
+	<item type="color" name="primary_dark5_70">#B223162C</item>
 	<item type="color" name="primary_dark5_80">#CC23162C</item>
+	<item type="color" name="primary_dark5_90">#E523162C</item>
 	<item type="color" name="primary_dark5">#FF23162C</item>
+	<item type="color" name="primaryvariant1_light5_10">#19E1CEEE</item>
 	<item type="color" name="primaryvariant1_light5_20">#33E1CEEE</item>
+	<item type="color" name="primaryvariant1_light5_30">#4CE1CEEE</item>
 	<item type="color" name="primaryvariant1_light5_40">#66E1CEEE</item>
+	<item type="color" name="primaryvariant1_light5_50">#7FE1CEEE</item>
 	<item type="color" name="primaryvariant1_light5_60">#99E1CEEE</item>
+	<item type="color" name="primaryvariant1_light5_70">#B2E1CEEE</item>
 	<item type="color" name="primaryvariant1_light5_80">#CCE1CEEE</item>
+	<item type="color" name="primaryvariant1_light5_90">#E5E1CEEE</item>
 	<item type="color" name="primaryvariant1_light5">#FFE1CEEE</item>
+	<item type="color" name="primaryvariant1_light4_10">#19D6BBE7</item>
 	<item type="color" name="primaryvariant1_light4_20">#33D6BBE7</item>
+	<item type="color" name="primaryvariant1_light4_30">#4CD6BBE7</item>
 	<item type="color" name="primaryvariant1_light4_40">#66D6BBE7</item>
+	<item type="color" name="primaryvariant1_light4_50">#7FD6BBE7</item>
 	<item type="color" name="primaryvariant1_light4_60">#99D6BBE7</item>
+	<item type="color" name="primaryvariant1_light4_70">#B2D6BBE7</item>
 	<item type="color" name="primaryvariant1_light4_80">#CCD6BBE7</item>
+	<item type="color" name="primaryvariant1_light4_90">#E5D6BBE7</item>
 	<item type="color" name="primaryvariant1_light4">#FFD6BBE7</item>
+	<item type="color" name="primaryvariant1_light3_10">#19CBA8E1</item>
 	<item type="color" name="primaryvariant1_light3_20">#33CBA8E1</item>
+	<item type="color" name="primaryvariant1_light3_30">#4CCBA8E1</item>
 	<item type="color" name="primaryvariant1_light3_40">#66CBA8E1</item>
+	<item type="color" name="primaryvariant1_light3_50">#7FCBA8E1</item>
 	<item type="color" name="primaryvariant1_light3_60">#99CBA8E1</item>
+	<item type="color" name="primaryvariant1_light3_70">#B2CBA8E1</item>
 	<item type="color" name="primaryvariant1_light3_80">#CCCBA8E1</item>
+	<item type="color" name="primaryvariant1_light3_90">#E5CBA8E1</item>
 	<item type="color" name="primaryvariant1_light3">#FFCBA8E1</item>
+	<item type="color" name="primaryvariant1_light2_10">#19BF95DA</item>
 	<item type="color" name="primaryvariant1_light2_20">#33BF95DA</item>
+	<item type="color" name="primaryvariant1_light2_30">#4CBF95DA</item>
 	<item type="color" name="primaryvariant1_light2_40">#66BF95DA</item>
+	<item type="color" name="primaryvariant1_light2_50">#7FBF95DA</item>
 	<item type="color" name="primaryvariant1_light2_60">#99BF95DA</item>
+	<item type="color" name="primaryvariant1_light2_70">#B2BF95DA</item>
 	<item type="color" name="primaryvariant1_light2_80">#CCBF95DA</item>
+	<item type="color" name="primaryvariant1_light2_90">#E5BF95DA</item>
 	<item type="color" name="primaryvariant1_light2">#FFBF95DA</item>
+	<item type="color" name="primaryvariant1_light1_10">#19B482D3</item>
 	<item type="color" name="primaryvariant1_light1_20">#33B482D3</item>
+	<item type="color" name="primaryvariant1_light1_30">#4CB482D3</item>
 	<item type="color" name="primaryvariant1_light1_40">#66B482D3</item>
+	<item type="color" name="primaryvariant1_light1_50">#7FB482D3</item>
 	<item type="color" name="primaryvariant1_light1_60">#99B482D3</item>
+	<item type="color" name="primaryvariant1_light1_70">#B2B482D3</item>
 	<item type="color" name="primaryvariant1_light1_80">#CCB482D3</item>
+	<item type="color" name="primaryvariant1_light1_90">#E5B482D3</item>
 	<item type="color" name="primaryvariant1_light1">#FFB482D3</item>
+	<item type="color" name="primaryvariant1_10">#19A970CD</item>
 	<item type="color" name="primaryvariant1_20">#33A970CD</item>
+	<item type="color" name="primaryvariant1_30">#4CA970CD</item>
 	<item type="color" name="primaryvariant1_40">#66A970CD</item>
+	<item type="color" name="primaryvariant1_50">#7FA970CD</item>
 	<item type="color" name="primaryvariant1_60">#99A970CD</item>
+	<item type="color" name="primaryvariant1_70">#B2A970CD</item>
 	<item type="color" name="primaryvariant1_80">#CCA970CD</item>
+	<item type="color" name="primaryvariant1_90">#E5A970CD</item>
 	<item type="color" name="primaryvariant1">#FFA970CD</item>
+	<item type="color" name="primaryvariant1_dark1_10">#199D5DC6</item>
 	<item type="color" name="primaryvariant1_dark1_20">#339D5DC6</item>
+	<item type="color" name="primaryvariant1_dark1_30">#4C9D5DC6</item>
 	<item type="color" name="primaryvariant1_dark1_40">#669D5DC6</item>
+	<item type="color" name="primaryvariant1_dark1_50">#7F9D5DC6</item>
 	<item type="color" name="primaryvariant1_dark1_60">#999D5DC6</item>
+	<item type="color" name="primaryvariant1_dark1_70">#B29D5DC6</item>
 	<item type="color" name="primaryvariant1_dark1_80">#CC9D5DC6</item>
+	<item type="color" name="primaryvariant1_dark1_90">#E59D5DC6</item>
 	<item type="color" name="primaryvariant1_dark1">#FF9D5DC6</item>
+	<item type="color" name="primaryvariant1_dark2_10">#19924ABF</item>
 	<item type="color" name="primaryvariant1_dark2_20">#33924ABF</item>
+	<item type="color" name="primaryvariant1_dark2_30">#4C924ABF</item>
 	<item type="color" name="primaryvariant1_dark2_40">#66924ABF</item>
+	<item type="color" name="primaryvariant1_dark2_50">#7F924ABF</item>
 	<item type="color" name="primaryvariant1_dark2_60">#99924ABF</item>
+	<item type="color" name="primaryvariant1_dark2_70">#B2924ABF</item>
 	<item type="color" name="primaryvariant1_dark2_80">#CC924ABF</item>
+	<item type="color" name="primaryvariant1_dark2_90">#E5924ABF</item>
 	<item type="color" name="primaryvariant1_dark2">#FF924ABF</item>
+	<item type="color" name="primaryvariant1_dark3_10">#19853EB1</item>
 	<item type="color" name="primaryvariant1_dark3_20">#33853EB1</item>
+	<item type="color" name="primaryvariant1_dark3_30">#4C853EB1</item>
 	<item type="color" name="primaryvariant1_dark3_40">#66853EB1</item>
+	<item type="color" name="primaryvariant1_dark3_50">#7F853EB1</item>
 	<item type="color" name="primaryvariant1_dark3_60">#99853EB1</item>
+	<item type="color" name="primaryvariant1_dark3_70">#B2853EB1</item>
 	<item type="color" name="primaryvariant1_dark3_80">#CC853EB1</item>
+	<item type="color" name="primaryvariant1_dark3_90">#E5853EB1</item>
 	<item type="color" name="primaryvariant1_dark3">#FF853EB1</item>
+	<item type="color" name="primaryvariant1_dark4_10">#1977389F</item>
 	<item type="color" name="primaryvariant1_dark4_20">#3377389F</item>
+	<item type="color" name="primaryvariant1_dark4_30">#4C77389F</item>
 	<item type="color" name="primaryvariant1_dark4_40">#6677389F</item>
+	<item type="color" name="primaryvariant1_dark4_50">#7F77389F</item>
 	<item type="color" name="primaryvariant1_dark4_60">#9977389F</item>
+	<item type="color" name="primaryvariant1_dark4_70">#B277389F</item>
 	<item type="color" name="primaryvariant1_dark4_80">#CC77389F</item>
+	<item type="color" name="primaryvariant1_dark4_90">#E577389F</item>
 	<item type="color" name="primaryvariant1_dark4">#FF77389F</item>
+	<item type="color" name="primaryvariant1_dark5_10">#1969318C</item>
 	<item type="color" name="primaryvariant1_dark5_20">#3369318C</item>
+	<item type="color" name="primaryvariant1_dark5_30">#4C69318C</item>
 	<item type="color" name="primaryvariant1_dark5_40">#6669318C</item>
+	<item type="color" name="primaryvariant1_dark5_50">#7F69318C</item>
 	<item type="color" name="primaryvariant1_dark5_60">#9969318C</item>
+	<item type="color" name="primaryvariant1_dark5_70">#B269318C</item>
 	<item type="color" name="primaryvariant1_dark5_80">#CC69318C</item>
+	<item type="color" name="primaryvariant1_dark5_90">#E569318C</item>
 	<item type="color" name="primaryvariant1_dark5">#FF69318C</item>
-	<item type="color" name="secondary_light5_20">#33AEB8DA</item>
-	<item type="color" name="secondary_light5_40">#66AEB8DA</item>
-	<item type="color" name="secondary_light5_60">#99AEB8DA</item>
-	<item type="color" name="secondary_light5_80">#CCAEB8DA</item>
-	<item type="color" name="secondary_light5">#FFAEB8DA</item>
-	<item type="color" name="secondary_light4_20">#339DA9D2</item>
-	<item type="color" name="secondary_light4_40">#669DA9D2</item>
-	<item type="color" name="secondary_light4_60">#999DA9D2</item>
-	<item type="color" name="secondary_light4_80">#CC9DA9D2</item>
-	<item type="color" name="secondary_light4">#FF9DA9D2</item>
-	<item type="color" name="secondary_light3_20">#338B99CA</item>
-	<item type="color" name="secondary_light3_40">#668B99CA</item>
-	<item type="color" name="secondary_light3_60">#998B99CA</item>
-	<item type="color" name="secondary_light3_80">#CC8B99CA</item>
-	<item type="color" name="secondary_light3">#FF8B99CA</item>
-	<item type="color" name="secondary_light2_20">#337A8AC2</item>
-	<item type="color" name="secondary_light2_40">#667A8AC2</item>
-	<item type="color" name="secondary_light2_60">#997A8AC2</item>
-	<item type="color" name="secondary_light2_80">#CC7A8AC2</item>
-	<item type="color" name="secondary_light2">#FF7A8AC2</item>
-	<item type="color" name="secondary_light1_20">#33687ABA</item>
-	<item type="color" name="secondary_light1_40">#66687ABA</item>
-	<item type="color" name="secondary_light1_60">#99687ABA</item>
-	<item type="color" name="secondary_light1_80">#CC687ABA</item>
-	<item type="color" name="secondary_light1">#FF687ABA</item>
-	<item type="color" name="secondary_20">#33576BB2</item>
-	<item type="color" name="secondary_40">#66576BB2</item>
-	<item type="color" name="secondary_60">#99576BB2</item>
-	<item type="color" name="secondary_80">#CC576BB2</item>
-	<item type="color" name="secondary">#FF576BB2</item>
-	<item type="color" name="secondary_dark1_20">#334B5FA4</item>
-	<item type="color" name="secondary_dark1_40">#664B5FA4</item>
-	<item type="color" name="secondary_dark1_60">#994B5FA4</item>
-	<item type="color" name="secondary_dark1_80">#CC4B5FA4</item>
-	<item type="color" name="secondary_dark1">#FF4B5FA4</item>
-	<item type="color" name="secondary_dark2_20">#33435593</item>
-	<item type="color" name="secondary_dark2_40">#66435593</item>
-	<item type="color" name="secondary_dark2_60">#99435593</item>
-	<item type="color" name="secondary_dark2_80">#CC435593</item>
-	<item type="color" name="secondary_dark2">#FF435593</item>
-	<item type="color" name="secondary_dark3_20">#333B4B81</item>
-	<item type="color" name="secondary_dark3_40">#663B4B81</item>
-	<item type="color" name="secondary_dark3_60">#993B4B81</item>
-	<item type="color" name="secondary_dark3_80">#CC3B4B81</item>
-	<item type="color" name="secondary_dark3">#FF3B4B81</item>
-	<item type="color" name="secondary_dark4_20">#33334170</item>
-	<item type="color" name="secondary_dark4_40">#66334170</item>
-	<item type="color" name="secondary_dark4_60">#99334170</item>
-	<item type="color" name="secondary_dark4_80">#CC334170</item>
-	<item type="color" name="secondary_dark4">#FF334170</item>
-	<item type="color" name="secondary_dark5_20">#332B365E</item>
-	<item type="color" name="secondary_dark5_40">#662B365E</item>
-	<item type="color" name="secondary_dark5_60">#992B365E</item>
-	<item type="color" name="secondary_dark5_80">#CC2B365E</item>
-	<item type="color" name="secondary_dark5">#FF2B365E</item>
+	<item type="color" name="secondary_light5_10">#197A8AC2</item>
+	<item type="color" name="secondary_light5_20">#337A8AC2</item>
+	<item type="color" name="secondary_light5_30">#4C7A8AC2</item>
+	<item type="color" name="secondary_light5_40">#667A8AC2</item>
+	<item type="color" name="secondary_light5_50">#7F7A8AC2</item>
+	<item type="color" name="secondary_light5_60">#997A8AC2</item>
+	<item type="color" name="secondary_light5_70">#B27A8AC2</item>
+	<item type="color" name="secondary_light5_80">#CC7A8AC2</item>
+	<item type="color" name="secondary_light5_90">#E57A8AC2</item>
+	<item type="color" name="secondary_light5">#FF7A8AC2</item>
+	<item type="color" name="secondary_light4_10">#19687ABA</item>
+	<item type="color" name="secondary_light4_20">#33687ABA</item>
+	<item type="color" name="secondary_light4_30">#4C687ABA</item>
+	<item type="color" name="secondary_light4_40">#66687ABA</item>
+	<item type="color" name="secondary_light4_50">#7F687ABA</item>
+	<item type="color" name="secondary_light4_60">#99687ABA</item>
+	<item type="color" name="secondary_light4_70">#B2687ABA</item>
+	<item type="color" name="secondary_light4_80">#CC687ABA</item>
+	<item type="color" name="secondary_light4_90">#E5687ABA</item>
+	<item type="color" name="secondary_light4">#FF687ABA</item>
+	<item type="color" name="secondary_light3_10">#19576BB2</item>
+	<item type="color" name="secondary_light3_20">#33576BB2</item>
+	<item type="color" name="secondary_light3_30">#4C576BB2</item>
+	<item type="color" name="secondary_light3_40">#66576BB2</item>
+	<item type="color" name="secondary_light3_50">#7F576BB2</item>
+	<item type="color" name="secondary_light3_60">#99576BB2</item>
+	<item type="color" name="secondary_light3_70">#B2576BB2</item>
+	<item type="color" name="secondary_light3_80">#CC576BB2</item>
+	<item type="color" name="secondary_light3_90">#E5576BB2</item>
+	<item type="color" name="secondary_light3">#FF576BB2</item>
+	<item type="color" name="secondary_light2_10">#194B5FA4</item>
+	<item type="color" name="secondary_light2_20">#334B5FA4</item>
+	<item type="color" name="secondary_light2_30">#4C4B5FA4</item>
+	<item type="color" name="secondary_light2_40">#664B5FA4</item>
+	<item type="color" name="secondary_light2_50">#7F4B5FA4</item>
+	<item type="color" name="secondary_light2_60">#994B5FA4</item>
+	<item type="color" name="secondary_light2_70">#B24B5FA4</item>
+	<item type="color" name="secondary_light2_80">#CC4B5FA4</item>
+	<item type="color" name="secondary_light2_90">#E54B5FA4</item>
+	<item type="color" name="secondary_light2">#FF4B5FA4</item>
+	<item type="color" name="secondary_light1_10">#19435593</item>
+	<item type="color" name="secondary_light1_20">#33435593</item>
+	<item type="color" name="secondary_light1_30">#4C435593</item>
+	<item type="color" name="secondary_light1_40">#66435593</item>
+	<item type="color" name="secondary_light1_50">#7F435593</item>
+	<item type="color" name="secondary_light1_60">#99435593</item>
+	<item type="color" name="secondary_light1_70">#B2435593</item>
+	<item type="color" name="secondary_light1_80">#CC435593</item>
+	<item type="color" name="secondary_light1_90">#E5435593</item>
+	<item type="color" name="secondary_light1">#FF435593</item>
+	<item type="color" name="secondary_10">#193B4B81</item>
+	<item type="color" name="secondary_20">#333B4B81</item>
+	<item type="color" name="secondary_30">#4C3B4B81</item>
+	<item type="color" name="secondary_40">#663B4B81</item>
+	<item type="color" name="secondary_50">#7F3B4B81</item>
+	<item type="color" name="secondary_60">#993B4B81</item>
+	<item type="color" name="secondary_70">#B23B4B81</item>
+	<item type="color" name="secondary_80">#CC3B4B81</item>
+	<item type="color" name="secondary_90">#E53B4B81</item>
+	<item type="color" name="secondary">#FF3B4B81</item>
+	<item type="color" name="secondary_dark1_10">#19334170</item>
+	<item type="color" name="secondary_dark1_20">#33334170</item>
+	<item type="color" name="secondary_dark1_30">#4C334170</item>
+	<item type="color" name="secondary_dark1_40">#66334170</item>
+	<item type="color" name="secondary_dark1_50">#7F334170</item>
+	<item type="color" name="secondary_dark1_60">#99334170</item>
+	<item type="color" name="secondary_dark1_70">#B2334170</item>
+	<item type="color" name="secondary_dark1_80">#CC334170</item>
+	<item type="color" name="secondary_dark1_90">#E5334170</item>
+	<item type="color" name="secondary_dark1">#FF334170</item>
+	<item type="color" name="secondary_dark2_10">#192B365E</item>
+	<item type="color" name="secondary_dark2_20">#332B365E</item>
+	<item type="color" name="secondary_dark2_30">#4C2B365E</item>
+	<item type="color" name="secondary_dark2_40">#662B365E</item>
+	<item type="color" name="secondary_dark2_50">#7F2B365E</item>
+	<item type="color" name="secondary_dark2_60">#992B365E</item>
+	<item type="color" name="secondary_dark2_70">#B22B365E</item>
+	<item type="color" name="secondary_dark2_80">#CC2B365E</item>
+	<item type="color" name="secondary_dark2_90">#E52B365E</item>
+	<item type="color" name="secondary_dark2">#FF2B365E</item>
+	<item type="color" name="secondary_dark3_10">#19232C4D</item>
+	<item type="color" name="secondary_dark3_20">#33232C4D</item>
+	<item type="color" name="secondary_dark3_30">#4C232C4D</item>
+	<item type="color" name="secondary_dark3_40">#66232C4D</item>
+	<item type="color" name="secondary_dark3_50">#7F232C4D</item>
+	<item type="color" name="secondary_dark3_60">#99232C4D</item>
+	<item type="color" name="secondary_dark3_70">#B2232C4D</item>
+	<item type="color" name="secondary_dark3_80">#CC232C4D</item>
+	<item type="color" name="secondary_dark3_90">#E5232C4D</item>
+	<item type="color" name="secondary_dark3">#FF232C4D</item>
+	<item type="color" name="secondary_dark4_10">#191B223B</item>
+	<item type="color" name="secondary_dark4_20">#331B223B</item>
+	<item type="color" name="secondary_dark4_30">#4C1B223B</item>
+	<item type="color" name="secondary_dark4_40">#661B223B</item>
+	<item type="color" name="secondary_dark4_50">#7F1B223B</item>
+	<item type="color" name="secondary_dark4_60">#991B223B</item>
+	<item type="color" name="secondary_dark4_70">#B21B223B</item>
+	<item type="color" name="secondary_dark4_80">#CC1B223B</item>
+	<item type="color" name="secondary_dark4_90">#E51B223B</item>
+	<item type="color" name="secondary_dark4">#FF1B223B</item>
+	<item type="color" name="secondary_dark5_10">#1913182A</item>
+	<item type="color" name="secondary_dark5_20">#3313182A</item>
+	<item type="color" name="secondary_dark5_30">#4C13182A</item>
+	<item type="color" name="secondary_dark5_40">#6613182A</item>
+	<item type="color" name="secondary_dark5_50">#7F13182A</item>
+	<item type="color" name="secondary_dark5_60">#9913182A</item>
+	<item type="color" name="secondary_dark5_70">#B213182A</item>
+	<item type="color" name="secondary_dark5_80">#CC13182A</item>
+	<item type="color" name="secondary_dark5_90">#E513182A</item>
+	<item type="color" name="secondary_dark5">#FF13182A</item>
+	<item type="color" name="secondaryvariant1_light5_10">#19DEE3F2</item>
 	<item type="color" name="secondaryvariant1_light5_20">#33DEE3F2</item>
+	<item type="color" name="secondaryvariant1_light5_30">#4CDEE3F2</item>
 	<item type="color" name="secondaryvariant1_light5_40">#66DEE3F2</item>
+	<item type="color" name="secondaryvariant1_light5_50">#7FDEE3F2</item>
 	<item type="color" name="secondaryvariant1_light5_60">#99DEE3F2</item>
+	<item type="color" name="secondaryvariant1_light5_70">#B2DEE3F2</item>
 	<item type="color" name="secondaryvariant1_light5_80">#CCDEE3F2</item>
+	<item type="color" name="secondaryvariant1_light5_90">#E5DEE3F2</item>
 	<item type="color" name="secondaryvariant1_light5">#FFDEE3F2</item>
+	<item type="color" name="secondaryvariant1_light4_10">#19CCD4EA</item>
 	<item type="color" name="secondaryvariant1_light4_20">#33CCD4EA</item>
+	<item type="color" name="secondaryvariant1_light4_30">#4CCCD4EA</item>
 	<item type="color" name="secondaryvariant1_light4_40">#66CCD4EA</item>
+	<item type="color" name="secondaryvariant1_light4_50">#7FCCD4EA</item>
 	<item type="color" name="secondaryvariant1_light4_60">#99CCD4EA</item>
+	<item type="color" name="secondaryvariant1_light4_70">#B2CCD4EA</item>
 	<item type="color" name="secondaryvariant1_light4_80">#CCCCD4EA</item>
+	<item type="color" name="secondaryvariant1_light4_90">#E5CCD4EA</item>
 	<item type="color" name="secondaryvariant1_light4">#FFCCD4EA</item>
+	<item type="color" name="secondaryvariant1_light3_10">#19BAC5E3</item>
 	<item type="color" name="secondaryvariant1_light3_20">#33BAC5E3</item>
+	<item type="color" name="secondaryvariant1_light3_30">#4CBAC5E3</item>
 	<item type="color" name="secondaryvariant1_light3_40">#66BAC5E3</item>
+	<item type="color" name="secondaryvariant1_light3_50">#7FBAC5E3</item>
 	<item type="color" name="secondaryvariant1_light3_60">#99BAC5E3</item>
+	<item type="color" name="secondaryvariant1_light3_70">#B2BAC5E3</item>
 	<item type="color" name="secondaryvariant1_light3_80">#CCBAC5E3</item>
+	<item type="color" name="secondaryvariant1_light3_90">#E5BAC5E3</item>
 	<item type="color" name="secondaryvariant1_light3">#FFBAC5E3</item>
+	<item type="color" name="secondaryvariant1_light2_10">#19A8B6DC</item>
 	<item type="color" name="secondaryvariant1_light2_20">#33A8B6DC</item>
+	<item type="color" name="secondaryvariant1_light2_30">#4CA8B6DC</item>
 	<item type="color" name="secondaryvariant1_light2_40">#66A8B6DC</item>
+	<item type="color" name="secondaryvariant1_light2_50">#7FA8B6DC</item>
 	<item type="color" name="secondaryvariant1_light2_60">#99A8B6DC</item>
+	<item type="color" name="secondaryvariant1_light2_70">#B2A8B6DC</item>
 	<item type="color" name="secondaryvariant1_light2_80">#CCA8B6DC</item>
+	<item type="color" name="secondaryvariant1_light2_90">#E5A8B6DC</item>
 	<item type="color" name="secondaryvariant1_light2">#FFA8B6DC</item>
+	<item type="color" name="secondaryvariant1_light1_10">#1996A6D4</item>
 	<item type="color" name="secondaryvariant1_light1_20">#3396A6D4</item>
+	<item type="color" name="secondaryvariant1_light1_30">#4C96A6D4</item>
 	<item type="color" name="secondaryvariant1_light1_40">#6696A6D4</item>
+	<item type="color" name="secondaryvariant1_light1_50">#7F96A6D4</item>
 	<item type="color" name="secondaryvariant1_light1_60">#9996A6D4</item>
+	<item type="color" name="secondaryvariant1_light1_70">#B296A6D4</item>
 	<item type="color" name="secondaryvariant1_light1_80">#CC96A6D4</item>
+	<item type="color" name="secondaryvariant1_light1_90">#E596A6D4</item>
 	<item type="color" name="secondaryvariant1_light1">#FF96A6D4</item>
+	<item type="color" name="secondaryvariant1_10">#198497CD</item>
 	<item type="color" name="secondaryvariant1_20">#338497CD</item>
+	<item type="color" name="secondaryvariant1_30">#4C8497CD</item>
 	<item type="color" name="secondaryvariant1_40">#668497CD</item>
+	<item type="color" name="secondaryvariant1_50">#7F8497CD</item>
 	<item type="color" name="secondaryvariant1_60">#998497CD</item>
+	<item type="color" name="secondaryvariant1_70">#B28497CD</item>
 	<item type="color" name="secondaryvariant1_80">#CC8497CD</item>
+	<item type="color" name="secondaryvariant1_90">#E58497CD</item>
 	<item type="color" name="secondaryvariant1">#FF8497CD</item>
+	<item type="color" name="secondaryvariant1_dark1_10">#197288C5</item>
 	<item type="color" name="secondaryvariant1_dark1_20">#337288C5</item>
+	<item type="color" name="secondaryvariant1_dark1_30">#4C7288C5</item>
 	<item type="color" name="secondaryvariant1_dark1_40">#667288C5</item>
+	<item type="color" name="secondaryvariant1_dark1_50">#7F7288C5</item>
 	<item type="color" name="secondaryvariant1_dark1_60">#997288C5</item>
+	<item type="color" name="secondaryvariant1_dark1_70">#B27288C5</item>
 	<item type="color" name="secondaryvariant1_dark1_80">#CC7288C5</item>
+	<item type="color" name="secondaryvariant1_dark1_90">#E57288C5</item>
 	<item type="color" name="secondaryvariant1_dark1">#FF7288C5</item>
+	<item type="color" name="secondaryvariant1_dark2_10">#196078BE</item>
 	<item type="color" name="secondaryvariant1_dark2_20">#336078BE</item>
+	<item type="color" name="secondaryvariant1_dark2_30">#4C6078BE</item>
 	<item type="color" name="secondaryvariant1_dark2_40">#666078BE</item>
+	<item type="color" name="secondaryvariant1_dark2_50">#7F6078BE</item>
 	<item type="color" name="secondaryvariant1_dark2_60">#996078BE</item>
+	<item type="color" name="secondaryvariant1_dark2_70">#B26078BE</item>
 	<item type="color" name="secondaryvariant1_dark2_80">#CC6078BE</item>
+	<item type="color" name="secondaryvariant1_dark2_90">#E56078BE</item>
 	<item type="color" name="secondaryvariant1_dark2">#FF6078BE</item>
+	<item type="color" name="secondaryvariant1_dark3_10">#194D69B7</item>
 	<item type="color" name="secondaryvariant1_dark3_20">#334D69B7</item>
+	<item type="color" name="secondaryvariant1_dark3_30">#4C4D69B7</item>
 	<item type="color" name="secondaryvariant1_dark3_40">#664D69B7</item>
+	<item type="color" name="secondaryvariant1_dark3_50">#7F4D69B7</item>
 	<item type="color" name="secondaryvariant1_dark3_60">#994D69B7</item>
+	<item type="color" name="secondaryvariant1_dark3_70">#B24D69B7</item>
 	<item type="color" name="secondaryvariant1_dark3_80">#CC4D69B7</item>
+	<item type="color" name="secondaryvariant1_dark3_90">#E54D69B7</item>
 	<item type="color" name="secondaryvariant1_dark3">#FF4D69B7</item>
+	<item type="color" name="secondaryvariant1_dark4_10">#19445EA7</item>
 	<item type="color" name="secondaryvariant1_dark4_20">#33445EA7</item>
+	<item type="color" name="secondaryvariant1_dark4_30">#4C445EA7</item>
 	<item type="color" name="secondaryvariant1_dark4_40">#66445EA7</item>
+	<item type="color" name="secondaryvariant1_dark4_50">#7F445EA7</item>
 	<item type="color" name="secondaryvariant1_dark4_60">#99445EA7</item>
+	<item type="color" name="secondaryvariant1_dark4_70">#B2445EA7</item>
 	<item type="color" name="secondaryvariant1_dark4_80">#CC445EA7</item>
+	<item type="color" name="secondaryvariant1_dark4_90">#E5445EA7</item>
 	<item type="color" name="secondaryvariant1_dark4">#FF445EA7</item>
+	<item type="color" name="secondaryvariant1_dark5_10">#193D5495</item>
 	<item type="color" name="secondaryvariant1_dark5_20">#333D5495</item>
+	<item type="color" name="secondaryvariant1_dark5_30">#4C3D5495</item>
 	<item type="color" name="secondaryvariant1_dark5_40">#663D5495</item>
+	<item type="color" name="secondaryvariant1_dark5_50">#7F3D5495</item>
 	<item type="color" name="secondaryvariant1_dark5_60">#993D5495</item>
+	<item type="color" name="secondaryvariant1_dark5_70">#B23D5495</item>
 	<item type="color" name="secondaryvariant1_dark5_80">#CC3D5495</item>
+	<item type="color" name="secondaryvariant1_dark5_90">#E53D5495</item>
 	<item type="color" name="secondaryvariant1_dark5">#FF3D5495</item>
+	<item type="color" name="secondaryvariant2_light5_10">#19F5F8FF</item>
 	<item type="color" name="secondaryvariant2_light5_20">#33F5F8FF</item>
+	<item type="color" name="secondaryvariant2_light5_30">#4CF5F8FF</item>
 	<item type="color" name="secondaryvariant2_light5_40">#66F5F8FF</item>
+	<item type="color" name="secondaryvariant2_light5_50">#7FF5F8FF</item>
 	<item type="color" name="secondaryvariant2_light5_60">#99F5F8FF</item>
+	<item type="color" name="secondaryvariant2_light5_70">#B2F5F8FF</item>
 	<item type="color" name="secondaryvariant2_light5_80">#CCF5F8FF</item>
+	<item type="color" name="secondaryvariant2_light5_90">#E5F5F8FF</item>
 	<item type="color" name="secondaryvariant2_light5">#FFF5F8FF</item>
+	<item type="color" name="secondaryvariant2_light4_10">#19DBE6FF</item>
 	<item type="color" name="secondaryvariant2_light4_20">#33DBE6FF</item>
+	<item type="color" name="secondaryvariant2_light4_30">#4CDBE6FF</item>
 	<item type="color" name="secondaryvariant2_light4_40">#66DBE6FF</item>
+	<item type="color" name="secondaryvariant2_light4_50">#7FDBE6FF</item>
 	<item type="color" name="secondaryvariant2_light4_60">#99DBE6FF</item>
+	<item type="color" name="secondaryvariant2_light4_70">#B2DBE6FF</item>
 	<item type="color" name="secondaryvariant2_light4_80">#CCDBE6FF</item>
+	<item type="color" name="secondaryvariant2_light4_90">#E5DBE6FF</item>
 	<item type="color" name="secondaryvariant2_light4">#FFDBE6FF</item>
+	<item type="color" name="secondaryvariant2_light3_10">#19C2D3FF</item>
 	<item type="color" name="secondaryvariant2_light3_20">#33C2D3FF</item>
+	<item type="color" name="secondaryvariant2_light3_30">#4CC2D3FF</item>
 	<item type="color" name="secondaryvariant2_light3_40">#66C2D3FF</item>
+	<item type="color" name="secondaryvariant2_light3_50">#7FC2D3FF</item>
 	<item type="color" name="secondaryvariant2_light3_60">#99C2D3FF</item>
+	<item type="color" name="secondaryvariant2_light3_70">#B2C2D3FF</item>
 	<item type="color" name="secondaryvariant2_light3_80">#CCC2D3FF</item>
+	<item type="color" name="secondaryvariant2_light3_90">#E5C2D3FF</item>
 	<item type="color" name="secondaryvariant2_light3">#FFC2D3FF</item>
+	<item type="color" name="secondaryvariant2_light2_10">#19A8C1FF</item>
 	<item type="color" name="secondaryvariant2_light2_20">#33A8C1FF</item>
+	<item type="color" name="secondaryvariant2_light2_30">#4CA8C1FF</item>
 	<item type="color" name="secondaryvariant2_light2_40">#66A8C1FF</item>
+	<item type="color" name="secondaryvariant2_light2_50">#7FA8C1FF</item>
 	<item type="color" name="secondaryvariant2_light2_60">#99A8C1FF</item>
+	<item type="color" name="secondaryvariant2_light2_70">#B2A8C1FF</item>
 	<item type="color" name="secondaryvariant2_light2_80">#CCA8C1FF</item>
+	<item type="color" name="secondaryvariant2_light2_90">#E5A8C1FF</item>
 	<item type="color" name="secondaryvariant2_light2">#FFA8C1FF</item>
+	<item type="color" name="secondaryvariant2_light1_10">#198FAFFF</item>
 	<item type="color" name="secondaryvariant2_light1_20">#338FAFFF</item>
+	<item type="color" name="secondaryvariant2_light1_30">#4C8FAFFF</item>
 	<item type="color" name="secondaryvariant2_light1_40">#668FAFFF</item>
+	<item type="color" name="secondaryvariant2_light1_50">#7F8FAFFF</item>
 	<item type="color" name="secondaryvariant2_light1_60">#998FAFFF</item>
+	<item type="color" name="secondaryvariant2_light1_70">#B28FAFFF</item>
 	<item type="color" name="secondaryvariant2_light1_80">#CC8FAFFF</item>
+	<item type="color" name="secondaryvariant2_light1_90">#E58FAFFF</item>
 	<item type="color" name="secondaryvariant2_light1">#FF8FAFFF</item>
+	<item type="color" name="secondaryvariant2_10">#19759DFF</item>
 	<item type="color" name="secondaryvariant2_20">#33759DFF</item>
+	<item type="color" name="secondaryvariant2_30">#4C759DFF</item>
 	<item type="color" name="secondaryvariant2_40">#66759DFF</item>
+	<item type="color" name="secondaryvariant2_50">#7F759DFF</item>
 	<item type="color" name="secondaryvariant2_60">#99759DFF</item>
+	<item type="color" name="secondaryvariant2_70">#B2759DFF</item>
 	<item type="color" name="secondaryvariant2_80">#CC759DFF</item>
+	<item type="color" name="secondaryvariant2_90">#E5759DFF</item>
 	<item type="color" name="secondaryvariant2">#FF759DFF</item>
+	<item type="color" name="secondaryvariant2_dark1_10">#195C8BFF</item>
 	<item type="color" name="secondaryvariant2_dark1_20">#335C8BFF</item>
+	<item type="color" name="secondaryvariant2_dark1_30">#4C5C8BFF</item>
 	<item type="color" name="secondaryvariant2_dark1_40">#665C8BFF</item>
+	<item type="color" name="secondaryvariant2_dark1_50">#7F5C8BFF</item>
 	<item type="color" name="secondaryvariant2_dark1_60">#995C8BFF</item>
+	<item type="color" name="secondaryvariant2_dark1_70">#B25C8BFF</item>
 	<item type="color" name="secondaryvariant2_dark1_80">#CC5C8BFF</item>
+	<item type="color" name="secondaryvariant2_dark1_90">#E55C8BFF</item>
 	<item type="color" name="secondaryvariant2_dark1">#FF5C8BFF</item>
+	<item type="color" name="secondaryvariant2_dark2_10">#194278FF</item>
 	<item type="color" name="secondaryvariant2_dark2_20">#334278FF</item>
+	<item type="color" name="secondaryvariant2_dark2_30">#4C4278FF</item>
 	<item type="color" name="secondaryvariant2_dark2_40">#664278FF</item>
+	<item type="color" name="secondaryvariant2_dark2_50">#7F4278FF</item>
 	<item type="color" name="secondaryvariant2_dark2_60">#994278FF</item>
+	<item type="color" name="secondaryvariant2_dark2_70">#B24278FF</item>
 	<item type="color" name="secondaryvariant2_dark2_80">#CC4278FF</item>
+	<item type="color" name="secondaryvariant2_dark2_90">#E54278FF</item>
 	<item type="color" name="secondaryvariant2_dark2">#FF4278FF</item>
+	<item type="color" name="secondaryvariant2_dark3_10">#192966FF</item>
 	<item type="color" name="secondaryvariant2_dark3_20">#332966FF</item>
+	<item type="color" name="secondaryvariant2_dark3_30">#4C2966FF</item>
 	<item type="color" name="secondaryvariant2_dark3_40">#662966FF</item>
+	<item type="color" name="secondaryvariant2_dark3_50">#7F2966FF</item>
 	<item type="color" name="secondaryvariant2_dark3_60">#992966FF</item>
+	<item type="color" name="secondaryvariant2_dark3_70">#B22966FF</item>
 	<item type="color" name="secondaryvariant2_dark3_80">#CC2966FF</item>
+	<item type="color" name="secondaryvariant2_dark3_90">#E52966FF</item>
 	<item type="color" name="secondaryvariant2_dark3">#FF2966FF</item>
+	<item type="color" name="secondaryvariant2_dark4_10">#190F54FF</item>
 	<item type="color" name="secondaryvariant2_dark4_20">#330F54FF</item>
+	<item type="color" name="secondaryvariant2_dark4_30">#4C0F54FF</item>
 	<item type="color" name="secondaryvariant2_dark4_40">#660F54FF</item>
+	<item type="color" name="secondaryvariant2_dark4_50">#7F0F54FF</item>
 	<item type="color" name="secondaryvariant2_dark4_60">#990F54FF</item>
+	<item type="color" name="secondaryvariant2_dark4_70">#B20F54FF</item>
 	<item type="color" name="secondaryvariant2_dark4_80">#CC0F54FF</item>
+	<item type="color" name="secondaryvariant2_dark4_90">#E50F54FF</item>
 	<item type="color" name="secondaryvariant2_dark4">#FF0F54FF</item>
+	<item type="color" name="secondaryvariant2_dark5_10">#190046F5</item>
 	<item type="color" name="secondaryvariant2_dark5_20">#330046F5</item>
+	<item type="color" name="secondaryvariant2_dark5_30">#4C0046F5</item>
 	<item type="color" name="secondaryvariant2_dark5_40">#660046F5</item>
+	<item type="color" name="secondaryvariant2_dark5_50">#7F0046F5</item>
 	<item type="color" name="secondaryvariant2_dark5_60">#990046F5</item>
+	<item type="color" name="secondaryvariant2_dark5_70">#B20046F5</item>
 	<item type="color" name="secondaryvariant2_dark5_80">#CC0046F5</item>
+	<item type="color" name="secondaryvariant2_dark5_90">#E50046F5</item>
 	<item type="color" name="secondaryvariant2_dark5">#FF0046F5</item>
+	<item type="color" name="background_light5_10">#195C5992</item>
 	<item type="color" name="background_light5_20">#335C5992</item>
+	<item type="color" name="background_light5_30">#4C5C5992</item>
 	<item type="color" name="background_light5_40">#665C5992</item>
+	<item type="color" name="background_light5_50">#7F5C5992</item>
 	<item type="color" name="background_light5_60">#995C5992</item>
+	<item type="color" name="background_light5_70">#B25C5992</item>
 	<item type="color" name="background_light5_80">#CC5C5992</item>
+	<item type="color" name="background_light5_90">#E55C5992</item>
 	<item type="color" name="background_light5">#FF5C5992</item>
+	<item type="color" name="background_light4_10">#19524F82</item>
 	<item type="color" name="background_light4_20">#33524F82</item>
+	<item type="color" name="background_light4_30">#4C524F82</item>
 	<item type="color" name="background_light4_40">#66524F82</item>
+	<item type="color" name="background_light4_50">#7F524F82</item>
 	<item type="color" name="background_light4_60">#99524F82</item>
+	<item type="color" name="background_light4_70">#B2524F82</item>
 	<item type="color" name="background_light4_80">#CC524F82</item>
+	<item type="color" name="background_light4_90">#E5524F82</item>
 	<item type="color" name="background_light4">#FF524F82</item>
+	<item type="color" name="background_light3_10">#19484572</item>
 	<item type="color" name="background_light3_20">#33484572</item>
+	<item type="color" name="background_light3_30">#4C484572</item>
 	<item type="color" name="background_light3_40">#66484572</item>
+	<item type="color" name="background_light3_50">#7F484572</item>
 	<item type="color" name="background_light3_60">#99484572</item>
+	<item type="color" name="background_light3_70">#B2484572</item>
 	<item type="color" name="background_light3_80">#CC484572</item>
+	<item type="color" name="background_light3_90">#E5484572</item>
 	<item type="color" name="background_light3">#FF484572</item>
+	<item type="color" name="background_light2_10">#193E3C62</item>
 	<item type="color" name="background_light2_20">#333E3C62</item>
+	<item type="color" name="background_light2_30">#4C3E3C62</item>
 	<item type="color" name="background_light2_40">#663E3C62</item>
+	<item type="color" name="background_light2_50">#7F3E3C62</item>
 	<item type="color" name="background_light2_60">#993E3C62</item>
+	<item type="color" name="background_light2_70">#B23E3C62</item>
 	<item type="color" name="background_light2_80">#CC3E3C62</item>
+	<item type="color" name="background_light2_90">#E53E3C62</item>
 	<item type="color" name="background_light2">#FF3E3C62</item>
+	<item type="color" name="background_light1_10">#19343252</item>
 	<item type="color" name="background_light1_20">#33343252</item>
+	<item type="color" name="background_light1_30">#4C343252</item>
 	<item type="color" name="background_light1_40">#66343252</item>
+	<item type="color" name="background_light1_50">#7F343252</item>
 	<item type="color" name="background_light1_60">#99343252</item>
+	<item type="color" name="background_light1_70">#B2343252</item>
 	<item type="color" name="background_light1_80">#CC343252</item>
+	<item type="color" name="background_light1_90">#E5343252</item>
 	<item type="color" name="background_light1">#FF343252</item>
+	<item type="color" name="background_10">#192A2843</item>
 	<item type="color" name="background_20">#332A2843</item>
+	<item type="color" name="background_30">#4C2A2843</item>
 	<item type="color" name="background_40">#662A2843</item>
+	<item type="color" name="background_50">#7F2A2843</item>
 	<item type="color" name="background_60">#992A2843</item>
+	<item type="color" name="background_70">#B22A2843</item>
 	<item type="color" name="background_80">#CC2A2843</item>
+	<item type="color" name="background_90">#E52A2843</item>
 	<item type="color" name="background">#FF2A2843</item>
+	<item type="color" name="background_dark1_10">#19201F33</item>
 	<item type="color" name="background_dark1_20">#33201F33</item>
+	<item type="color" name="background_dark1_30">#4C201F33</item>
 	<item type="color" name="background_dark1_40">#66201F33</item>
+	<item type="color" name="background_dark1_50">#7F201F33</item>
 	<item type="color" name="background_dark1_60">#99201F33</item>
+	<item type="color" name="background_dark1_70">#B2201F33</item>
 	<item type="color" name="background_dark1_80">#CC201F33</item>
+	<item type="color" name="background_dark1_90">#E5201F33</item>
 	<item type="color" name="background_dark1">#FF201F33</item>
+	<item type="color" name="background_dark2_10">#19161523</item>
 	<item type="color" name="background_dark2_20">#33161523</item>
+	<item type="color" name="background_dark2_30">#4C161523</item>
 	<item type="color" name="background_dark2_40">#66161523</item>
+	<item type="color" name="background_dark2_50">#7F161523</item>
 	<item type="color" name="background_dark2_60">#99161523</item>
+	<item type="color" name="background_dark2_70">#B2161523</item>
 	<item type="color" name="background_dark2_80">#CC161523</item>
+	<item type="color" name="background_dark2_90">#E5161523</item>
 	<item type="color" name="background_dark2">#FF161523</item>
+	<item type="color" name="background_dark3_10">#190C0C13</item>
 	<item type="color" name="background_dark3_20">#330C0C13</item>
+	<item type="color" name="background_dark3_30">#4C0C0C13</item>
 	<item type="color" name="background_dark3_40">#660C0C13</item>
+	<item type="color" name="background_dark3_50">#7F0C0C13</item>
 	<item type="color" name="background_dark3_60">#990C0C13</item>
+	<item type="color" name="background_dark3_70">#B20C0C13</item>
 	<item type="color" name="background_dark3_80">#CC0C0C13</item>
+	<item type="color" name="background_dark3_90">#E50C0C13</item>
 	<item type="color" name="background_dark3">#FF0C0C13</item>
+	<item type="color" name="background_dark4_10">#19020203</item>
 	<item type="color" name="background_dark4_20">#33020203</item>
+	<item type="color" name="background_dark4_30">#4C020203</item>
 	<item type="color" name="background_dark4_40">#66020203</item>
+	<item type="color" name="background_dark4_50">#7F020203</item>
 	<item type="color" name="background_dark4_60">#99020203</item>
+	<item type="color" name="background_dark4_70">#B2020203</item>
 	<item type="color" name="background_dark4_80">#CC020203</item>
+	<item type="color" name="background_dark4_90">#E5020203</item>
 	<item type="color" name="background_dark4">#FF020203</item>
+	<item type="color" name="background_dark5_10">#19000000</item>
 	<item type="color" name="background_dark5_20">#33000000</item>
+	<item type="color" name="background_dark5_30">#4C000000</item>
 	<item type="color" name="background_dark5_40">#66000000</item>
+	<item type="color" name="background_dark5_50">#7F000000</item>
 	<item type="color" name="background_dark5_60">#99000000</item>
+	<item type="color" name="background_dark5_70">#B2000000</item>
 	<item type="color" name="background_dark5_80">#CC000000</item>
+	<item type="color" name="background_dark5_90">#E5000000</item>
 	<item type="color" name="background_dark5">#FF000000</item>
+	<item type="color" name="surface_light5_10">#19FFFFFF</item>
 	<item type="color" name="surface_light5_20">#33FFFFFF</item>
+	<item type="color" name="surface_light5_30">#4CFFFFFF</item>
 	<item type="color" name="surface_light5_40">#66FFFFFF</item>
+	<item type="color" name="surface_light5_50">#7FFFFFFF</item>
 	<item type="color" name="surface_light5_60">#99FFFFFF</item>
+	<item type="color" name="surface_light5_70">#B2FFFFFF</item>
 	<item type="color" name="surface_light5_80">#CCFFFFFF</item>
+	<item type="color" name="surface_light5_90">#E5FFFFFF</item>
 	<item type="color" name="surface_light5">#FFFFFFFF</item>
+	<item type="color" name="surface_light4_10">#19F2F2F2</item>
 	<item type="color" name="surface_light4_20">#33F2F2F2</item>
+	<item type="color" name="surface_light4_30">#4CF2F2F2</item>
 	<item type="color" name="surface_light4_40">#66F2F2F2</item>
+	<item type="color" name="surface_light4_50">#7FF2F2F2</item>
 	<item type="color" name="surface_light4_60">#99F2F2F2</item>
+	<item type="color" name="surface_light4_70">#B2F2F2F2</item>
 	<item type="color" name="surface_light4_80">#CCF2F2F2</item>
+	<item type="color" name="surface_light4_90">#E5F2F2F2</item>
 	<item type="color" name="surface_light4">#FFF2F2F2</item>
+	<item type="color" name="surface_light3_10">#19E6E6E6</item>
 	<item type="color" name="surface_light3_20">#33E6E6E6</item>
+	<item type="color" name="surface_light3_30">#4CE6E6E6</item>
 	<item type="color" name="surface_light3_40">#66E6E6E6</item>
+	<item type="color" name="surface_light3_50">#7FE6E6E6</item>
 	<item type="color" name="surface_light3_60">#99E6E6E6</item>
+	<item type="color" name="surface_light3_70">#B2E6E6E6</item>
 	<item type="color" name="surface_light3_80">#CCE6E6E6</item>
+	<item type="color" name="surface_light3_90">#E5E6E6E6</item>
 	<item type="color" name="surface_light3">#FFE6E6E6</item>
+	<item type="color" name="surface_light2_10">#19D9D9D9</item>
 	<item type="color" name="surface_light2_20">#33D9D9D9</item>
+	<item type="color" name="surface_light2_30">#4CD9D9D9</item>
 	<item type="color" name="surface_light2_40">#66D9D9D9</item>
+	<item type="color" name="surface_light2_50">#7FD9D9D9</item>
 	<item type="color" name="surface_light2_60">#99D9D9D9</item>
+	<item type="color" name="surface_light2_70">#B2D9D9D9</item>
 	<item type="color" name="surface_light2_80">#CCD9D9D9</item>
+	<item type="color" name="surface_light2_90">#E5D9D9D9</item>
 	<item type="color" name="surface_light2">#FFD9D9D9</item>
+	<item type="color" name="surface_light1_10">#19CCCCCC</item>
 	<item type="color" name="surface_light1_20">#33CCCCCC</item>
+	<item type="color" name="surface_light1_30">#4CCCCCCC</item>
 	<item type="color" name="surface_light1_40">#66CCCCCC</item>
+	<item type="color" name="surface_light1_50">#7FCCCCCC</item>
 	<item type="color" name="surface_light1_60">#99CCCCCC</item>
+	<item type="color" name="surface_light1_70">#B2CCCCCC</item>
 	<item type="color" name="surface_light1_80">#CCCCCCCC</item>
+	<item type="color" name="surface_light1_90">#E5CCCCCC</item>
 	<item type="color" name="surface_light1">#FFCCCCCC</item>
+	<item type="color" name="surface_10">#19BFBFBF</item>
 	<item type="color" name="surface_20">#33BFBFBF</item>
+	<item type="color" name="surface_30">#4CBFBFBF</item>
 	<item type="color" name="surface_40">#66BFBFBF</item>
+	<item type="color" name="surface_50">#7FBFBFBF</item>
 	<item type="color" name="surface_60">#99BFBFBF</item>
+	<item type="color" name="surface_70">#B2BFBFBF</item>
 	<item type="color" name="surface_80">#CCBFBFBF</item>
+	<item type="color" name="surface_90">#E5BFBFBF</item>
 	<item type="color" name="surface">#FFBFBFBF</item>
+	<item type="color" name="surface_dark1_10">#19B3B3B3</item>
 	<item type="color" name="surface_dark1_20">#33B3B3B3</item>
+	<item type="color" name="surface_dark1_30">#4CB3B3B3</item>
 	<item type="color" name="surface_dark1_40">#66B3B3B3</item>
+	<item type="color" name="surface_dark1_50">#7FB3B3B3</item>
 	<item type="color" name="surface_dark1_60">#99B3B3B3</item>
+	<item type="color" name="surface_dark1_70">#B2B3B3B3</item>
 	<item type="color" name="surface_dark1_80">#CCB3B3B3</item>
+	<item type="color" name="surface_dark1_90">#E5B3B3B3</item>
 	<item type="color" name="surface_dark1">#FFB3B3B3</item>
+	<item type="color" name="surface_dark2_10">#19A6A6A6</item>
 	<item type="color" name="surface_dark2_20">#33A6A6A6</item>
+	<item type="color" name="surface_dark2_30">#4CA6A6A6</item>
 	<item type="color" name="surface_dark2_40">#66A6A6A6</item>
+	<item type="color" name="surface_dark2_50">#7FA6A6A6</item>
 	<item type="color" name="surface_dark2_60">#99A6A6A6</item>
+	<item type="color" name="surface_dark2_70">#B2A6A6A6</item>
 	<item type="color" name="surface_dark2_80">#CCA6A6A6</item>
+	<item type="color" name="surface_dark2_90">#E5A6A6A6</item>
 	<item type="color" name="surface_dark2">#FFA6A6A6</item>
+	<item type="color" name="surface_dark3_10">#19999999</item>
 	<item type="color" name="surface_dark3_20">#33999999</item>
+	<item type="color" name="surface_dark3_30">#4C999999</item>
 	<item type="color" name="surface_dark3_40">#66999999</item>
+	<item type="color" name="surface_dark3_50">#7F999999</item>
 	<item type="color" name="surface_dark3_60">#99999999</item>
+	<item type="color" name="surface_dark3_70">#B2999999</item>
 	<item type="color" name="surface_dark3_80">#CC999999</item>
+	<item type="color" name="surface_dark3_90">#E5999999</item>
 	<item type="color" name="surface_dark3">#FF999999</item>
+	<item type="color" name="surface_dark4_10">#198C8C8C</item>
 	<item type="color" name="surface_dark4_20">#338C8C8C</item>
+	<item type="color" name="surface_dark4_30">#4C8C8C8C</item>
 	<item type="color" name="surface_dark4_40">#668C8C8C</item>
+	<item type="color" name="surface_dark4_50">#7F8C8C8C</item>
 	<item type="color" name="surface_dark4_60">#998C8C8C</item>
+	<item type="color" name="surface_dark4_70">#B28C8C8C</item>
 	<item type="color" name="surface_dark4_80">#CC8C8C8C</item>
+	<item type="color" name="surface_dark4_90">#E58C8C8C</item>
 	<item type="color" name="surface_dark4">#FF8C8C8C</item>
+	<item type="color" name="surface_dark5_10">#19808080</item>
 	<item type="color" name="surface_dark5_20">#33808080</item>
+	<item type="color" name="surface_dark5_30">#4C808080</item>
 	<item type="color" name="surface_dark5_40">#66808080</item>
+	<item type="color" name="surface_dark5_50">#7F808080</item>
 	<item type="color" name="surface_dark5_60">#99808080</item>
+	<item type="color" name="surface_dark5_70">#B2808080</item>
 	<item type="color" name="surface_dark5_80">#CC808080</item>
+	<item type="color" name="surface_dark5_90">#E5808080</item>
 	<item type="color" name="surface_dark5">#FF808080</item>
+	<item type="color" name="accent1_light5_10">#19FFF0F0</item>
 	<item type="color" name="accent1_light5_20">#33FFF0F0</item>
+	<item type="color" name="accent1_light5_30">#4CFFF0F0</item>
 	<item type="color" name="accent1_light5_40">#66FFF0F0</item>
+	<item type="color" name="accent1_light5_50">#7FFFF0F0</item>
 	<item type="color" name="accent1_light5_60">#99FFF0F0</item>
+	<item type="color" name="accent1_light5_70">#B2FFF0F0</item>
 	<item type="color" name="accent1_light5_80">#CCFFF0F0</item>
+	<item type="color" name="accent1_light5_90">#E5FFF0F0</item>
 	<item type="color" name="accent1_light5">#FFFFF0F0</item>
+	<item type="color" name="accent1_light4_10">#19FFD6D6</item>
 	<item type="color" name="accent1_light4_20">#33FFD6D6</item>
+	<item type="color" name="accent1_light4_30">#4CFFD6D6</item>
 	<item type="color" name="accent1_light4_40">#66FFD6D6</item>
+	<item type="color" name="accent1_light4_50">#7FFFD6D6</item>
 	<item type="color" name="accent1_light4_60">#99FFD6D6</item>
+	<item type="color" name="accent1_light4_70">#B2FFD6D6</item>
 	<item type="color" name="accent1_light4_80">#CCFFD6D6</item>
+	<item type="color" name="accent1_light4_90">#E5FFD6D6</item>
 	<item type="color" name="accent1_light4">#FFFFD6D6</item>
+	<item type="color" name="accent1_light3_10">#19FFBDBD</item>
 	<item type="color" name="accent1_light3_20">#33FFBDBD</item>
+	<item type="color" name="accent1_light3_30">#4CFFBDBD</item>
 	<item type="color" name="accent1_light3_40">#66FFBDBD</item>
+	<item type="color" name="accent1_light3_50">#7FFFBDBD</item>
 	<item type="color" name="accent1_light3_60">#99FFBDBD</item>
+	<item type="color" name="accent1_light3_70">#B2FFBDBD</item>
 	<item type="color" name="accent1_light3_80">#CCFFBDBD</item>
+	<item type="color" name="accent1_light3_90">#E5FFBDBD</item>
 	<item type="color" name="accent1_light3">#FFFFBDBD</item>
+	<item type="color" name="accent1_light2_10">#19FFA3A3</item>
 	<item type="color" name="accent1_light2_20">#33FFA3A3</item>
+	<item type="color" name="accent1_light2_30">#4CFFA3A3</item>
 	<item type="color" name="accent1_light2_40">#66FFA3A3</item>
+	<item type="color" name="accent1_light2_50">#7FFFA3A3</item>
 	<item type="color" name="accent1_light2_60">#99FFA3A3</item>
+	<item type="color" name="accent1_light2_70">#B2FFA3A3</item>
 	<item type="color" name="accent1_light2_80">#CCFFA3A3</item>
+	<item type="color" name="accent1_light2_90">#E5FFA3A3</item>
 	<item type="color" name="accent1_light2">#FFFFA3A3</item>
+	<item type="color" name="accent1_light1_10">#19FF8A8A</item>
 	<item type="color" name="accent1_light1_20">#33FF8A8A</item>
+	<item type="color" name="accent1_light1_30">#4CFF8A8A</item>
 	<item type="color" name="accent1_light1_40">#66FF8A8A</item>
+	<item type="color" name="accent1_light1_50">#7FFF8A8A</item>
 	<item type="color" name="accent1_light1_60">#99FF8A8A</item>
+	<item type="color" name="accent1_light1_70">#B2FF8A8A</item>
 	<item type="color" name="accent1_light1_80">#CCFF8A8A</item>
+	<item type="color" name="accent1_light1_90">#E5FF8A8A</item>
 	<item type="color" name="accent1_light1">#FFFF8A8A</item>
+	<item type="color" name="accent1_10">#19FF7070</item>
 	<item type="color" name="accent1_20">#33FF7070</item>
+	<item type="color" name="accent1_30">#4CFF7070</item>
 	<item type="color" name="accent1_40">#66FF7070</item>
+	<item type="color" name="accent1_50">#7FFF7070</item>
 	<item type="color" name="accent1_60">#99FF7070</item>
+	<item type="color" name="accent1_70">#B2FF7070</item>
 	<item type="color" name="accent1_80">#CCFF7070</item>
+	<item type="color" name="accent1_90">#E5FF7070</item>
 	<item type="color" name="accent1">#FFFF7070</item>
+	<item type="color" name="accent1_dark1_10">#19FF5757</item>
 	<item type="color" name="accent1_dark1_20">#33FF5757</item>
+	<item type="color" name="accent1_dark1_30">#4CFF5757</item>
 	<item type="color" name="accent1_dark1_40">#66FF5757</item>
+	<item type="color" name="accent1_dark1_50">#7FFF5757</item>
 	<item type="color" name="accent1_dark1_60">#99FF5757</item>
+	<item type="color" name="accent1_dark1_70">#B2FF5757</item>
 	<item type="color" name="accent1_dark1_80">#CCFF5757</item>
+	<item type="color" name="accent1_dark1_90">#E5FF5757</item>
 	<item type="color" name="accent1_dark1">#FFFF5757</item>
+	<item type="color" name="accent1_dark2_10">#19FF3D3D</item>
 	<item type="color" name="accent1_dark2_20">#33FF3D3D</item>
+	<item type="color" name="accent1_dark2_30">#4CFF3D3D</item>
 	<item type="color" name="accent1_dark2_40">#66FF3D3D</item>
+	<item type="color" name="accent1_dark2_50">#7FFF3D3D</item>
 	<item type="color" name="accent1_dark2_60">#99FF3D3D</item>
+	<item type="color" name="accent1_dark2_70">#B2FF3D3D</item>
 	<item type="color" name="accent1_dark2_80">#CCFF3D3D</item>
+	<item type="color" name="accent1_dark2_90">#E5FF3D3D</item>
 	<item type="color" name="accent1_dark2">#FFFF3D3D</item>
+	<item type="color" name="accent1_dark3_10">#19FF2424</item>
 	<item type="color" name="accent1_dark3_20">#33FF2424</item>
+	<item type="color" name="accent1_dark3_30">#4CFF2424</item>
 	<item type="color" name="accent1_dark3_40">#66FF2424</item>
+	<item type="color" name="accent1_dark3_50">#7FFF2424</item>
 	<item type="color" name="accent1_dark3_60">#99FF2424</item>
+	<item type="color" name="accent1_dark3_70">#B2FF2424</item>
 	<item type="color" name="accent1_dark3_80">#CCFF2424</item>
+	<item type="color" name="accent1_dark3_90">#E5FF2424</item>
 	<item type="color" name="accent1_dark3">#FFFF2424</item>
+	<item type="color" name="accent1_dark4_10">#19FF0A0A</item>
 	<item type="color" name="accent1_dark4_20">#33FF0A0A</item>
+	<item type="color" name="accent1_dark4_30">#4CFF0A0A</item>
 	<item type="color" name="accent1_dark4_40">#66FF0A0A</item>
+	<item type="color" name="accent1_dark4_50">#7FFF0A0A</item>
 	<item type="color" name="accent1_dark4_60">#99FF0A0A</item>
+	<item type="color" name="accent1_dark4_70">#B2FF0A0A</item>
 	<item type="color" name="accent1_dark4_80">#CCFF0A0A</item>
+	<item type="color" name="accent1_dark4_90">#E5FF0A0A</item>
 	<item type="color" name="accent1_dark4">#FFFF0A0A</item>
+	<item type="color" name="accent1_dark5_10">#19F00000</item>
 	<item type="color" name="accent1_dark5_20">#33F00000</item>
+	<item type="color" name="accent1_dark5_30">#4CF00000</item>
 	<item type="color" name="accent1_dark5_40">#66F00000</item>
+	<item type="color" name="accent1_dark5_50">#7FF00000</item>
 	<item type="color" name="accent1_dark5_60">#99F00000</item>
+	<item type="color" name="accent1_dark5_70">#B2F00000</item>
 	<item type="color" name="accent1_dark5_80">#CCF00000</item>
+	<item type="color" name="accent1_dark5_90">#E5F00000</item>
 	<item type="color" name="accent1_dark5">#FFF00000</item>
+	<item type="color" name="accent2_light5_10">#19F4B4A6</item>
 	<item type="color" name="accent2_light5_20">#33F4B4A6</item>
+	<item type="color" name="accent2_light5_30">#4CF4B4A6</item>
 	<item type="color" name="accent2_light5_40">#66F4B4A6</item>
+	<item type="color" name="accent2_light5_50">#7FF4B4A6</item>
 	<item type="color" name="accent2_light5_60">#99F4B4A6</item>
+	<item type="color" name="accent2_light5_70">#B2F4B4A6</item>
 	<item type="color" name="accent2_light5_80">#CCF4B4A6</item>
+	<item type="color" name="accent2_light5_90">#E5F4B4A6</item>
 	<item type="color" name="accent2_light5">#FFF4B4A6</item>
+	<item type="color" name="accent2_light4_10">#19F1A190</item>
 	<item type="color" name="accent2_light4_20">#33F1A190</item>
+	<item type="color" name="accent2_light4_30">#4CF1A190</item>
 	<item type="color" name="accent2_light4_40">#66F1A190</item>
+	<item type="color" name="accent2_light4_50">#7FF1A190</item>
 	<item type="color" name="accent2_light4_60">#99F1A190</item>
+	<item type="color" name="accent2_light4_70">#B2F1A190</item>
 	<item type="color" name="accent2_light4_80">#CCF1A190</item>
+	<item type="color" name="accent2_light4_90">#E5F1A190</item>
 	<item type="color" name="accent2_light4">#FFF1A190</item>
+	<item type="color" name="accent2_light3_10">#19EE8E79</item>
 	<item type="color" name="accent2_light3_20">#33EE8E79</item>
+	<item type="color" name="accent2_light3_30">#4CEE8E79</item>
 	<item type="color" name="accent2_light3_40">#66EE8E79</item>
+	<item type="color" name="accent2_light3_50">#7FEE8E79</item>
 	<item type="color" name="accent2_light3_60">#99EE8E79</item>
+	<item type="color" name="accent2_light3_70">#B2EE8E79</item>
 	<item type="color" name="accent2_light3_80">#CCEE8E79</item>
+	<item type="color" name="accent2_light3_90">#E5EE8E79</item>
 	<item type="color" name="accent2_light3">#FFEE8E79</item>
+	<item type="color" name="accent2_light2_10">#19EC7B62</item>
 	<item type="color" name="accent2_light2_20">#33EC7B62</item>
+	<item type="color" name="accent2_light2_30">#4CEC7B62</item>
 	<item type="color" name="accent2_light2_40">#66EC7B62</item>
+	<item type="color" name="accent2_light2_50">#7FEC7B62</item>
 	<item type="color" name="accent2_light2_60">#99EC7B62</item>
+	<item type="color" name="accent2_light2_70">#B2EC7B62</item>
 	<item type="color" name="accent2_light2_80">#CCEC7B62</item>
+	<item type="color" name="accent2_light2_90">#E5EC7B62</item>
 	<item type="color" name="accent2_light2">#FFEC7B62</item>
+	<item type="color" name="accent2_light1_10">#19E9684C</item>
 	<item type="color" name="accent2_light1_20">#33E9684C</item>
+	<item type="color" name="accent2_light1_30">#4CE9684C</item>
 	<item type="color" name="accent2_light1_40">#66E9684C</item>
+	<item type="color" name="accent2_light1_50">#7FE9684C</item>
 	<item type="color" name="accent2_light1_60">#99E9684C</item>
+	<item type="color" name="accent2_light1_70">#B2E9684C</item>
 	<item type="color" name="accent2_light1_80">#CCE9684C</item>
+	<item type="color" name="accent2_light1_90">#E5E9684C</item>
 	<item type="color" name="accent2_light1">#FFE9684C</item>
+	<item type="color" name="accent2_10">#19E65535</item>
 	<item type="color" name="accent2_20">#33E65535</item>
+	<item type="color" name="accent2_30">#4CE65535</item>
 	<item type="color" name="accent2_40">#66E65535</item>
+	<item type="color" name="accent2_50">#7FE65535</item>
 	<item type="color" name="accent2_60">#99E65535</item>
+	<item type="color" name="accent2_70">#B2E65535</item>
 	<item type="color" name="accent2_80">#CCE65535</item>
+	<item type="color" name="accent2_90">#E5E65535</item>
 	<item type="color" name="accent2">#FFE65535</item>
+	<item type="color" name="accent2_dark1_10">#19E3421E</item>
 	<item type="color" name="accent2_dark1_20">#33E3421E</item>
+	<item type="color" name="accent2_dark1_30">#4CE3421E</item>
 	<item type="color" name="accent2_dark1_40">#66E3421E</item>
+	<item type="color" name="accent2_dark1_50">#7FE3421E</item>
 	<item type="color" name="accent2_dark1_60">#99E3421E</item>
+	<item type="color" name="accent2_dark1_70">#B2E3421E</item>
 	<item type="color" name="accent2_dark1_80">#CCE3421E</item>
+	<item type="color" name="accent2_dark1_90">#E5E3421E</item>
 	<item type="color" name="accent2_dark1">#FFE3421E</item>
+	<item type="color" name="accent2_dark2_10">#19CF3A1A</item>
 	<item type="color" name="accent2_dark2_20">#33CF3A1A</item>
+	<item type="color" name="accent2_dark2_30">#4CCF3A1A</item>
 	<item type="color" name="accent2_dark2_40">#66CF3A1A</item>
+	<item type="color" name="accent2_dark2_50">#7FCF3A1A</item>
 	<item type="color" name="accent2_dark2_60">#99CF3A1A</item>
+	<item type="color" name="accent2_dark2_70">#B2CF3A1A</item>
 	<item type="color" name="accent2_dark2_80">#CCCF3A1A</item>
+	<item type="color" name="accent2_dark2_90">#E5CF3A1A</item>
 	<item type="color" name="accent2_dark2">#FFCF3A1A</item>
+	<item type="color" name="accent2_dark3_10">#19B83417</item>
 	<item type="color" name="accent2_dark3_20">#33B83417</item>
+	<item type="color" name="accent2_dark3_30">#4CB83417</item>
 	<item type="color" name="accent2_dark3_40">#66B83417</item>
+	<item type="color" name="accent2_dark3_50">#7FB83417</item>
 	<item type="color" name="accent2_dark3_60">#99B83417</item>
+	<item type="color" name="accent2_dark3_70">#B2B83417</item>
 	<item type="color" name="accent2_dark3_80">#CCB83417</item>
+	<item type="color" name="accent2_dark3_90">#E5B83417</item>
 	<item type="color" name="accent2_dark3">#FFB83417</item>
+	<item type="color" name="accent2_dark4_10">#19A12D14</item>
 	<item type="color" name="accent2_dark4_20">#33A12D14</item>
+	<item type="color" name="accent2_dark4_30">#4CA12D14</item>
 	<item type="color" name="accent2_dark4_40">#66A12D14</item>
+	<item type="color" name="accent2_dark4_50">#7FA12D14</item>
 	<item type="color" name="accent2_dark4_60">#99A12D14</item>
+	<item type="color" name="accent2_dark4_70">#B2A12D14</item>
 	<item type="color" name="accent2_dark4_80">#CCA12D14</item>
+	<item type="color" name="accent2_dark4_90">#E5A12D14</item>
 	<item type="color" name="accent2_dark4">#FFA12D14</item>
+	<item type="color" name="accent2_dark5_10">#198A2711</item>
 	<item type="color" name="accent2_dark5_20">#338A2711</item>
+	<item type="color" name="accent2_dark5_30">#4C8A2711</item>
 	<item type="color" name="accent2_dark5_40">#668A2711</item>
+	<item type="color" name="accent2_dark5_50">#7F8A2711</item>
 	<item type="color" name="accent2_dark5_60">#998A2711</item>
+	<item type="color" name="accent2_dark5_70">#B28A2711</item>
 	<item type="color" name="accent2_dark5_80">#CC8A2711</item>
+	<item type="color" name="accent2_dark5_90">#E58A2711</item>
 	<item type="color" name="accent2_dark5">#FF8A2711</item>
+	<item type="color" name="accent3_light5_10">#1970E4A6</item>
 	<item type="color" name="accent3_light5_20">#3370E4A6</item>
+	<item type="color" name="accent3_light5_30">#4C70E4A6</item>
 	<item type="color" name="accent3_light5_40">#6670E4A6</item>
+	<item type="color" name="accent3_light5_50">#7F70E4A6</item>
 	<item type="color" name="accent3_light5_60">#9970E4A6</item>
+	<item type="color" name="accent3_light5_70">#B270E4A6</item>
 	<item type="color" name="accent3_light5_80">#CC70E4A6</item>
+	<item type="color" name="accent3_light5_90">#E570E4A6</item>
 	<item type="color" name="accent3_light5">#FF70E4A6</item>
+	<item type="color" name="accent3_light4_10">#195BE098</item>
 	<item type="color" name="accent3_light4_20">#335BE098</item>
+	<item type="color" name="accent3_light4_30">#4C5BE098</item>
 	<item type="color" name="accent3_light4_40">#665BE098</item>
+	<item type="color" name="accent3_light4_50">#7F5BE098</item>
 	<item type="color" name="accent3_light4_60">#995BE098</item>
+	<item type="color" name="accent3_light4_70">#B25BE098</item>
 	<item type="color" name="accent3_light4_80">#CC5BE098</item>
+	<item type="color" name="accent3_light4_90">#E55BE098</item>
 	<item type="color" name="accent3_light4">#FF5BE098</item>
+	<item type="color" name="accent3_light3_10">#1946DC8B</item>
 	<item type="color" name="accent3_light3_20">#3346DC8B</item>
+	<item type="color" name="accent3_light3_30">#4C46DC8B</item>
 	<item type="color" name="accent3_light3_40">#6646DC8B</item>
+	<item type="color" name="accent3_light3_50">#7F46DC8B</item>
 	<item type="color" name="accent3_light3_60">#9946DC8B</item>
+	<item type="color" name="accent3_light3_70">#B246DC8B</item>
 	<item type="color" name="accent3_light3_80">#CC46DC8B</item>
+	<item type="color" name="accent3_light3_90">#E546DC8B</item>
 	<item type="color" name="accent3_light3">#FF46DC8B</item>
+	<item type="color" name="accent3_light2_10">#1930D87D</item>
 	<item type="color" name="accent3_light2_20">#3330D87D</item>
+	<item type="color" name="accent3_light2_30">#4C30D87D</item>
 	<item type="color" name="accent3_light2_40">#6630D87D</item>
+	<item type="color" name="accent3_light2_50">#7F30D87D</item>
 	<item type="color" name="accent3_light2_60">#9930D87D</item>
+	<item type="color" name="accent3_light2_70">#B230D87D</item>
 	<item type="color" name="accent3_light2_80">#CC30D87D</item>
+	<item type="color" name="accent3_light2_90">#E530D87D</item>
 	<item type="color" name="accent3_light2">#FF30D87D</item>
+	<item type="color" name="accent3_light1_10">#1926C871</item>
 	<item type="color" name="accent3_light1_20">#3326C871</item>
+	<item type="color" name="accent3_light1_30">#4C26C871</item>
 	<item type="color" name="accent3_light1_40">#6626C871</item>
+	<item type="color" name="accent3_light1_50">#7F26C871</item>
 	<item type="color" name="accent3_light1_60">#9926C871</item>
+	<item type="color" name="accent3_light1_70">#B226C871</item>
 	<item type="color" name="accent3_light1_80">#CC26C871</item>
+	<item type="color" name="accent3_light1_90">#E526C871</item>
 	<item type="color" name="accent3_light1">#FF26C871</item>
+	<item type="color" name="accent3_10">#1922B365</item>
 	<item type="color" name="accent3_20">#3322B365</item>
+	<item type="color" name="accent3_30">#4C22B365</item>
 	<item type="color" name="accent3_40">#6622B365</item>
+	<item type="color" name="accent3_50">#7F22B365</item>
 	<item type="color" name="accent3_60">#9922B365</item>
+	<item type="color" name="accent3_70">#B222B365</item>
 	<item type="color" name="accent3_80">#CC22B365</item>
+	<item type="color" name="accent3_90">#E522B365</item>
 	<item type="color" name="accent3">#FF22B365</item>
+	<item type="color" name="accent3_dark1_10">#191E9D59</item>
 	<item type="color" name="accent3_dark1_20">#331E9D59</item>
+	<item type="color" name="accent3_dark1_30">#4C1E9D59</item>
 	<item type="color" name="accent3_dark1_40">#661E9D59</item>
+	<item type="color" name="accent3_dark1_50">#7F1E9D59</item>
 	<item type="color" name="accent3_dark1_60">#991E9D59</item>
+	<item type="color" name="accent3_dark1_70">#B21E9D59</item>
 	<item type="color" name="accent3_dark1_80">#CC1E9D59</item>
+	<item type="color" name="accent3_dark1_90">#E51E9D59</item>
 	<item type="color" name="accent3_dark1">#FF1E9D59</item>
+	<item type="color" name="accent3_dark2_10">#191A884D</item>
 	<item type="color" name="accent3_dark2_20">#331A884D</item>
+	<item type="color" name="accent3_dark2_30">#4C1A884D</item>
 	<item type="color" name="accent3_dark2_40">#661A884D</item>
+	<item type="color" name="accent3_dark2_50">#7F1A884D</item>
 	<item type="color" name="accent3_dark2_60">#991A884D</item>
+	<item type="color" name="accent3_dark2_70">#B21A884D</item>
 	<item type="color" name="accent3_dark2_80">#CC1A884D</item>
+	<item type="color" name="accent3_dark2_90">#E51A884D</item>
 	<item type="color" name="accent3_dark2">#FF1A884D</item>
+	<item type="color" name="accent3_dark3_10">#19167241</item>
 	<item type="color" name="accent3_dark3_20">#33167241</item>
+	<item type="color" name="accent3_dark3_30">#4C167241</item>
 	<item type="color" name="accent3_dark3_40">#66167241</item>
+	<item type="color" name="accent3_dark3_50">#7F167241</item>
 	<item type="color" name="accent3_dark3_60">#99167241</item>
+	<item type="color" name="accent3_dark3_70">#B2167241</item>
 	<item type="color" name="accent3_dark3_80">#CC167241</item>
+	<item type="color" name="accent3_dark3_90">#E5167241</item>
 	<item type="color" name="accent3_dark3">#FF167241</item>
+	<item type="color" name="accent3_dark4_10">#19125D34</item>
 	<item type="color" name="accent3_dark4_20">#33125D34</item>
+	<item type="color" name="accent3_dark4_30">#4C125D34</item>
 	<item type="color" name="accent3_dark4_40">#66125D34</item>
+	<item type="color" name="accent3_dark4_50">#7F125D34</item>
 	<item type="color" name="accent3_dark4_60">#99125D34</item>
+	<item type="color" name="accent3_dark4_70">#B2125D34</item>
 	<item type="color" name="accent3_dark4_80">#CC125D34</item>
+	<item type="color" name="accent3_dark4_90">#E5125D34</item>
 	<item type="color" name="accent3_dark4">#FF125D34</item>
+	<item type="color" name="accent3_dark5_10">#190E4828</item>
 	<item type="color" name="accent3_dark5_20">#330E4828</item>
+	<item type="color" name="accent3_dark5_30">#4C0E4828</item>
 	<item type="color" name="accent3_dark5_40">#660E4828</item>
+	<item type="color" name="accent3_dark5_50">#7F0E4828</item>
 	<item type="color" name="accent3_dark5_60">#990E4828</item>
+	<item type="color" name="accent3_dark5_70">#B20E4828</item>
 	<item type="color" name="accent3_dark5_80">#CC0E4828</item>
+	<item type="color" name="accent3_dark5_90">#E50E4828</item>
 	<item type="color" name="accent3_dark5">#FF0E4828</item>
+	<item type="color" name="accent4_light5_10">#197CF2CB</item>
 	<item type="color" name="accent4_light5_20">#337CF2CB</item>
+	<item type="color" name="accent4_light5_30">#4C7CF2CB</item>
 	<item type="color" name="accent4_light5_40">#667CF2CB</item>
+	<item type="color" name="accent4_light5_50">#7F7CF2CB</item>
 	<item type="color" name="accent4_light5_60">#997CF2CB</item>
+	<item type="color" name="accent4_light5_70">#B27CF2CB</item>
 	<item type="color" name="accent4_light5_80">#CC7CF2CB</item>
+	<item type="color" name="accent4_light5_90">#E57CF2CB</item>
 	<item type="color" name="accent4_light5">#FF7CF2CB</item>
+	<item type="color" name="accent4_light4_10">#1965EFC1</item>
 	<item type="color" name="accent4_light4_20">#3365EFC1</item>
+	<item type="color" name="accent4_light4_30">#4C65EFC1</item>
 	<item type="color" name="accent4_light4_40">#6665EFC1</item>
+	<item type="color" name="accent4_light4_50">#7F65EFC1</item>
 	<item type="color" name="accent4_light4_60">#9965EFC1</item>
+	<item type="color" name="accent4_light4_70">#B265EFC1</item>
 	<item type="color" name="accent4_light4_80">#CC65EFC1</item>
+	<item type="color" name="accent4_light4_90">#E565EFC1</item>
 	<item type="color" name="accent4_light4">#FF65EFC1</item>
+	<item type="color" name="accent4_light3_10">#194EEDB8</item>
 	<item type="color" name="accent4_light3_20">#334EEDB8</item>
+	<item type="color" name="accent4_light3_30">#4C4EEDB8</item>
 	<item type="color" name="accent4_light3_40">#664EEDB8</item>
+	<item type="color" name="accent4_light3_50">#7F4EEDB8</item>
 	<item type="color" name="accent4_light3_60">#994EEDB8</item>
+	<item type="color" name="accent4_light3_70">#B24EEDB8</item>
 	<item type="color" name="accent4_light3_80">#CC4EEDB8</item>
+	<item type="color" name="accent4_light3_90">#E54EEDB8</item>
 	<item type="color" name="accent4_light3">#FF4EEDB8</item>
+	<item type="color" name="accent4_light2_10">#1937EBAF</item>
 	<item type="color" name="accent4_light2_20">#3337EBAF</item>
+	<item type="color" name="accent4_light2_30">#4C37EBAF</item>
 	<item type="color" name="accent4_light2_40">#6637EBAF</item>
+	<item type="color" name="accent4_light2_50">#7F37EBAF</item>
 	<item type="color" name="accent4_light2_60">#9937EBAF</item>
+	<item type="color" name="accent4_light2_70">#B237EBAF</item>
 	<item type="color" name="accent4_light2_80">#CC37EBAF</item>
+	<item type="color" name="accent4_light2_90">#E537EBAF</item>
 	<item type="color" name="accent4_light2">#FF37EBAF</item>
+	<item type="color" name="accent4_light1_10">#1920E8A5</item>
 	<item type="color" name="accent4_light1_20">#3320E8A5</item>
+	<item type="color" name="accent4_light1_30">#4C20E8A5</item>
 	<item type="color" name="accent4_light1_40">#6620E8A5</item>
+	<item type="color" name="accent4_light1_50">#7F20E8A5</item>
 	<item type="color" name="accent4_light1_60">#9920E8A5</item>
+	<item type="color" name="accent4_light1_70">#B220E8A5</item>
 	<item type="color" name="accent4_light1_80">#CC20E8A5</item>
+	<item type="color" name="accent4_light1_90">#E520E8A5</item>
 	<item type="color" name="accent4_light1">#FF20E8A5</item>
+	<item type="color" name="accent4_10">#1916D998</item>
 	<item type="color" name="accent4_20">#3316D998</item>
+	<item type="color" name="accent4_30">#4C16D998</item>
 	<item type="color" name="accent4_40">#6616D998</item>
+	<item type="color" name="accent4_50">#7F16D998</item>
 	<item type="color" name="accent4_60">#9916D998</item>
+	<item type="color" name="accent4_70">#B216D998</item>
 	<item type="color" name="accent4_80">#CC16D998</item>
+	<item type="color" name="accent4_90">#E516D998</item>
 	<item type="color" name="accent4">#FF16D998</item>
+	<item type="color" name="accent4_dark1_10">#1914C188</item>
 	<item type="color" name="accent4_dark1_20">#3314C188</item>
+	<item type="color" name="accent4_dark1_30">#4C14C188</item>
 	<item type="color" name="accent4_dark1_40">#6614C188</item>
+	<item type="color" name="accent4_dark1_50">#7F14C188</item>
 	<item type="color" name="accent4_dark1_60">#9914C188</item>
+	<item type="color" name="accent4_dark1_70">#B214C188</item>
 	<item type="color" name="accent4_dark1_80">#CC14C188</item>
+	<item type="color" name="accent4_dark1_90">#E514C188</item>
 	<item type="color" name="accent4_dark1">#FF14C188</item>
+	<item type="color" name="accent4_dark2_10">#1911AA77</item>
 	<item type="color" name="accent4_dark2_20">#3311AA77</item>
+	<item type="color" name="accent4_dark2_30">#4C11AA77</item>
 	<item type="color" name="accent4_dark2_40">#6611AA77</item>
+	<item type="color" name="accent4_dark2_50">#7F11AA77</item>
 	<item type="color" name="accent4_dark2_60">#9911AA77</item>
+	<item type="color" name="accent4_dark2_70">#B211AA77</item>
 	<item type="color" name="accent4_dark2_80">#CC11AA77</item>
+	<item type="color" name="accent4_dark2_90">#E511AA77</item>
 	<item type="color" name="accent4_dark2">#FF11AA77</item>
+	<item type="color" name="accent4_dark3_10">#190F9367</item>
 	<item type="color" name="accent4_dark3_20">#330F9367</item>
+	<item type="color" name="accent4_dark3_30">#4C0F9367</item>
 	<item type="color" name="accent4_dark3_40">#660F9367</item>
+	<item type="color" name="accent4_dark3_50">#7F0F9367</item>
 	<item type="color" name="accent4_dark3_60">#990F9367</item>
+	<item type="color" name="accent4_dark3_70">#B20F9367</item>
 	<item type="color" name="accent4_dark3_80">#CC0F9367</item>
+	<item type="color" name="accent4_dark3_90">#E50F9367</item>
 	<item type="color" name="accent4_dark3">#FF0F9367</item>
+	<item type="color" name="accent4_dark4_10">#190D7C57</item>
 	<item type="color" name="accent4_dark4_20">#330D7C57</item>
+	<item type="color" name="accent4_dark4_30">#4C0D7C57</item>
 	<item type="color" name="accent4_dark4_40">#660D7C57</item>
+	<item type="color" name="accent4_dark4_50">#7F0D7C57</item>
 	<item type="color" name="accent4_dark4_60">#990D7C57</item>
+	<item type="color" name="accent4_dark4_70">#B20D7C57</item>
 	<item type="color" name="accent4_dark4_80">#CC0D7C57</item>
+	<item type="color" name="accent4_dark4_90">#E50D7C57</item>
 	<item type="color" name="accent4_dark4">#FF0D7C57</item>
+	<item type="color" name="accent4_dark5_10">#190A6547</item>
 	<item type="color" name="accent4_dark5_20">#330A6547</item>
+	<item type="color" name="accent4_dark5_30">#4C0A6547</item>
 	<item type="color" name="accent4_dark5_40">#660A6547</item>
+	<item type="color" name="accent4_dark5_50">#7F0A6547</item>
 	<item type="color" name="accent4_dark5_60">#990A6547</item>
+	<item type="color" name="accent4_dark5_70">#B20A6547</item>
 	<item type="color" name="accent4_dark5_80">#CC0A6547</item>
+	<item type="color" name="accent4_dark5_90">#E50A6547</item>
 	<item type="color" name="accent4_dark5">#FF0A6547</item>
+	<item type="color" name="accent5_light5_10">#19FFE098</item>
 	<item type="color" name="accent5_light5_20">#33FFE098</item>
+	<item type="color" name="accent5_light5_30">#4CFFE098</item>
 	<item type="color" name="accent5_light5_40">#66FFE098</item>
+	<item type="color" name="accent5_light5_50">#7FFFE098</item>
 	<item type="color" name="accent5_light5_60">#99FFE098</item>
+	<item type="color" name="accent5_light5_70">#B2FFE098</item>
 	<item type="color" name="accent5_light5_80">#CCFFE098</item>
+	<item type="color" name="accent5_light5_90">#E5FFE098</item>
 	<item type="color" name="accent5_light5">#FFFFE098</item>
+	<item type="color" name="accent5_light4_10">#19FFD97F</item>
 	<item type="color" name="accent5_light4_20">#33FFD97F</item>
+	<item type="color" name="accent5_light4_30">#4CFFD97F</item>
 	<item type="color" name="accent5_light4_40">#66FFD97F</item>
+	<item type="color" name="accent5_light4_50">#7FFFD97F</item>
 	<item type="color" name="accent5_light4_60">#99FFD97F</item>
+	<item type="color" name="accent5_light4_70">#B2FFD97F</item>
 	<item type="color" name="accent5_light4_80">#CCFFD97F</item>
+	<item type="color" name="accent5_light4_90">#E5FFD97F</item>
 	<item type="color" name="accent5_light4">#FFFFD97F</item>
+	<item type="color" name="accent5_light3_10">#19FFD165</item>
 	<item type="color" name="accent5_light3_20">#33FFD165</item>
+	<item type="color" name="accent5_light3_30">#4CFFD165</item>
 	<item type="color" name="accent5_light3_40">#66FFD165</item>
+	<item type="color" name="accent5_light3_50">#7FFFD165</item>
 	<item type="color" name="accent5_light3_60">#99FFD165</item>
+	<item type="color" name="accent5_light3_70">#B2FFD165</item>
 	<item type="color" name="accent5_light3_80">#CCFFD165</item>
+	<item type="color" name="accent5_light3_90">#E5FFD165</item>
 	<item type="color" name="accent5_light3">#FFFFD165</item>
+	<item type="color" name="accent5_light2_10">#19FFC94C</item>
 	<item type="color" name="accent5_light2_20">#33FFC94C</item>
+	<item type="color" name="accent5_light2_30">#4CFFC94C</item>
 	<item type="color" name="accent5_light2_40">#66FFC94C</item>
+	<item type="color" name="accent5_light2_50">#7FFFC94C</item>
 	<item type="color" name="accent5_light2_60">#99FFC94C</item>
+	<item type="color" name="accent5_light2_70">#B2FFC94C</item>
 	<item type="color" name="accent5_light2_80">#CCFFC94C</item>
+	<item type="color" name="accent5_light2_90">#E5FFC94C</item>
 	<item type="color" name="accent5_light2">#FFFFC94C</item>
+	<item type="color" name="accent5_light1_10">#19FFC232</item>
 	<item type="color" name="accent5_light1_20">#33FFC232</item>
+	<item type="color" name="accent5_light1_30">#4CFFC232</item>
 	<item type="color" name="accent5_light1_40">#66FFC232</item>
+	<item type="color" name="accent5_light1_50">#7FFFC232</item>
 	<item type="color" name="accent5_light1_60">#99FFC232</item>
+	<item type="color" name="accent5_light1_70">#B2FFC232</item>
 	<item type="color" name="accent5_light1_80">#CCFFC232</item>
+	<item type="color" name="accent5_light1_90">#E5FFC232</item>
 	<item type="color" name="accent5_light1">#FFFFC232</item>
+	<item type="color" name="accent5_10">#19FFBA19</item>
 	<item type="color" name="accent5_20">#33FFBA19</item>
+	<item type="color" name="accent5_30">#4CFFBA19</item>
 	<item type="color" name="accent5_40">#66FFBA19</item>
+	<item type="color" name="accent5_50">#7FFFBA19</item>
 	<item type="color" name="accent5_60">#99FFBA19</item>
+	<item type="color" name="accent5_70">#B2FFBA19</item>
 	<item type="color" name="accent5_80">#CCFFBA19</item>
+	<item type="color" name="accent5_90">#E5FFBA19</item>
 	<item type="color" name="accent5">#FFFFBA19</item>
+	<item type="color" name="accent5_dark1_10">#19FEB200</item>
 	<item type="color" name="accent5_dark1_20">#33FEB200</item>
+	<item type="color" name="accent5_dark1_30">#4CFEB200</item>
 	<item type="color" name="accent5_dark1_40">#66FEB200</item>
+	<item type="color" name="accent5_dark1_50">#7FFEB200</item>
 	<item type="color" name="accent5_dark1_60">#99FEB200</item>
+	<item type="color" name="accent5_dark1_70">#B2FEB200</item>
 	<item type="color" name="accent5_dark1_80">#CCFEB200</item>
+	<item type="color" name="accent5_dark1_90">#E5FEB200</item>
 	<item type="color" name="accent5_dark1">#FFFEB200</item>
+	<item type="color" name="accent5_dark2_10">#19E5A000</item>
 	<item type="color" name="accent5_dark2_20">#33E5A000</item>
+	<item type="color" name="accent5_dark2_30">#4CE5A000</item>
 	<item type="color" name="accent5_dark2_40">#66E5A000</item>
+	<item type="color" name="accent5_dark2_50">#7FE5A000</item>
 	<item type="color" name="accent5_dark2_60">#99E5A000</item>
+	<item type="color" name="accent5_dark2_70">#B2E5A000</item>
 	<item type="color" name="accent5_dark2_80">#CCE5A000</item>
+	<item type="color" name="accent5_dark2_90">#E5E5A000</item>
 	<item type="color" name="accent5_dark2">#FFE5A000</item>
+	<item type="color" name="accent5_dark3_10">#19CB8E00</item>
 	<item type="color" name="accent5_dark3_20">#33CB8E00</item>
+	<item type="color" name="accent5_dark3_30">#4CCB8E00</item>
 	<item type="color" name="accent5_dark3_40">#66CB8E00</item>
+	<item type="color" name="accent5_dark3_50">#7FCB8E00</item>
 	<item type="color" name="accent5_dark3_60">#99CB8E00</item>
+	<item type="color" name="accent5_dark3_70">#B2CB8E00</item>
 	<item type="color" name="accent5_dark3_80">#CCCB8E00</item>
+	<item type="color" name="accent5_dark3_90">#E5CB8E00</item>
 	<item type="color" name="accent5_dark3">#FFCB8E00</item>
+	<item type="color" name="accent5_dark4_10">#19B27D00</item>
 	<item type="color" name="accent5_dark4_20">#33B27D00</item>
+	<item type="color" name="accent5_dark4_30">#4CB27D00</item>
 	<item type="color" name="accent5_dark4_40">#66B27D00</item>
+	<item type="color" name="accent5_dark4_50">#7FB27D00</item>
 	<item type="color" name="accent5_dark4_60">#99B27D00</item>
+	<item type="color" name="accent5_dark4_70">#B2B27D00</item>
 	<item type="color" name="accent5_dark4_80">#CCB27D00</item>
+	<item type="color" name="accent5_dark4_90">#E5B27D00</item>
 	<item type="color" name="accent5_dark4">#FFB27D00</item>
+	<item type="color" name="accent5_dark5_10">#19986B00</item>
 	<item type="color" name="accent5_dark5_20">#33986B00</item>
+	<item type="color" name="accent5_dark5_30">#4C986B00</item>
 	<item type="color" name="accent5_dark5_40">#66986B00</item>
+	<item type="color" name="accent5_dark5_50">#7F986B00</item>
 	<item type="color" name="accent5_dark5_60">#99986B00</item>
+	<item type="color" name="accent5_dark5_70">#B2986B00</item>
 	<item type="color" name="accent5_dark5_80">#CC986B00</item>
+	<item type="color" name="accent5_dark5_90">#E5986B00</item>
 	<item type="color" name="accent5_dark5">#FF986B00</item>
 </resources>
