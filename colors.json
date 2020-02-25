@@ -1,27 +1,62 @@
 {
-    "primarylighter": "213,187,231",
-    "primarylight": "176,135,203",
-    "primary": "138,90,171",
-    "primarydark": "112,59,148",
-    "primarydarker": "89,34,127",
-    "secondarylighter": "164,176,214",
-    "secondarylight": "113,129,182",
-    "secondary": "76,94,155",
-    "secondarydark": "51,70,133",
-    "secondarydarker": "30,48,109",
-    "backgroundlighter": "41,43,68",
-    "backgroundlight": "25,26,53",
-    "background": "13,14,37",
-    "backgrounddark": "5,6,22",
-    "backgrounddarker": "0,0,0",
-    "surfacelighter": "255,255,255",
-    "surfacelight": "225,225,225",
-    "surface": "180,180,180",
-    "surfacedark": "137,137,137",
-    "surfacedarker": "88,88,88",
-    "signal1": "251,185,25",
-    "signal2": "251,94,25",
-    "signal3": "199,150,44",
-    "signal4": "25,251,184",
-    "signal5": "34,180,103"
+    "primary": [
+        275.1,
+        33,
+        38
+    ],
+    "primaryvariant1": [
+        276.8,
+        48,
+        62
+    ],
+    "secondary": [
+        226.6,
+        37.2,
+        36.9
+    ],
+    "secondaryvariant1": [
+        224.3,
+        42.1,
+        66
+    ],
+    "secondaryvariant2": [
+        222.8,
+        100,
+        73
+    ],
+    "background": [
+        243,
+        24.4,
+        21
+    ],
+    "surface": [
+        0,
+        0,
+        75
+    ],
+    "accent1": [
+        0,
+        100,
+        72
+    ],
+    "accent2": [
+        10.8,
+        78,
+        55.5
+    ],
+    "accent3": [
+        147.7,
+        68,
+        41.7
+    ],
+    "accent4": [
+        160,
+        81.5,
+        46.8
+    ],
+    "accent5": [
+        42,
+        100,
+        54.9
+    ]
 }
