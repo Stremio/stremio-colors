@@ -2,8 +2,11 @@
     "name": "@stremio/stremio-colors",
     "version": "4.0.0",
     "description": "Color pallet for all stremio clients",
-    "publisher": "Smart Code Ltd.",
-    "website": "www.stremio.com",
+    "author": {
+        "name": "Smart Code Ltd.",
+        "email": "office@stremio.com",
+        "url": "https://stremio.com"
+    },
     "license": "MIT",
     "repository": {
         "type": "git",
