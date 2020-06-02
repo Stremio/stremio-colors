@@ -1,3 +1,5 @@
+# Stremio Colors
+
 |PREVIEW|NAME|HSL|HEX|
 |:---:|:---:|:---:|:---:|
 |![ ](https://placehold.it/60/A682C0?text=+)|primary-light5|hsl(275.1, 33%, 63%)|#A682C0|
