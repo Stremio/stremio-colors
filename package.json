@@ -1,6 +1,7 @@
 {
     "name": "@stremio/stremio-colors",
     "version": "4.0.0",
+    "description": "Color pallet for all stremio clients",
     "publisher": "Smart Code Ltd.",
     "website": "www.stremio.com",
     "license": "MIT",
