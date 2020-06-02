@@ -5,7 +5,7 @@
     "website": "www.stremio.com",
     "license": "MIT",
     "scripts": {
-        "build": "node build.js"
+        "build": "cd scripts && node build.js"
     },
     "devDependencies": {
         "color-convert": "2.0.1"
