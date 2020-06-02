@@ -22,16 +22,15 @@ const android = shadesWithAlpha
     .replace(/^/, '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n')
     .concat('\n</resources>');
 
-fs.mkdirSync('../build/css', { recursive: true });
-fs.writeFileSync('../build/css/stremio-colors.css', css);
+fs.mkdirSync('../css', { recursive: true });
+fs.writeFileSync('../css/stremio-colors.css', css);
 
-fs.mkdirSync('../build/less', { recursive: true });
-fs.writeFileSync('../build/less/stremio-colors.less', less);
+fs.mkdirSync('../less', { recursive: true });
+fs.writeFileSync('../less/stremio-colors.less', less);
 
-fs.mkdirSync('../build/android/src/main/res/values', { recursive: true });
-fs.writeFileSync('../build/android/src/main/res/values/colors.xml', android);
-fs.writeFileSync('../build/android/build.gradle', `apply plugin: 'com.android.library'
-
+fs.mkdirSync('../android/src/main/res/values', { recursive: true });
+fs.writeFileSync('../android/src/main/res/values/colors.xml', android);
+fs.writeFileSync('../android/build.gradle', `apply plugin: 'com.android.library'
 android {
     compileSdkVersion ((rootProject?.ext?.properties?.compileSdkVersion) ?: 28)
     buildToolsVersion ((rootProject?.ext?.properties?.buildToolsVersion) ?: "28.0.3")
@@ -44,6 +43,6 @@ android {
     }
 }
 `);
-fs.writeFileSync('../build/android/src/main/AndroidManifest.xml', `<manifest package="com.stremio.colors">
+fs.writeFileSync('../android/src/main/AndroidManifest.xml', `<manifest package="com.stremio.colors">
 </manifest>
 `);
