@@ -5,6 +5,10 @@
     "publisher": "Smart Code Ltd.",
     "website": "www.stremio.com",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stremio/stremio-colors.git"
+    },
     "scripts": {
         "build": "cd scripts && node build.js"
     },
