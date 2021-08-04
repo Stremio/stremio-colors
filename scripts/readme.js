@@ -10,4 +10,4 @@ const readme = shades
     .join('\n')
     .replace(/^/, '|PREVIEW|NAME|HSL|HEX|\n|:---:|:---:|:---:|:---:|\n');
 
-fs.writeFileSync('../README.md', readme);
+fs.writeFileSync('../README.md', `# stremio-colors\n\n${readme}`);
