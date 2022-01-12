@@ -1,4 +1,7 @@
-const colors = require('../colors.json');
+const fs = require('fs');
+const convert = require('color-convert');
+
+const colors = JSON.parse(fs.readFileSync('colors.json'));
 
 const LIGHTNESS_SHADES_COUNT = 5;
 const LIGHTNESS_STEP = 5;
@@ -52,7 +55,41 @@ const shadesWithAlpha = shades
     ]))
     .reduce((colors, shades) => colors.concat(shades), []);
 
-module.exports = {
-    shades,
-    shadesWithAlpha
-};
+const css = shadesWithAlpha
+    .map(({ name, color: [h, s, l, a] }) => `\t--color-${name}: hsla(${h}, ${s}%, ${l}%, ${a});`)
+    .join('\n')
+    .replace(/^/, ':root {\n')
+    .concat('\n}');
+
+const less = shadesWithAlpha
+    .map(({ name, color: [h, s, l, a] }) => `@color-${name}: hsla(${h}, ${s}%, ${l}%, ${a});`)
+    .join('\n');
+
+const android = shadesWithAlpha
+    .map(({ name, color: [h, s, l, a] }) => {
+        const hex = convert.hsl.hex([h, s, l]);
+        const alpha = Math.floor(a * 255).toString(16).toUpperCase();
+        return `\t<item type="color" name="${name.replace(/-/g, '_')}">#${alpha}${hex}</item>`
+    })
+    .join('\n')
+    .replace(/^/, '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n')
+    .concat('\n</resources>');
+
+const readme = shades
+    .map(({ name, color: [h, s, l] }) => {
+        const hex = convert.hsl.hex([h, s, l]);
+        return `|![ ](https://via.placeholder.com/60/${hex}?text=+)|${name}|hsl(${h}, ${s}%, ${l}%)|#${hex}|`;
+    })
+    .join('\n')
+    .replace(/^/, '|PREVIEW|NAME|HSL|HEX|\n|:---:|:---:|:---:|:---:|\n');
+
+fs.mkdirSync('css', { recursive: true });
+fs.writeFileSync('css/stremio-colors.css', css);
+
+fs.mkdirSync('less', { recursive: true });
+fs.writeFileSync('less/stremio-colors.less', less);
+
+fs.mkdirSync('android/src/main/res/values', { recursive: true });
+fs.writeFileSync('android/src/main/res/values/colors.xml', android);
+
+fs.writeFileSync('README.md', `# stremio-colors\n\n${readme}`);

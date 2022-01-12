@@ -1,4 +1,5 @@
 /node_modules
-/android
+/android/src/main/res
 /css
 /less
+/package-lock.json
