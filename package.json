@@ -14,6 +14,7 @@
         "url": "https://github.com/stremio/stremio-colors.git"
     },
     "scripts": {
+        "postinstall": "npm run build",
         "build": "node build.js"
     },
     "devDependencies": {
