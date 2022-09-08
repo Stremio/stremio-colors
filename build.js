@@ -93,8 +93,15 @@ const readme = shades
 
 const nativeColors = {
     'transparent': 'rgba(0, 0, 0, 0)',
+    'white': 'rgba(255, 255, 255, 1)',
+    'black': 'rgba(0, 0, 0, 1)',
     ...rgba,
-    argbHex
+    argbHex: {
+        ...argbHex,
+        'transparent': '#00000000',
+        'white': '#FFFFFFFF',
+        'black': '#FF000000',
+    }
 };
 
 fs.writeFileSync('colors.js', `module.exports = ${JSON.stringify(nativeColors)};`);
