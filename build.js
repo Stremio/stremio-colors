@@ -86,7 +86,7 @@ const android = Object.entries(argbHex)
 const readme = shades
     .map(({ name, color: [h, s, l] }) => {
         const hex = convert.hsl.hex([h, s, l]);
-        return `|$$\\Huge\\textcolor{#${hex}}{\\text{▇}}$$|${name}|hsl(${h}, ${s}%, ${l}%)|#${hex}|`;
+        return `|$$\\Huge\\textcolor{#${hex}}{\\text{■}}$$|${name}|hsl(${h}, ${s}%, ${l}%)|#${hex}|`;
     })
     .join('\n')
     .replace(/^/, '|PREVIEW|NAME|HSL|HEX|\n|:---:|:---:|:---:|:---:|\n');
