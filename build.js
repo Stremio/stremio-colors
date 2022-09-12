@@ -1,5 +1,6 @@
 const fs = require('fs');
 const convert = require('color-convert');
+const { colord } = require('colord');
 
 const colors = JSON.parse(fs.readFileSync('colors.json'));
 
@@ -55,6 +56,17 @@ const shadesWithAlpha = shades
     ]))
     .reduce((colors, shades) => colors.concat(shades), []);
 
+const argbHex = Object.fromEntries(shadesWithAlpha.map(({ name, color: [h, s, l, a] }) => {
+    const hex = convert.hsl.hex([h, s, l]);
+    const alpha = Math.floor(a * 255).toString(16).toUpperCase();
+    return [name.replace(/-/g, '_'), `#${alpha}${hex}`]
+}));
+
+const rgba = Object.fromEntries(shadesWithAlpha.map(({ name, color: [h, s, l, a] }) => {
+    const rgba = colord({ h, s, l, a }).toRgbString();
+    return [name.replace(/-/g, '_'), rgba];
+}));
+
 const css = shadesWithAlpha
     .map(({ name, color: [h, s, l, a] }) => `\t--color-${name}: hsla(${h}, ${s}%, ${l}%, ${a});`)
     .join('\n')
@@ -65,12 +77,8 @@ const less = shadesWithAlpha
     .map(({ name, color: [h, s, l, a] }) => `@color-${name}: hsla(${h}, ${s}%, ${l}%, ${a});`)
     .join('\n');
 
-const android = shadesWithAlpha
-    .map(({ name, color: [h, s, l, a] }) => {
-        const hex = convert.hsl.hex([h, s, l]);
-        const alpha = Math.floor(a * 255).toString(16).toUpperCase();
-        return `\t<item type="color" name="${name.replace(/-/g, '_')}">#${alpha}${hex}</item>`
-    })
+const android = Object.entries(argbHex)
+    .map(([name, color]) => `\t<item type="color" name="${name}">${color}</item>`)
     .join('\n')
     .replace(/^/, '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n')
     .concat('\n</resources>');
@@ -82,6 +90,21 @@ const readme = shades
     })
     .join('\n')
     .replace(/^/, '|PREVIEW|NAME|HSL|HEX|\n|:---:|:---:|:---:|:---:|\n');
+
+const colorsExport = {
+    'transparent': 'rgba(0, 0, 0, 0)',
+    'white': 'rgba(255, 255, 255, 1)',
+    'black': 'rgba(0, 0, 0, 1)',
+    ...rgba,
+    argbHex: {
+        ...argbHex,
+        'transparent': '#00000000',
+        'white': '#FFFFFFFF',
+        'black': '#FF000000',
+    }
+};
+
+fs.writeFileSync('colors.js', `module.exports = ${JSON.stringify(colorsExport)};`);
 
 fs.mkdirSync('css', { recursive: true });
 fs.writeFileSync('css/stremio-colors.css', css);

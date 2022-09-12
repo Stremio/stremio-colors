@@ -2,6 +2,7 @@
     "name": "@stremio/stremio-colors",
     "version": "5.0.0",
     "description": "Color pallet for all stremio clients",
+    "main": "colors.js",
     "author": {
         "name": "Smart Code Ltd.",
         "email": "office@stremio.com",
@@ -16,6 +17,7 @@
         "build": "node build.js"
     },
     "devDependencies": {
-        "color-convert": "2.0.1"
+        "color-convert": "2.0.1",
+        "colord": "2.9.3"
     }
 }
