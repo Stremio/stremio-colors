@@ -14,10 +14,9 @@
         "url": "https://github.com/stremio/stremio-colors.git"
     },
     "scripts": {
-        "postinstall": "npm run build",
         "build": "node build.js"
     },
-    "dependencies": {
+    "devDependencies": {
         "color-convert": "2.0.1",
         "colord": "^2.9.3"
     }
