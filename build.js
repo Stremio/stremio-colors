@@ -91,7 +91,7 @@ const readme = shades
     .join('\n')
     .replace(/^/, '|PREVIEW|NAME|HSL|HEX|\n|:---:|:---:|:---:|:---:|\n');
 
-const nativeColors = {
+const colorsExport = {
     'transparent': 'rgba(0, 0, 0, 0)',
     'white': 'rgba(255, 255, 255, 1)',
     'black': 'rgba(0, 0, 0, 1)',
@@ -104,7 +104,7 @@ const nativeColors = {
     }
 };
 
-fs.writeFileSync('colors.js', `module.exports = ${JSON.stringify(nativeColors)};`);
+fs.writeFileSync('colors.js', `module.exports = ${JSON.stringify(colorsExport)};`);
 
 fs.mkdirSync('css', { recursive: true });
 fs.writeFileSync('css/stremio-colors.css', css);
