@@ -1,137 +1,136 @@
 # stremio-colors
 
-<style>.color { height: 50px; width: 50px; }</style>
 |PREVIEW|NAME|HSL|HEX|
 |:---:|:---:|:---:|:---:|
-|<div class="color" style="background-color: #A682C0;"></div>|primary-light5|hsl(275.1, 33%, 63%)|#A682C0|
-|<div class="color" style="background-color: #9A71B7;"></div>|primary-light4|hsl(275.1, 33%, 58%)|#9A71B7|
-|<div class="color" style="background-color: #8E60AF;"></div>|primary-light3|hsl(275.1, 33%, 53%)|#8E60AF|
-|<div class="color" style="background-color: #8152A3;"></div>|primary-light2|hsl(275.1, 33%, 48%)|#8152A3|
-|<div class="color" style="background-color: #744992;"></div>|primary-light1|hsl(275.1, 33%, 43%)|#744992|
-|<div class="color" style="background-color: #664181;"></div>|primary|hsl(275.1, 33%, 38%)|#664181|
-|<div class="color" style="background-color: #593870;"></div>|primary-dark1|hsl(275.1, 33%, 33%)|#593870|
-|<div class="color" style="background-color: #4B305F;"></div>|primary-dark2|hsl(275.1, 33%, 28%)|#4B305F|
-|<div class="color" style="background-color: #3E274E;"></div>|primary-dark3|hsl(275.1, 33%, 23%)|#3E274E|
-|<div class="color" style="background-color: #301F3D;"></div>|primary-dark4|hsl(275.1, 33%, 18%)|#301F3D|
-|<div class="color" style="background-color: #23162C;"></div>|primary-dark5|hsl(275.1, 33%, 13%)|#23162C|
-|<div class="color" style="background-color: #E1CEEE;"></div>|primaryvariant1-light5|hsl(276.8, 48%, 87%)|#E1CEEE|
-|<div class="color" style="background-color: #D6BBE7;"></div>|primaryvariant1-light4|hsl(276.8, 48%, 82%)|#D6BBE7|
-|<div class="color" style="background-color: #CBA8E1;"></div>|primaryvariant1-light3|hsl(276.8, 48%, 77%)|#CBA8E1|
-|<div class="color" style="background-color: #BF95DA;"></div>|primaryvariant1-light2|hsl(276.8, 48%, 72%)|#BF95DA|
-|<div class="color" style="background-color: #B482D3;"></div>|primaryvariant1-light1|hsl(276.8, 48%, 67%)|#B482D3|
-|<div class="color" style="background-color: #A970CD;"></div>|primaryvariant1|hsl(276.8, 48%, 62%)|#A970CD|
-|<div class="color" style="background-color: #9D5DC6;"></div>|primaryvariant1-dark1|hsl(276.8, 48%, 57%)|#9D5DC6|
-|<div class="color" style="background-color: #924ABF;"></div>|primaryvariant1-dark2|hsl(276.8, 48%, 52%)|#924ABF|
-|<div class="color" style="background-color: #853EB1;"></div>|primaryvariant1-dark3|hsl(276.8, 48%, 47%)|#853EB1|
-|<div class="color" style="background-color: #77389F;"></div>|primaryvariant1-dark4|hsl(276.8, 48%, 42%)|#77389F|
-|<div class="color" style="background-color: #69318C;"></div>|primaryvariant1-dark5|hsl(276.8, 48%, 37%)|#69318C|
-|<div class="color" style="background-color: #7A8AC2;"></div>|secondary-light5|hsl(226.6, 37.2%, 61.9%)|#7A8AC2|
-|<div class="color" style="background-color: #687ABA;"></div>|secondary-light4|hsl(226.6, 37.2%, 56.9%)|#687ABA|
-|<div class="color" style="background-color: #576BB2;"></div>|secondary-light3|hsl(226.6, 37.2%, 51.9%)|#576BB2|
-|<div class="color" style="background-color: #4B5FA4;"></div>|secondary-light2|hsl(226.6, 37.2%, 46.9%)|#4B5FA4|
-|<div class="color" style="background-color: #435593;"></div>|secondary-light1|hsl(226.6, 37.2%, 41.9%)|#435593|
-|<div class="color" style="background-color: #3B4B81;"></div>|secondary|hsl(226.6, 37.2%, 36.9%)|#3B4B81|
-|<div class="color" style="background-color: #334170;"></div>|secondary-dark1|hsl(226.6, 37.2%, 31.9%)|#334170|
-|<div class="color" style="background-color: #2B365E;"></div>|secondary-dark2|hsl(226.6, 37.2%, 26.9%)|#2B365E|
-|<div class="color" style="background-color: #232C4D;"></div>|secondary-dark3|hsl(226.6, 37.2%, 21.9%)|#232C4D|
-|<div class="color" style="background-color: #1B223B;"></div>|secondary-dark4|hsl(226.6, 37.2%, 16.9%)|#1B223B|
-|<div class="color" style="background-color: #13182A;"></div>|secondary-dark5|hsl(226.6, 37.2%, 11.9%)|#13182A|
-|<div class="color" style="background-color: #DEE3F2;"></div>|secondaryvariant1-light5|hsl(224.3, 42.1%, 91%)|#DEE3F2|
-|<div class="color" style="background-color: #CCD4EA;"></div>|secondaryvariant1-light4|hsl(224.3, 42.1%, 86%)|#CCD4EA|
-|<div class="color" style="background-color: #BAC5E3;"></div>|secondaryvariant1-light3|hsl(224.3, 42.1%, 81%)|#BAC5E3|
-|<div class="color" style="background-color: #A8B6DC;"></div>|secondaryvariant1-light2|hsl(224.3, 42.1%, 76%)|#A8B6DC|
-|<div class="color" style="background-color: #96A6D4;"></div>|secondaryvariant1-light1|hsl(224.3, 42.1%, 71%)|#96A6D4|
-|<div class="color" style="background-color: #8497CD;"></div>|secondaryvariant1|hsl(224.3, 42.1%, 66%)|#8497CD|
-|<div class="color" style="background-color: #7288C5;"></div>|secondaryvariant1-dark1|hsl(224.3, 42.1%, 61%)|#7288C5|
-|<div class="color" style="background-color: #6078BE;"></div>|secondaryvariant1-dark2|hsl(224.3, 42.1%, 56%)|#6078BE|
-|<div class="color" style="background-color: #4D69B7;"></div>|secondaryvariant1-dark3|hsl(224.3, 42.1%, 51%)|#4D69B7|
-|<div class="color" style="background-color: #445EA7;"></div>|secondaryvariant1-dark4|hsl(224.3, 42.1%, 46%)|#445EA7|
-|<div class="color" style="background-color: #3D5495;"></div>|secondaryvariant1-dark5|hsl(224.3, 42.1%, 41%)|#3D5495|
-|<div class="color" style="background-color: #F5F8FF;"></div>|secondaryvariant2-light5|hsl(222.8, 100%, 98%)|#F5F8FF|
-|<div class="color" style="background-color: #DBE6FF;"></div>|secondaryvariant2-light4|hsl(222.8, 100%, 93%)|#DBE6FF|
-|<div class="color" style="background-color: #C2D3FF;"></div>|secondaryvariant2-light3|hsl(222.8, 100%, 88%)|#C2D3FF|
-|<div class="color" style="background-color: #A8C1FF;"></div>|secondaryvariant2-light2|hsl(222.8, 100%, 83%)|#A8C1FF|
-|<div class="color" style="background-color: #8FAFFF;"></div>|secondaryvariant2-light1|hsl(222.8, 100%, 78%)|#8FAFFF|
-|<div class="color" style="background-color: #759DFF;"></div>|secondaryvariant2|hsl(222.8, 100%, 73%)|#759DFF|
-|<div class="color" style="background-color: #5C8BFF;"></div>|secondaryvariant2-dark1|hsl(222.8, 100%, 68%)|#5C8BFF|
-|<div class="color" style="background-color: #4278FF;"></div>|secondaryvariant2-dark2|hsl(222.8, 100%, 63%)|#4278FF|
-|<div class="color" style="background-color: #2966FF;"></div>|secondaryvariant2-dark3|hsl(222.8, 100%, 58%)|#2966FF|
-|<div class="color" style="background-color: #0F54FF;"></div>|secondaryvariant2-dark4|hsl(222.8, 100%, 53%)|#0F54FF|
-|<div class="color" style="background-color: #0046F5;"></div>|secondaryvariant2-dark5|hsl(222.8, 100%, 48%)|#0046F5|
-|<div class="color" style="background-color: #5C5992;"></div>|background-light5|hsl(243, 24.4%, 46%)|#5C5992|
-|<div class="color" style="background-color: #524F82;"></div>|background-light4|hsl(243, 24.4%, 41%)|#524F82|
-|<div class="color" style="background-color: #484572;"></div>|background-light3|hsl(243, 24.4%, 36%)|#484572|
-|<div class="color" style="background-color: #3E3C62;"></div>|background-light2|hsl(243, 24.4%, 31%)|#3E3C62|
-|<div class="color" style="background-color: #343252;"></div>|background-light1|hsl(243, 24.4%, 26%)|#343252|
-|<div class="color" style="background-color: #2A2843;"></div>|background|hsl(243, 24.4%, 21%)|#2A2843|
-|<div class="color" style="background-color: #201F33;"></div>|background-dark1|hsl(243, 24.4%, 16%)|#201F33|
-|<div class="color" style="background-color: #161523;"></div>|background-dark2|hsl(243, 24.4%, 11%)|#161523|
-|<div class="color" style="background-color: #0C0C13;"></div>|background-dark3|hsl(243, 24.4%, 6%)|#0C0C13|
-|<div class="color" style="background-color: #020203;"></div>|background-dark4|hsl(243, 24.4%, 1%)|#020203|
-|<div class="color" style="background-color: #000000;"></div>|background-dark5|hsl(243, 24.4%, 0%)|#000000|
-|<div class="color" style="background-color: #FFFFFF;"></div>|surface-light5|hsl(0, 0%, 100%)|#FFFFFF|
-|<div class="color" style="background-color: #F2F2F2;"></div>|surface-light4|hsl(0, 0%, 95%)|#F2F2F2|
-|<div class="color" style="background-color: #E6E6E6;"></div>|surface-light3|hsl(0, 0%, 90%)|#E6E6E6|
-|<div class="color" style="background-color: #D9D9D9;"></div>|surface-light2|hsl(0, 0%, 85%)|#D9D9D9|
-|<div class="color" style="background-color: #CCCCCC;"></div>|surface-light1|hsl(0, 0%, 80%)|#CCCCCC|
-|<div class="color" style="background-color: #BFBFBF;"></div>|surface|hsl(0, 0%, 75%)|#BFBFBF|
-|<div class="color" style="background-color: #B3B3B3;"></div>|surface-dark1|hsl(0, 0%, 70%)|#B3B3B3|
-|<div class="color" style="background-color: #A6A6A6;"></div>|surface-dark2|hsl(0, 0%, 65%)|#A6A6A6|
-|<div class="color" style="background-color: #999999;"></div>|surface-dark3|hsl(0, 0%, 60%)|#999999|
-|<div class="color" style="background-color: #8C8C8C;"></div>|surface-dark4|hsl(0, 0%, 55%)|#8C8C8C|
-|<div class="color" style="background-color: #808080;"></div>|surface-dark5|hsl(0, 0%, 50%)|#808080|
-|<div class="color" style="background-color: #FFF0F0;"></div>|accent1-light5|hsl(0, 100%, 97%)|#FFF0F0|
-|<div class="color" style="background-color: #FFD6D6;"></div>|accent1-light4|hsl(0, 100%, 92%)|#FFD6D6|
-|<div class="color" style="background-color: #FFBDBD;"></div>|accent1-light3|hsl(0, 100%, 87%)|#FFBDBD|
-|<div class="color" style="background-color: #FFA3A3;"></div>|accent1-light2|hsl(0, 100%, 82%)|#FFA3A3|
-|<div class="color" style="background-color: #FF8A8A;"></div>|accent1-light1|hsl(0, 100%, 77%)|#FF8A8A|
-|<div class="color" style="background-color: #FF7070;"></div>|accent1|hsl(0, 100%, 72%)|#FF7070|
-|<div class="color" style="background-color: #FF5757;"></div>|accent1-dark1|hsl(0, 100%, 67%)|#FF5757|
-|<div class="color" style="background-color: #FF3D3D;"></div>|accent1-dark2|hsl(0, 100%, 62%)|#FF3D3D|
-|<div class="color" style="background-color: #FF2424;"></div>|accent1-dark3|hsl(0, 100%, 57%)|#FF2424|
-|<div class="color" style="background-color: #FF0A0A;"></div>|accent1-dark4|hsl(0, 100%, 52%)|#FF0A0A|
-|<div class="color" style="background-color: #F00000;"></div>|accent1-dark5|hsl(0, 100%, 47%)|#F00000|
-|<div class="color" style="background-color: #F4B4A6;"></div>|accent2-light5|hsl(10.8, 78%, 80.5%)|#F4B4A6|
-|<div class="color" style="background-color: #F1A190;"></div>|accent2-light4|hsl(10.8, 78%, 75.5%)|#F1A190|
-|<div class="color" style="background-color: #EE8E79;"></div>|accent2-light3|hsl(10.8, 78%, 70.5%)|#EE8E79|
-|<div class="color" style="background-color: #EC7B62;"></div>|accent2-light2|hsl(10.8, 78%, 65.5%)|#EC7B62|
-|<div class="color" style="background-color: #E9684C;"></div>|accent2-light1|hsl(10.8, 78%, 60.5%)|#E9684C|
-|<div class="color" style="background-color: #E65535;"></div>|accent2|hsl(10.8, 78%, 55.5%)|#E65535|
-|<div class="color" style="background-color: #E3421E;"></div>|accent2-dark1|hsl(10.8, 78%, 50.5%)|#E3421E|
-|<div class="color" style="background-color: #CF3A1A;"></div>|accent2-dark2|hsl(10.8, 78%, 45.5%)|#CF3A1A|
-|<div class="color" style="background-color: #B83417;"></div>|accent2-dark3|hsl(10.8, 78%, 40.5%)|#B83417|
-|<div class="color" style="background-color: #A12D14;"></div>|accent2-dark4|hsl(10.8, 78%, 35.5%)|#A12D14|
-|<div class="color" style="background-color: #8A2711;"></div>|accent2-dark5|hsl(10.8, 78%, 30.5%)|#8A2711|
-|<div class="color" style="background-color: #70E4A6;"></div>|accent3-light5|hsl(147.7, 68%, 66.7%)|#70E4A6|
-|<div class="color" style="background-color: #5BE098;"></div>|accent3-light4|hsl(147.7, 68%, 61.7%)|#5BE098|
-|<div class="color" style="background-color: #46DC8B;"></div>|accent3-light3|hsl(147.7, 68%, 56.7%)|#46DC8B|
-|<div class="color" style="background-color: #30D87D;"></div>|accent3-light2|hsl(147.7, 68%, 51.7%)|#30D87D|
-|<div class="color" style="background-color: #26C871;"></div>|accent3-light1|hsl(147.7, 68%, 46.7%)|#26C871|
-|<div class="color" style="background-color: #22B365;"></div>|accent3|hsl(147.7, 68%, 41.7%)|#22B365|
-|<div class="color" style="background-color: #1E9D59;"></div>|accent3-dark1|hsl(147.7, 68%, 36.7%)|#1E9D59|
-|<div class="color" style="background-color: #1A884D;"></div>|accent3-dark2|hsl(147.7, 68%, 31.7%)|#1A884D|
-|<div class="color" style="background-color: #167241;"></div>|accent3-dark3|hsl(147.7, 68%, 26.7%)|#167241|
-|<div class="color" style="background-color: #125D34;"></div>|accent3-dark4|hsl(147.7, 68%, 21.7%)|#125D34|
-|<div class="color" style="background-color: #0E4828;"></div>|accent3-dark5|hsl(147.7, 68%, 16.7%)|#0E4828|
-|<div class="color" style="background-color: #7CF2CB;"></div>|accent4-light5|hsl(160, 81.5%, 71.8%)|#7CF2CB|
-|<div class="color" style="background-color: #65EFC1;"></div>|accent4-light4|hsl(160, 81.5%, 66.8%)|#65EFC1|
-|<div class="color" style="background-color: #4EEDB8;"></div>|accent4-light3|hsl(160, 81.5%, 61.8%)|#4EEDB8|
-|<div class="color" style="background-color: #37EBAF;"></div>|accent4-light2|hsl(160, 81.5%, 56.8%)|#37EBAF|
-|<div class="color" style="background-color: #20E8A5;"></div>|accent4-light1|hsl(160, 81.5%, 51.8%)|#20E8A5|
-|<div class="color" style="background-color: #16D998;"></div>|accent4|hsl(160, 81.5%, 46.8%)|#16D998|
-|<div class="color" style="background-color: #14C188;"></div>|accent4-dark1|hsl(160, 81.5%, 41.8%)|#14C188|
-|<div class="color" style="background-color: #11AA77;"></div>|accent4-dark2|hsl(160, 81.5%, 36.8%)|#11AA77|
-|<div class="color" style="background-color: #0F9367;"></div>|accent4-dark3|hsl(160, 81.5%, 31.8%)|#0F9367|
-|<div class="color" style="background-color: #0D7C57;"></div>|accent4-dark4|hsl(160, 81.5%, 26.8%)|#0D7C57|
-|<div class="color" style="background-color: #0A6547;"></div>|accent4-dark5|hsl(160, 81.5%, 21.8%)|#0A6547|
-|<div class="color" style="background-color: #FFE098;"></div>|accent5-light5|hsl(42, 100%, 79.9%)|#FFE098|
-|<div class="color" style="background-color: #FFD97F;"></div>|accent5-light4|hsl(42, 100%, 74.9%)|#FFD97F|
-|<div class="color" style="background-color: #FFD165;"></div>|accent5-light3|hsl(42, 100%, 69.9%)|#FFD165|
-|<div class="color" style="background-color: #FFC94C;"></div>|accent5-light2|hsl(42, 100%, 64.9%)|#FFC94C|
-|<div class="color" style="background-color: #FFC232;"></div>|accent5-light1|hsl(42, 100%, 59.9%)|#FFC232|
-|<div class="color" style="background-color: #FFBA19;"></div>|accent5|hsl(42, 100%, 54.9%)|#FFBA19|
-|<div class="color" style="background-color: #FEB200;"></div>|accent5-dark1|hsl(42, 100%, 49.9%)|#FEB200|
-|<div class="color" style="background-color: #E5A000;"></div>|accent5-dark2|hsl(42, 100%, 44.9%)|#E5A000|
-|<div class="color" style="background-color: #CB8E00;"></div>|accent5-dark3|hsl(42, 100%, 39.9%)|#CB8E00|
-|<div class="color" style="background-color: #B27D00;"></div>|accent5-dark4|hsl(42, 100%, 34.9%)|#B27D00|
-|<div class="color" style="background-color: #986B00;"></div>|accent5-dark5|hsl(42, 100%, 29.9%)|#986B00|
+|$$\textcolor{#A682C0}{\text{▇▇▇▇}}$$|primary-light5|hsl(275.1, 33%, 63%)|#A682C0|
+|$$\textcolor{#9A71B7}{\text{▇▇▇▇}}$$|primary-light4|hsl(275.1, 33%, 58%)|#9A71B7|
+|$$\textcolor{#8E60AF}{\text{▇▇▇▇}}$$|primary-light3|hsl(275.1, 33%, 53%)|#8E60AF|
+|$$\textcolor{#8152A3}{\text{▇▇▇▇}}$$|primary-light2|hsl(275.1, 33%, 48%)|#8152A3|
+|$$\textcolor{#744992}{\text{▇▇▇▇}}$$|primary-light1|hsl(275.1, 33%, 43%)|#744992|
+|$$\textcolor{#664181}{\text{▇▇▇▇}}$$|primary|hsl(275.1, 33%, 38%)|#664181|
+|$$\textcolor{#593870}{\text{▇▇▇▇}}$$|primary-dark1|hsl(275.1, 33%, 33%)|#593870|
+|$$\textcolor{#4B305F}{\text{▇▇▇▇}}$$|primary-dark2|hsl(275.1, 33%, 28%)|#4B305F|
+|$$\textcolor{#3E274E}{\text{▇▇▇▇}}$$|primary-dark3|hsl(275.1, 33%, 23%)|#3E274E|
+|$$\textcolor{#301F3D}{\text{▇▇▇▇}}$$|primary-dark4|hsl(275.1, 33%, 18%)|#301F3D|
+|$$\textcolor{#23162C}{\text{▇▇▇▇}}$$|primary-dark5|hsl(275.1, 33%, 13%)|#23162C|
+|$$\textcolor{#E1CEEE}{\text{▇▇▇▇}}$$|primaryvariant1-light5|hsl(276.8, 48%, 87%)|#E1CEEE|
+|$$\textcolor{#D6BBE7}{\text{▇▇▇▇}}$$|primaryvariant1-light4|hsl(276.8, 48%, 82%)|#D6BBE7|
+|$$\textcolor{#CBA8E1}{\text{▇▇▇▇}}$$|primaryvariant1-light3|hsl(276.8, 48%, 77%)|#CBA8E1|
+|$$\textcolor{#BF95DA}{\text{▇▇▇▇}}$$|primaryvariant1-light2|hsl(276.8, 48%, 72%)|#BF95DA|
+|$$\textcolor{#B482D3}{\text{▇▇▇▇}}$$|primaryvariant1-light1|hsl(276.8, 48%, 67%)|#B482D3|
+|$$\textcolor{#A970CD}{\text{▇▇▇▇}}$$|primaryvariant1|hsl(276.8, 48%, 62%)|#A970CD|
+|$$\textcolor{#9D5DC6}{\text{▇▇▇▇}}$$|primaryvariant1-dark1|hsl(276.8, 48%, 57%)|#9D5DC6|
+|$$\textcolor{#924ABF}{\text{▇▇▇▇}}$$|primaryvariant1-dark2|hsl(276.8, 48%, 52%)|#924ABF|
+|$$\textcolor{#853EB1}{\text{▇▇▇▇}}$$|primaryvariant1-dark3|hsl(276.8, 48%, 47%)|#853EB1|
+|$$\textcolor{#77389F}{\text{▇▇▇▇}}$$|primaryvariant1-dark4|hsl(276.8, 48%, 42%)|#77389F|
+|$$\textcolor{#69318C}{\text{▇▇▇▇}}$$|primaryvariant1-dark5|hsl(276.8, 48%, 37%)|#69318C|
+|$$\textcolor{#7A8AC2}{\text{▇▇▇▇}}$$|secondary-light5|hsl(226.6, 37.2%, 61.9%)|#7A8AC2|
+|$$\textcolor{#687ABA}{\text{▇▇▇▇}}$$|secondary-light4|hsl(226.6, 37.2%, 56.9%)|#687ABA|
+|$$\textcolor{#576BB2}{\text{▇▇▇▇}}$$|secondary-light3|hsl(226.6, 37.2%, 51.9%)|#576BB2|
+|$$\textcolor{#4B5FA4}{\text{▇▇▇▇}}$$|secondary-light2|hsl(226.6, 37.2%, 46.9%)|#4B5FA4|
+|$$\textcolor{#435593}{\text{▇▇▇▇}}$$|secondary-light1|hsl(226.6, 37.2%, 41.9%)|#435593|
+|$$\textcolor{#3B4B81}{\text{▇▇▇▇}}$$|secondary|hsl(226.6, 37.2%, 36.9%)|#3B4B81|
+|$$\textcolor{#334170}{\text{▇▇▇▇}}$$|secondary-dark1|hsl(226.6, 37.2%, 31.9%)|#334170|
+|$$\textcolor{#2B365E}{\text{▇▇▇▇}}$$|secondary-dark2|hsl(226.6, 37.2%, 26.9%)|#2B365E|
+|$$\textcolor{#232C4D}{\text{▇▇▇▇}}$$|secondary-dark3|hsl(226.6, 37.2%, 21.9%)|#232C4D|
+|$$\textcolor{#1B223B}{\text{▇▇▇▇}}$$|secondary-dark4|hsl(226.6, 37.2%, 16.9%)|#1B223B|
+|$$\textcolor{#13182A}{\text{▇▇▇▇}}$$|secondary-dark5|hsl(226.6, 37.2%, 11.9%)|#13182A|
+|$$\textcolor{#DEE3F2}{\text{▇▇▇▇}}$$|secondaryvariant1-light5|hsl(224.3, 42.1%, 91%)|#DEE3F2|
+|$$\textcolor{#CCD4EA}{\text{▇▇▇▇}}$$|secondaryvariant1-light4|hsl(224.3, 42.1%, 86%)|#CCD4EA|
+|$$\textcolor{#BAC5E3}{\text{▇▇▇▇}}$$|secondaryvariant1-light3|hsl(224.3, 42.1%, 81%)|#BAC5E3|
+|$$\textcolor{#A8B6DC}{\text{▇▇▇▇}}$$|secondaryvariant1-light2|hsl(224.3, 42.1%, 76%)|#A8B6DC|
+|$$\textcolor{#96A6D4}{\text{▇▇▇▇}}$$|secondaryvariant1-light1|hsl(224.3, 42.1%, 71%)|#96A6D4|
+|$$\textcolor{#8497CD}{\text{▇▇▇▇}}$$|secondaryvariant1|hsl(224.3, 42.1%, 66%)|#8497CD|
+|$$\textcolor{#7288C5}{\text{▇▇▇▇}}$$|secondaryvariant1-dark1|hsl(224.3, 42.1%, 61%)|#7288C5|
+|$$\textcolor{#6078BE}{\text{▇▇▇▇}}$$|secondaryvariant1-dark2|hsl(224.3, 42.1%, 56%)|#6078BE|
+|$$\textcolor{#4D69B7}{\text{▇▇▇▇}}$$|secondaryvariant1-dark3|hsl(224.3, 42.1%, 51%)|#4D69B7|
+|$$\textcolor{#445EA7}{\text{▇▇▇▇}}$$|secondaryvariant1-dark4|hsl(224.3, 42.1%, 46%)|#445EA7|
+|$$\textcolor{#3D5495}{\text{▇▇▇▇}}$$|secondaryvariant1-dark5|hsl(224.3, 42.1%, 41%)|#3D5495|
+|$$\textcolor{#F5F8FF}{\text{▇▇▇▇}}$$|secondaryvariant2-light5|hsl(222.8, 100%, 98%)|#F5F8FF|
+|$$\textcolor{#DBE6FF}{\text{▇▇▇▇}}$$|secondaryvariant2-light4|hsl(222.8, 100%, 93%)|#DBE6FF|
+|$$\textcolor{#C2D3FF}{\text{▇▇▇▇}}$$|secondaryvariant2-light3|hsl(222.8, 100%, 88%)|#C2D3FF|
+|$$\textcolor{#A8C1FF}{\text{▇▇▇▇}}$$|secondaryvariant2-light2|hsl(222.8, 100%, 83%)|#A8C1FF|
+|$$\textcolor{#8FAFFF}{\text{▇▇▇▇}}$$|secondaryvariant2-light1|hsl(222.8, 100%, 78%)|#8FAFFF|
+|$$\textcolor{#759DFF}{\text{▇▇▇▇}}$$|secondaryvariant2|hsl(222.8, 100%, 73%)|#759DFF|
+|$$\textcolor{#5C8BFF}{\text{▇▇▇▇}}$$|secondaryvariant2-dark1|hsl(222.8, 100%, 68%)|#5C8BFF|
+|$$\textcolor{#4278FF}{\text{▇▇▇▇}}$$|secondaryvariant2-dark2|hsl(222.8, 100%, 63%)|#4278FF|
+|$$\textcolor{#2966FF}{\text{▇▇▇▇}}$$|secondaryvariant2-dark3|hsl(222.8, 100%, 58%)|#2966FF|
+|$$\textcolor{#0F54FF}{\text{▇▇▇▇}}$$|secondaryvariant2-dark4|hsl(222.8, 100%, 53%)|#0F54FF|
+|$$\textcolor{#0046F5}{\text{▇▇▇▇}}$$|secondaryvariant2-dark5|hsl(222.8, 100%, 48%)|#0046F5|
+|$$\textcolor{#5C5992}{\text{▇▇▇▇}}$$|background-light5|hsl(243, 24.4%, 46%)|#5C5992|
+|$$\textcolor{#524F82}{\text{▇▇▇▇}}$$|background-light4|hsl(243, 24.4%, 41%)|#524F82|
+|$$\textcolor{#484572}{\text{▇▇▇▇}}$$|background-light3|hsl(243, 24.4%, 36%)|#484572|
+|$$\textcolor{#3E3C62}{\text{▇▇▇▇}}$$|background-light2|hsl(243, 24.4%, 31%)|#3E3C62|
+|$$\textcolor{#343252}{\text{▇▇▇▇}}$$|background-light1|hsl(243, 24.4%, 26%)|#343252|
+|$$\textcolor{#2A2843}{\text{▇▇▇▇}}$$|background|hsl(243, 24.4%, 21%)|#2A2843|
+|$$\textcolor{#201F33}{\text{▇▇▇▇}}$$|background-dark1|hsl(243, 24.4%, 16%)|#201F33|
+|$$\textcolor{#161523}{\text{▇▇▇▇}}$$|background-dark2|hsl(243, 24.4%, 11%)|#161523|
+|$$\textcolor{#0C0C13}{\text{▇▇▇▇}}$$|background-dark3|hsl(243, 24.4%, 6%)|#0C0C13|
+|$$\textcolor{#020203}{\text{▇▇▇▇}}$$|background-dark4|hsl(243, 24.4%, 1%)|#020203|
+|$$\textcolor{#000000}{\text{▇▇▇▇}}$$|background-dark5|hsl(243, 24.4%, 0%)|#000000|
+|$$\textcolor{#FFFFFF}{\text{▇▇▇▇}}$$|surface-light5|hsl(0, 0%, 100%)|#FFFFFF|
+|$$\textcolor{#F2F2F2}{\text{▇▇▇▇}}$$|surface-light4|hsl(0, 0%, 95%)|#F2F2F2|
+|$$\textcolor{#E6E6E6}{\text{▇▇▇▇}}$$|surface-light3|hsl(0, 0%, 90%)|#E6E6E6|
+|$$\textcolor{#D9D9D9}{\text{▇▇▇▇}}$$|surface-light2|hsl(0, 0%, 85%)|#D9D9D9|
+|$$\textcolor{#CCCCCC}{\text{▇▇▇▇}}$$|surface-light1|hsl(0, 0%, 80%)|#CCCCCC|
+|$$\textcolor{#BFBFBF}{\text{▇▇▇▇}}$$|surface|hsl(0, 0%, 75%)|#BFBFBF|
+|$$\textcolor{#B3B3B3}{\text{▇▇▇▇}}$$|surface-dark1|hsl(0, 0%, 70%)|#B3B3B3|
+|$$\textcolor{#A6A6A6}{\text{▇▇▇▇}}$$|surface-dark2|hsl(0, 0%, 65%)|#A6A6A6|
+|$$\textcolor{#999999}{\text{▇▇▇▇}}$$|surface-dark3|hsl(0, 0%, 60%)|#999999|
+|$$\textcolor{#8C8C8C}{\text{▇▇▇▇}}$$|surface-dark4|hsl(0, 0%, 55%)|#8C8C8C|
+|$$\textcolor{#808080}{\text{▇▇▇▇}}$$|surface-dark5|hsl(0, 0%, 50%)|#808080|
+|$$\textcolor{#FFF0F0}{\text{▇▇▇▇}}$$|accent1-light5|hsl(0, 100%, 97%)|#FFF0F0|
+|$$\textcolor{#FFD6D6}{\text{▇▇▇▇}}$$|accent1-light4|hsl(0, 100%, 92%)|#FFD6D6|
+|$$\textcolor{#FFBDBD}{\text{▇▇▇▇}}$$|accent1-light3|hsl(0, 100%, 87%)|#FFBDBD|
+|$$\textcolor{#FFA3A3}{\text{▇▇▇▇}}$$|accent1-light2|hsl(0, 100%, 82%)|#FFA3A3|
+|$$\textcolor{#FF8A8A}{\text{▇▇▇▇}}$$|accent1-light1|hsl(0, 100%, 77%)|#FF8A8A|
+|$$\textcolor{#FF7070}{\text{▇▇▇▇}}$$|accent1|hsl(0, 100%, 72%)|#FF7070|
+|$$\textcolor{#FF5757}{\text{▇▇▇▇}}$$|accent1-dark1|hsl(0, 100%, 67%)|#FF5757|
+|$$\textcolor{#FF3D3D}{\text{▇▇▇▇}}$$|accent1-dark2|hsl(0, 100%, 62%)|#FF3D3D|
+|$$\textcolor{#FF2424}{\text{▇▇▇▇}}$$|accent1-dark3|hsl(0, 100%, 57%)|#FF2424|
+|$$\textcolor{#FF0A0A}{\text{▇▇▇▇}}$$|accent1-dark4|hsl(0, 100%, 52%)|#FF0A0A|
+|$$\textcolor{#F00000}{\text{▇▇▇▇}}$$|accent1-dark5|hsl(0, 100%, 47%)|#F00000|
+|$$\textcolor{#F4B4A6}{\text{▇▇▇▇}}$$|accent2-light5|hsl(10.8, 78%, 80.5%)|#F4B4A6|
+|$$\textcolor{#F1A190}{\text{▇▇▇▇}}$$|accent2-light4|hsl(10.8, 78%, 75.5%)|#F1A190|
+|$$\textcolor{#EE8E79}{\text{▇▇▇▇}}$$|accent2-light3|hsl(10.8, 78%, 70.5%)|#EE8E79|
+|$$\textcolor{#EC7B62}{\text{▇▇▇▇}}$$|accent2-light2|hsl(10.8, 78%, 65.5%)|#EC7B62|
+|$$\textcolor{#E9684C}{\text{▇▇▇▇}}$$|accent2-light1|hsl(10.8, 78%, 60.5%)|#E9684C|
+|$$\textcolor{#E65535}{\text{▇▇▇▇}}$$|accent2|hsl(10.8, 78%, 55.5%)|#E65535|
+|$$\textcolor{#E3421E}{\text{▇▇▇▇}}$$|accent2-dark1|hsl(10.8, 78%, 50.5%)|#E3421E|
+|$$\textcolor{#CF3A1A}{\text{▇▇▇▇}}$$|accent2-dark2|hsl(10.8, 78%, 45.5%)|#CF3A1A|
+|$$\textcolor{#B83417}{\text{▇▇▇▇}}$$|accent2-dark3|hsl(10.8, 78%, 40.5%)|#B83417|
+|$$\textcolor{#A12D14}{\text{▇▇▇▇}}$$|accent2-dark4|hsl(10.8, 78%, 35.5%)|#A12D14|
+|$$\textcolor{#8A2711}{\text{▇▇▇▇}}$$|accent2-dark5|hsl(10.8, 78%, 30.5%)|#8A2711|
+|$$\textcolor{#70E4A6}{\text{▇▇▇▇}}$$|accent3-light5|hsl(147.7, 68%, 66.7%)|#70E4A6|
+|$$\textcolor{#5BE098}{\text{▇▇▇▇}}$$|accent3-light4|hsl(147.7, 68%, 61.7%)|#5BE098|
+|$$\textcolor{#46DC8B}{\text{▇▇▇▇}}$$|accent3-light3|hsl(147.7, 68%, 56.7%)|#46DC8B|
+|$$\textcolor{#30D87D}{\text{▇▇▇▇}}$$|accent3-light2|hsl(147.7, 68%, 51.7%)|#30D87D|
+|$$\textcolor{#26C871}{\text{▇▇▇▇}}$$|accent3-light1|hsl(147.7, 68%, 46.7%)|#26C871|
+|$$\textcolor{#22B365}{\text{▇▇▇▇}}$$|accent3|hsl(147.7, 68%, 41.7%)|#22B365|
+|$$\textcolor{#1E9D59}{\text{▇▇▇▇}}$$|accent3-dark1|hsl(147.7, 68%, 36.7%)|#1E9D59|
+|$$\textcolor{#1A884D}{\text{▇▇▇▇}}$$|accent3-dark2|hsl(147.7, 68%, 31.7%)|#1A884D|
+|$$\textcolor{#167241}{\text{▇▇▇▇}}$$|accent3-dark3|hsl(147.7, 68%, 26.7%)|#167241|
+|$$\textcolor{#125D34}{\text{▇▇▇▇}}$$|accent3-dark4|hsl(147.7, 68%, 21.7%)|#125D34|
+|$$\textcolor{#0E4828}{\text{▇▇▇▇}}$$|accent3-dark5|hsl(147.7, 68%, 16.7%)|#0E4828|
+|$$\textcolor{#7CF2CB}{\text{▇▇▇▇}}$$|accent4-light5|hsl(160, 81.5%, 71.8%)|#7CF2CB|
+|$$\textcolor{#65EFC1}{\text{▇▇▇▇}}$$|accent4-light4|hsl(160, 81.5%, 66.8%)|#65EFC1|
+|$$\textcolor{#4EEDB8}{\text{▇▇▇▇}}$$|accent4-light3|hsl(160, 81.5%, 61.8%)|#4EEDB8|
+|$$\textcolor{#37EBAF}{\text{▇▇▇▇}}$$|accent4-light2|hsl(160, 81.5%, 56.8%)|#37EBAF|
+|$$\textcolor{#20E8A5}{\text{▇▇▇▇}}$$|accent4-light1|hsl(160, 81.5%, 51.8%)|#20E8A5|
+|$$\textcolor{#16D998}{\text{▇▇▇▇}}$$|accent4|hsl(160, 81.5%, 46.8%)|#16D998|
+|$$\textcolor{#14C188}{\text{▇▇▇▇}}$$|accent4-dark1|hsl(160, 81.5%, 41.8%)|#14C188|
+|$$\textcolor{#11AA77}{\text{▇▇▇▇}}$$|accent4-dark2|hsl(160, 81.5%, 36.8%)|#11AA77|
+|$$\textcolor{#0F9367}{\text{▇▇▇▇}}$$|accent4-dark3|hsl(160, 81.5%, 31.8%)|#0F9367|
+|$$\textcolor{#0D7C57}{\text{▇▇▇▇}}$$|accent4-dark4|hsl(160, 81.5%, 26.8%)|#0D7C57|
+|$$\textcolor{#0A6547}{\text{▇▇▇▇}}$$|accent4-dark5|hsl(160, 81.5%, 21.8%)|#0A6547|
+|$$\textcolor{#FFE098}{\text{▇▇▇▇}}$$|accent5-light5|hsl(42, 100%, 79.9%)|#FFE098|
+|$$\textcolor{#FFD97F}{\text{▇▇▇▇}}$$|accent5-light4|hsl(42, 100%, 74.9%)|#FFD97F|
+|$$\textcolor{#FFD165}{\text{▇▇▇▇}}$$|accent5-light3|hsl(42, 100%, 69.9%)|#FFD165|
+|$$\textcolor{#FFC94C}{\text{▇▇▇▇}}$$|accent5-light2|hsl(42, 100%, 64.9%)|#FFC94C|
+|$$\textcolor{#FFC232}{\text{▇▇▇▇}}$$|accent5-light1|hsl(42, 100%, 59.9%)|#FFC232|
+|$$\textcolor{#FFBA19}{\text{▇▇▇▇}}$$|accent5|hsl(42, 100%, 54.9%)|#FFBA19|
+|$$\textcolor{#FEB200}{\text{▇▇▇▇}}$$|accent5-dark1|hsl(42, 100%, 49.9%)|#FEB200|
+|$$\textcolor{#E5A000}{\text{▇▇▇▇}}$$|accent5-dark2|hsl(42, 100%, 44.9%)|#E5A000|
+|$$\textcolor{#CB8E00}{\text{▇▇▇▇}}$$|accent5-dark3|hsl(42, 100%, 39.9%)|#CB8E00|
+|$$\textcolor{#B27D00}{\text{▇▇▇▇}}$$|accent5-dark4|hsl(42, 100%, 34.9%)|#B27D00|
+|$$\textcolor{#986B00}{\text{▇▇▇▇}}$$|accent5-dark5|hsl(42, 100%, 29.9%)|#986B00|

@@ -86,10 +86,10 @@ const android = Object.entries(argbHex)
 const readme = shades
     .map(({ name, color: [h, s, l] }) => {
         const hex = convert.hsl.hex([h, s, l]);
-        return `|<div class="color" style="background-color: #${hex};"></div>|${name}|hsl(${h}, ${s}%, ${l}%)|#${hex}|`;
+        return `|$$\\textcolor{#${hex}}{\\text{▇▇▇▇}}$$|${name}|hsl(${h}, ${s}%, ${l}%)|#${hex}|`;
     })
     .join('\n')
-    .replace(/^/, '<style>.color { height: 50px; width: 50px; }</style>\n|PREVIEW|NAME|HSL|HEX|\n|:---:|:---:|:---:|:---:|\n');
+    .replace(/^/, '|PREVIEW|NAME|HSL|HEX|\n|:---:|:---:|:---:|:---:|\n');
 
 const colorsExport = {
     'transparent': 'rgba(0, 0, 0, 0)',
