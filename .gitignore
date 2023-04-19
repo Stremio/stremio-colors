@@ -1,6 +1,8 @@
 /node_modules
 /android/src/main/res
+/android/src/main/kotlin
 /css
 /less
 /package-lock.json
 /colors.js
+/.idea
