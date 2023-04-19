@@ -1,6 +1,6 @@
 {
     "name": "@stremio/stremio-colors",
-    "version": "5.0.1",
+    "version": "5.1.0",
     "description": "Color pallet for all stremio clients",
     "main": "colors.js",
     "author": {
