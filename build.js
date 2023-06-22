@@ -84,9 +84,9 @@ const android = Object.entries(argbHex)
     .concat('\n</resources>');
 
 const androidCompose = Object.entries(argbHex)
-    .map(([name, color]) => `val ${name} = Color(${color.replace(/^#/, '0x')})`)
+    .map(([name, color]) => `\tval ${name} = Color(${color.replace(/^#/, '0x')})`)
     .join('\n')
-    .replace(/^/, 'package com.stremio.common.ui.theme\n\nimport androidx.compose.ui.graphics.Color\n\n');
+    .replace(/^/, 'package com.stremio.colors\n\nimport androidx.compose.ui.graphics.Color\n\nobject Colors {\n') + '\n}\n';
 
 const readme = shades
     .map(({ name, color: [h, s, l] }) => {
@@ -117,10 +117,10 @@ fs.writeFileSync('css/stremio-colors.css', css);
 fs.mkdirSync('less', { recursive: true });
 fs.writeFileSync('less/stremio-colors.less', less);
 
-fs.mkdirSync('android/src/main/res/values', { recursive: true });
-fs.writeFileSync('android/src/main/res/values/colors.xml', android);
+fs.mkdirSync('android/src/androidMain/res/values', { recursive: true });
+fs.writeFileSync('android/src/androidMain/res/values/colors.xml', android);
 
-fs.mkdirSync('android/src/main/kotlin/com/stremio/common/ui/theme', { recursive: true });
-fs.writeFileSync('android/src/main/kotlin/com/stremio/common/ui/theme/Colors.kt', androidCompose);
+fs.mkdirSync('android/src/commonMain/kotlin/com/stremio/colors', { recursive: true });
+fs.writeFileSync('android/src/commonMain/kotlin/com/stremio/colors/Colors.kt', androidCompose);
 
 fs.writeFileSync('README.md', `# stremio-colors\n\n${readme}`);
