@@ -86,7 +86,7 @@ const android = Object.entries(argbHex)
 const androidCompose = Object.entries(argbHex)
     .map(([name, color]) => `\tval ${name} = Color(${color.replace(/^#/, '0x')})`)
     .join('\n')
-    .replace(/^/, 'package com.stremio.colors\n\nimport androidx.compose.ui.graphics.Color\n\nval Colors = object {\n') + '\n}\n';
+    .replace(/^/, 'package com.stremio.colors\n\nimport androidx.compose.ui.graphics.Color\n\nobject Colors {\n') + '\n}\n';
 
 const readme = shades
     .map(({ name, color: [h, s, l] }) => {
