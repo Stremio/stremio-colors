@@ -29,7 +29,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                api(compose.runtime)
+                api(compose.ui)
             }
         }
         val androidMain by getting
