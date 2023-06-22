@@ -1,7 +1,8 @@
 /node_modules
 /android/src/**/res
 /android/src/**/kotlin
-android/.gradle/
+/android/build
+/android/.gradle/
 /css
 /less
 /package-lock.json
